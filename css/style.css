@@ -12,41 +12,189 @@
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
 }
-  .liquidGlass-wrapper:hover {
-    transform: scale(1.025);
-    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2);
-  }
-   .liquidGlass-effect {
-    position: absolute;
-    z-index: 0;
-    inset: 0;
-    backdrop-filter: blur(3px);
-    filter: url(#glass-distortion);
-    overflow: hidden;
-    isolation: isolate;
-  }
+.liquidGlass-wrapper:hover {
+  transform: scale(1.025);
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2);
+}
+.liquidGlass-effect {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  backdrop-filter: blur(3px);
+  filter: url(#glass-distortion);
+  overflow: hidden;
+  isolation: isolate;
+}
 
-  .liquidGlass-tint {
-    z-index: 1;
-    position: absolute;
-    inset: 0;
-    /* background: rgba(255, 255, 255, 0.25); */
-  }
+.liquidGlass-tint {
+  z-index: 1;
+  position: absolute;
+  inset: 0;
+  /* background: rgba(255, 255, 255, 0.25); */
+}
 
-  .liquidGlass-shine {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    overflow: hidden;
-    /* box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.5),
+.liquidGlass-shine {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  overflow: hidden;
+  /* box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.5),
     inset -1px -1px 1px 1px rgba(255, 255, 255, 0.5); */
-  }
+}
 
-  .liquidGlass-text {
-    z-index: 3;
-    font-size: 2rem;
-    color: black;
+.liquidGlass-text {
+  z-index: 3;
+  font-size: 2rem;
+  color: black;
+}
+
+.sticky-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.sticky-header {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  will-change: opacity, transform;
+  z-index: 2;
+}
+
+.sticky-header h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+.sticky-header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.card-container {
+  width: 30%;
+  aspect-ratio: 15 / 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0rem;
+  perspective: 1000px;
+  will-change: width, gap;
+
+  /* FIX 1: Set a dark background so tiny gaps aren't visible */
+  background-color: transparent;
+}
+
+.card {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  border-radius: 0px;
+  will-change: transform, border-radius;
+
+  /* FIX 2: Slight negative margin to force overlap and close the gap */
+  margin-right: -1px;
+}
+
+/* Ensure the last card doesn't pull the container edge */
+.card:last-child {
+  margin-right: 0;
+}
+
+#card-1 {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+#card-3 {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+#card-1 .card-back {
+  background: var(--card-back-1);
+}
+#card-2 .card-back {
+  background: var(--card-back-2);
+}
+#card-3 .card-back {
+  background: var(--card-back-3);
+}
+
+.card-index {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  opacity: 0.5;
+}
+.card-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sticky-section {
+    height: auto;
+    padding: 5rem 1rem;
   }
+  .sticky-header {
+    position: static;
+    opacity: 1;
+    transform: none;
+    margin-bottom: 3rem;
+  }
+  .card-container {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    aspect-ratio: auto;
+    gap: 2rem;
+    background-color: transparent;
+  }
+  .card {
+    width: 100%;
+    aspect-ratio: 5/7;
+    border-radius: 12px !important;
+    margin-right: 0;
+  }
+}
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -1994,6 +2142,11 @@ textarea.w-select {
   position: relative;
 }
 
+.navbar-brand-logo {
+  height: 30px;
+  width: auto;
+}
+
 .w-nav-link.w--current {
   color: #0082f3;
 }
@@ -2253,7 +2406,7 @@ textarea.w-select {
   --2: -0.02em;
   --color--gray-color: #8799a8;
   --_responsive---margin--margin-80-px: 80px;
-  --color--primary-color: #003a6c;  
+  --color--primary-color: #00a8ff;
   --color--stroke-black: #181818;
   --color--fill-black: #0b0b0b;
   --color--fill-color-2: #0a0c10;
@@ -4019,7 +4172,7 @@ li {
 
 .navbar-container-wrap {
   width: 100%;
-  max-width: 1354px;
+  /* max-width: 1354px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -4051,7 +4204,6 @@ li {
   z-index: 50;
   background-color: transparent;
   width: 100%;
-  max-width: 1354px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 20px;
@@ -4067,9 +4219,8 @@ li {
   font-weight: 400;
   line-height: 150%;
   text-decoration: none;
-  transition: all 0.3s;  
+  transition: all 0.3s;
 }
-
 
 .nav-link-text:hover,
 .nav-link-text.w--current {
@@ -4368,7 +4519,6 @@ li {
 .brand-01.home-02 {
   padding-bottom: 42px;
 }
-
 
 .logo-wrap {
   align-items: center;
@@ -4680,8 +4830,7 @@ li {
 }
 
 .three-paths-bottom-wrap {
-  margin-top: 140px;
-  position: relative;
+  position: relative;  
 }
 
 .three-paths-image-wrap {
@@ -6063,6 +6212,7 @@ li {
 .project {
   margin-top: var(--_responsive---margin--margin-200-px);
   margin-bottom: var(--_responsive---margin--margin-100-px);
+  height: fit-content;
 }
 
 .project-top-wrap {
@@ -6130,6 +6280,7 @@ li {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+  height: fit-content;
 }
 
 .single-project {
@@ -6139,6 +6290,7 @@ li {
 
 .single-project-top-wrap {
   max-width: 742px;
+  height: auto;
 }
 
 .single-project-bottom-wrap {
@@ -7561,6 +7713,14 @@ li {
   pointer-events: none;
   position: absolute;
   inset: 0%;
+  background-image: linear-gradient(
+    180deg,
+    #000000bf 0%,
+    #000206b3 27%,
+    #0002067a 52%,
+    #000206b3 77%,
+    #000000bf 100%
+  );
 }
 
 .section-header-interaction-triger {
@@ -8218,7 +8378,6 @@ li {
 
   .home-hero {
     height: auto;
-
   }
 
   .hero-01-text-wrap {

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codegrid Perfect Replica - Fixed Gap</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #000;
+            --text-color: #fff;
+            --card-back-1: #c2b2a3; 
+            --card-back-2: #a3b2c2;
+            --card-back-3: #a3c2b2;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Playfair Display', serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .intro, .outro {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 { font-size: 4rem; font-weight: 400; }
+
+        .sticky-section {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sticky-header {
+            position: absolute;
+            top: 15%;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(50px);
+            will-change: opacity, transform;
+            z-index: 2;
+        }
+
+        .sticky-header h2 { font-size: 3rem; font-weight: 400; margin-bottom: 0.5rem; }
+        .sticky-header p { font-size: 1.2rem; font-style: italic; }
+
+        .card-container {
+            width: 30%;
+            aspect-ratio: 15 / 7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0rem;
+            perspective: 1000px;
+            will-change: width, gap;
+            
+            /* FIX 1: Set a dark background so tiny gaps aren't visible */
+            background-color: #000; 
+        }
+
+        .card {
+            flex: 1;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            border-radius: 0px;
+            will-change: transform, border-radius;
+
+            /* FIX 2: Slight negative margin to force overlap and close the gap */
+            margin-right: -1px;
+        }
+        
+        /* Ensure the last card doesn't pull the container edge */
+        .card:last-child {
+            margin-right: 0;
+        }
+
+        #card-1 { border-top-left-radius: 12px; border-bottom-left-radius: 12px; }
+        #card-3 { border-top-right-radius: 12px; border-bottom-right-radius: 12px; }
+
+        .card-front, .card-back {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            backface-visibility: hidden;
+            overflow: hidden;
+            border-radius: inherit;
+        }
+
+        .card-front img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        #card-1 .card-back { background: var(--card-back-1); }
+        #card-2 .card-back { background: var(--card-back-2); }
+        #card-3 .card-back { background: var(--card-back-3); }
+
+        .card-index { position: absolute; top: 1rem; left: 1rem; opacity: 0.5; }
+        .card-title { font-size: 1.5rem; margin-top: 1rem; }
+
+        @media (max-width: 768px) {
+            .sticky-section { height: auto; padding: 5rem 1rem; }
+            .sticky-header { position: static; opacity: 1; transform: none; margin-bottom: 3rem; }
+            .card-container { width: 100%; flex-direction: column; height: auto; aspect-ratio: auto; gap: 2rem; background-color: transparent; }
+            .card { width: 100%; aspect-ratio: 5/7; border-radius: 12px !important; margin-right: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="intro">
+        <h1>Scroll to Begin</h1>
+    </section>
+
+
+          <section class="sticky-section">
+            <div class="sticky-header">
+              <h2>The Collection</h2>
+              <p>A fresh perspective.</p>
+            </div>
+
+            <div class="card-container">
+              <div class="card" id="card-1">
+                <div class="card-front">
+                  <img src="images/row-1-column-1.jpg" style="object-position: 0% 50%;" alt="Left Slice">
+                </div>
+                <div class="card-back">
+                  <span class="card-index">(01)</span>
+                  <h3>Concept One</h3>
+                  <p class="card-title">Discovery</p>
+                </div>
+              </div>
+
+              <div class="card" id="card-2">
+                <div class="card-front">
+                  <img src="images/row-1-column-2.jpg" style="object-position: 50% 50%;" alt="Center Slice">
+                </div>
+                <div class="card-back">
+                  <span class="card-index">(02)</span>
+                  <h3>Concept Two</h3>
+                  <p class="card-title">Creation</p>
+                </div>
+              </div>
+
+              <div class="card" id="card-3">
+                <div class="card-front">
+                  <img src="images/row-1-column-3.jpg" style="object-position: 100% 50%;" alt="Right Slice">
+                </div>
+                <div class="card-back">
+                  <span class="card-index">(03)</span>
+                  <h3>Concept Three</h3>
+                  <p class="card-title">Realization</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    <section class="outro">
+        <h1>End of Section</h1>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            
+            const lenis = new Lenis();
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            gsap.registerPlugin(ScrollTrigger);
+
+            let isGapAnimDone = false;
+            let isFlipAnimDone = false;
+
+            function mapRange(inMin, inMax, outMin, outMax, value) {
+                return outMin + (value - inMin) * (outMax - outMin) / (inMax - inMin);
+            }
+
+            function initAnimation() {
+                let mm = gsap.matchMedia();
+
+                mm.add("(min-width: 769px)", () => {
+                    
+                    ScrollTrigger.create({
+                        trigger: ".sticky-section",
+                        start: "top top",
+                        end: "+=400%", 
+                        pin: true,
+                        scrub: 1,
+                        onUpdate: (self) => {
+                            const progress = self.progress;
+
+                            // PHASE 1
+                            if (progress <= 0.25) {
+                                const t = progress / 0.25;
+                                const newWidth = gsap.utils.interpolate(30, 80, t);
+                                gsap.set(".card-container", { width: `${newWidth}%` });
+
+                                const opacity = gsap.utils.clamp(0, 1, mapRange(0.05, 0.25, 0, 1, progress));
+                                const yPos = gsap.utils.clamp(0, 50, mapRange(0.05, 0.25, 50, 0, progress));
+                                gsap.set(".sticky-header", { opacity: opacity, y: yPos });
+                            }
+                            else {
+                                gsap.set(".card-container", { width: "80%" });
+                                gsap.set(".sticky-header", { opacity: 1, y: 0 });
+                            }
+
+                            // PHASE 2
+                            if (progress > 0.35 && !isGapAnimDone) {
+                                isGapAnimDone = true;
+                                gsap.to(".card-container", { gap: "2rem", duration: 0.5, ease: "power2.out" });
+                                gsap.to(".card", { borderRadius: "15px", duration: 0.5, ease: "power2.out" });
+                            }
+                            else if (progress < 0.35 && isGapAnimDone) {
+                                isGapAnimDone = false;
+                                gsap.to(".card-container", { gap: "0rem", duration: 0.5, ease: "power2.out" });
+                                gsap.to(".card", { 
+                                    borderRadius: "0px", 
+                                    duration: 0.5, 
+                                    ease: "power2.out",
+                                    onComplete: () => {
+                                        gsap.set("#card-1", { borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px" });
+                                        gsap.set("#card-3", { borderTopRightRadius: "12px", borderBottomRightRadius: "12px" });
+                                    }
+                                });
+                            }
+
+                            // PHASE 3
+                            if (progress > 0.70 && !isFlipAnimDone) {
+                                isFlipAnimDone = true;
+                                gsap.to(".card", { rotateY: 180, stagger: 0.1, duration: 1.2, ease: "power3.out" });
+                                gsap.to("#card-1", { y: 40, rotateZ: -3, duration: 1.2, delay: 0.1, ease: "power3.out" });
+                                gsap.to("#card-3", { y: 40, rotateZ: 3, duration: 1.2, delay: 0.1, ease: "power3.out" });
+                            }
+                            else if (progress < 0.70 && isFlipAnimDone) {
+                                isFlipAnimDone = false;
+                                gsap.to(".card", { rotateY: 0, stagger: { each: 0.1, from: "end" }, duration: 1.2, ease: "power3.out" });
+                                gsap.to("#card-1", { y: 0, rotateZ: 0, duration: 1.2, ease: "power3.out" });
+                                gsap.to("#card-3", { y: 0, rotateZ: 0, duration: 1.2, ease: "power3.out" });
+                            }
+                        }
+                    });
+                });
+            }
+
+            initAnimation();
+            window.addEventListener("resize", () => ScrollTrigger.refresh());
+        });
+    </script>
+</body>
+</html>
