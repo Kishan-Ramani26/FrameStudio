@@ -22,6 +22,7 @@
   <meta content="summary_large_image" name="twitter:card" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.41/dist/lenis.min.js"></script>
   <script
     type="text/javascript">
     ! function(o, c) {
@@ -51,7 +52,7 @@
     role="banner" class="navbar-container w-nav">
     <div data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd54eb" class="navbar-container-wrap">
       <div class="navbar-wrapper">
-        <a href="/" aria-current="page" class="navbar-brand w-nav-brand w--current">
+        <a href="index.php" aria-current="page" class="navbar-brand w-nav-brand w--current">
           <img loading="lazy" src="images/Frame-Studio Logo.png" alt="Frame Studio Logo" class="navbar-brand-logo" />
         </a>
 

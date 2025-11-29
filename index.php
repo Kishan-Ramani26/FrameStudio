@@ -47,283 +47,6 @@
 
   </div>
 
-  <section class="ideas">
-    <div class="ideas-wrap">
-      <div class="container">
-        <div class="ideas-top-wrap">
-          <div class="heading-wrap ideas-heading">
-            <h2 data-w-id="44604531-fe08-6354-a939-c414da3ec096"
-              style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-              class="h1">BRINGING WORKS TO LIFE</h2>
-          </div>
-          <div data-w-id="d76f46e2-f990-701c-0317-bc00431cb452"
-            style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="ideas-button-wrap"><a data-w-id="b55656cd-7ec6-5c52-ac20-079668c41fbe" href="/project"
-              class="button-01 w-inline-block">
-              <div class="button-text-icon-wrap">
-                <div class="button-text-wrapper">
-                  <div class="paragraph-02 text-black">All Projects</div>
-                  <div class="paragraph-02 text-black">All Projects</div>
-                </div>
-                <div class="button-icon-wrapper"><img
-                    style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                    loading="lazy" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
-              </div>
-              <div style="width:0%;height:0%" class="hover-color"></div>
-            </a></div>
-          <div class="project-mobile-bottom-wrap hide-tab">
-            <div class="w-dyn-list">
-              <div role="list" class="collection-list-2 w-dyn-items">
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
-                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                    href="/project/teenage-engineering-uiux-web-design" class="project-m-list w-inline-block"><img
-                      src="images/modern-20control-20panel-20close-up.avif" loading="lazy"
-                      alt="Teenage Engineering UIUX Web Design" class="project-image-m" />
-                    <div class="project-01-text-wrap _01">
-                      <div class="project-01-slider-top">
-                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
-                      </div>
-                      <div class="project-01-slider-bottom">
-                        <div class="ideas-slider-text-bottom-wrap">
-                          <h2 class="h3">Teenage Engineering UIUX Web Design</h2>
-                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
-                            <div class="button-text-icon-wrap">
-                              <div class="button-text-wrapper">
-                                <div
-                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                  class="paragraph-02">View Project</div>
-                                <div class="paragraph-02 text-black">View Project</div>
-                              </div>
-                              <div class="button-icon-wrapper"><img
-                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                  class="button-icon" /></div>
-                            </div>
-                            <div class="hover-color bg-primary-color"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a></div>
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
-                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                    href="/project/email-marketing-for-dundee-coffee" class="project-m-list w-inline-block"><img
-                      src="images/futuristic-20device-20close-up.avif" loading="lazy"
-                      alt="Email Marketing for Dundee Coffee" class="project-image-m" />
-                    <div class="project-01-text-wrap _01">
-                      <div class="project-01-slider-top">
-                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
-                      </div>
-                      <div class="project-01-slider-bottom">
-                        <div class="ideas-slider-text-bottom-wrap">
-                          <h2 class="h3">Email Marketing for Dundee Coffee</h2>
-                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
-                            <div class="button-text-icon-wrap">
-                              <div class="button-text-wrapper">
-                                <div
-                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                  class="paragraph-02">View Project</div>
-                                <div class="paragraph-02 text-black">View Project</div>
-                              </div>
-                              <div class="button-icon-wrapper"><img
-                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                  class="button-icon" /></div>
-                            </div>
-                            <div class="hover-color bg-primary-color"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a></div>
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
-                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                    href="/project/branding-design-for-saas-startup-website"
-                    class="project-m-list w-inline-block"><img src="images/surreal-203d-20planet-20scene.avif"
-                      loading="lazy" alt="Branding Design for Saas Startup Website" class="project-image-m" />
-                    <div class="project-01-text-wrap _01">
-                      <div class="project-01-slider-top">
-                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
-                      </div>
-                      <div class="project-01-slider-bottom">
-                        <div class="ideas-slider-text-bottom-wrap">
-                          <h2 class="h3">Branding Design for Saas Startup Website</h2>
-                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
-                            <div class="button-text-icon-wrap">
-                              <div class="button-text-wrapper">
-                                <div
-                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                  class="paragraph-02">View Project</div>
-                                <div class="paragraph-02 text-black">View Project</div>
-                              </div>
-                              <div class="button-icon-wrapper"><img
-                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                  class="button-icon" /></div>
-                            </div>
-                            <div class="hover-color bg-primary-color"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="image-shade-wrapper">
-        <div data-w-id="99862c1c-08e0-ab16-0c3a-c79bf3c129ce" class="project-01-bottom-wrap hide-mobile">
-          <div class="project-01-banner-inner-wrapper">
-            <div class="project-01-banner-inner-flex">
-              <div class="project-01-slider-wrap slide-01">
-                <div class="w-dyn-list">
-                  <div role="list" class="w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a href="/project/futuristic-lamp-product-uiux-design"
-                        class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-203.webp"
-                            loading="lazy" alt="Futuristic Lamp Product UIUX Design" sizes="100vw"
-                            srcset="images/marqly-20project-20image-203-p-500.webp 500w, images/marqly-20project-20image-203-p-800.webp 800w, images/marqly-20project-20image-203-p-1080.webp 1080w, images/marqly-20project-20image-203-p-1600.webp 1600w, images/marqly-20project-20image-203-p-2000.webp 2000w, images/marqly-20project-20image-203-p-2600.webp 2600w, images/marqly-20project-20image-203.webp 2880w"
-                            class="bg-slider-image" />
-                          <div class="project-01-text-wrap">
-                            <div class="project-01-slider-top">
-                              <p class="paragraph-03">01</p>
-                              <p class="paragraph-03">Explore Our Success Stories</p>
-                            </div>
-                            <div class="project-01-slider-bottom">
-                              <div class="ideas-slider-text-bottom-wrap">
-                                <h2 class="h1 max-width">Futuristic Lamp Product UIUX Design</h2>
-                                <div data-w-id="a4e6e6cb-65ac-8a7c-7ad2-32da41c4a5bb" class="button-04">
-                                  <div class="button-text-icon-wrap">
-                                    <div class="button-text-wrapper">
-                                      <div
-                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                        class="paragraph-02">View Project</div>
-                                      <div class="paragraph-02 text-black">View Project</div>
-                                    </div>
-                                    <div class="button-icon-wrapper"><img
-                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                        class="button-icon" /></div>
-                                  </div>
-                                  <div class="hover-color bg-primary-color"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </a></div>
-                  </div>
-                </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
-                  sizes="(max-width: 1440px) 100vw, 1440px"
-                  srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
-                  alt="" class="shade" />
-              </div>
-              <div class="project-01-slider-wrap slide-02">
-                <div class="w-dyn-list">
-                  <div role="list" class="w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a
-                        href="/project/branding-design-for-saas-startup-website"
-                        class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-202.webp"
-                            loading="lazy" alt="Branding Design for Saas Startup Website" sizes="100vw"
-                            srcset="images/marqly-20project-20image-202-p-500.webp 500w, images/marqly-20project-20image-202-p-800.webp 800w, images/marqly-20project-20image-202-p-1080.webp 1080w, images/marqly-20project-20image-202-p-1600.webp 1600w, images/marqly-20project-20image-202-p-2000.webp 2000w, images/marqly-20project-20image-202-p-2600.webp 2600w, images/marqly-20project-20image-202.webp 2880w"
-                            class="bg-slider-image" />
-                          <div class="project-01-text-wrap">
-                            <div class="project-01-slider-top">
-                              <p class="paragraph-03">02</p>
-                              <p class="paragraph-03">Explore Our Success Stories</p>
-                            </div>
-                            <div class="project-01-slider-bottom">
-                              <div class="ideas-slider-text-bottom-wrap">
-                                <h2 class="h1 max-width">Branding Design for Saas Startup Website</h2>
-                                <div data-w-id="2b090013-0d86-bbfd-f1bd-c6d3e05d2ed9" class="button-04">
-                                  <div class="button-text-icon-wrap">
-                                    <div class="button-text-wrapper">
-                                      <div
-                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                        class="paragraph-02">View Project</div>
-                                      <div class="paragraph-02 text-black">View Project</div>
-                                    </div>
-                                    <div class="button-icon-wrapper"><img
-                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                        class="button-icon" /></div>
-                                  </div>
-                                  <div class="hover-color bg-primary-color"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </a></div>
-                  </div>
-                </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
-                  sizes="(max-width: 1440px) 100vw, 1440px"
-                  srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
-                  alt="" class="shade" />
-              </div>
-              <div class="project-01-slider-wrap slide-03">
-                <div class="project-list w-dyn-list">
-                  <div role="list" class="w-dyn-items">
-                    <div role="listitem" class="w-dyn-item"><a href="/project/minimal-product-theme-uiux-design"
-                        class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image.webp"
-                            loading="lazy" alt="" sizes="100vw"
-                            srcset="images/marqly-20project-20image-p-500.webp 500w, images/marqly-20project-20image-p-800.webp 800w, images/marqly-20project-20image-p-1080.webp 1080w, images/marqly-20project-20image-p-1600.webp 1600w, images/marqly-20project-20image-p-2000.webp 2000w, images/marqly-20project-20image-p-2600.webp 2600w, images/marqly-20project-20image.webp 2880w"
-                            class="bg-slider-image" />
-                          <div class="project-01-text-wrap">
-                            <div class="project-01-slider-top">
-                              <p class="paragraph-03">03</p>
-                              <p class="paragraph-03">Explore Our Success Stories</p>
-                            </div>
-                            <div class="project-01-slider-bottom">
-                              <div class="ideas-slider-text-bottom-wrap">
-                                <h2 class="h1 max-width">Minimal Product Theme UIUX Design</h2>
-                                <div data-w-id="7b561a81-418a-2184-99b6-08b714264dd8" class="button-04">
-                                  <div class="button-text-icon-wrap">
-                                    <div class="button-text-wrapper">
-                                      <div
-                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                                        class="paragraph-02">View Project</div>
-                                      <div class="paragraph-02 text-black">View Project</div>
-                                    </div>
-                                    <div class="button-icon-wrapper"><img
-                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
-                                        class="button-icon" /></div>
-                                  </div>
-                                  <div class="hover-color bg-primary-color"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-bar-wrap">
-                <div class="side-bar bg-stock-black">
-                  <div class="animation-bar _01"></div>
-                </div>
-                <div class="side-bar bg-stock-black">
-                  <div class="animation-bar _02"></div>
-                </div>
-                <div class="side-bar bg-stock-black">
-                  <div class="animation-bar _03"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
-          sizes="(max-width: 1440px) 100vw, 1440px"
-          srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
-          alt="" class="shade" />
-      </div>
-    </div>
-  </section>
-
   <section>
     <div class="section-with-background">
       <div class="section-background-wrapper">
@@ -532,6 +255,293 @@
   </section>
 
 
+  <section class="ideas">
+    <div class="ideas-wrap">
+      <div class="container">
+        <div class="ideas-top-wrap">
+          <div class="heading-wrap ideas-heading">
+            <h2 data-w-id="44604531-fe08-6354-a939-c414da3ec096"
+              style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(10px)"
+              class="h2">PROJECTS THAT SET <br/> THE BENCHMARK</h2>
+          </div>
+          <div data-w-id="d76f46e2-f990-701c-0317-bc00431cb452"
+            style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
+            class="ideas-button-wrap"><a data-w-id="b55656cd-7ec6-5c52-ac20-079668c41fbe" href="project.php"
+              class="button-01 w-inline-block">
+              <div class="button-text-icon-wrap">
+                <div class="button-text-wrapper">
+                  <div class="paragraph-02 text-black">All Projects</div>
+                  <div class="paragraph-02 text-black">All Projects</div>
+                </div>
+                <div class="button-icon-wrapper"><img
+                    style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                    loading="lazy" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
+              </div>
+              <div style="width:0%;height:0%" class="hover-color"></div>
+            </a></div>
+          <div class="project-mobile-bottom-wrap hide-tab">
+            <div class="w-dyn-list">
+              <div role="list" class="collection-list-2 w-dyn-items">
+                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
+                    href="/project/teenage-engineering-uiux-web-design" class="project-m-list w-inline-block"><img
+                      src="images/modern-20control-20panel-20close-up.avif" loading="lazy"
+                      alt="Teenage Engineering UIUX Web Design" class="project-image-m" />
+                    <div class="project-01-text-wrap _01">
+                      <div class="project-01-slider-top">
+                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
+                      </div>
+                      <div class="project-01-slider-bottom">
+                        <div class="ideas-slider-text-bottom-wrap">
+                          <h2 class="h3">Teenage Engineering UIUX Web Design</h2>
+                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
+                            <div class="button-text-icon-wrap">
+                              <div class="button-text-wrapper">
+                                <div
+                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                  class="paragraph-02">View Project</div>
+                                <div class="paragraph-02 text-black">View Project</div>
+                              </div>
+                              <div class="button-icon-wrapper"><img
+                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                  class="button-icon" /></div>
+                            </div>
+                            <div class="hover-color bg-primary-color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a></div>
+                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
+                    href="/project/email-marketing-for-dundee-coffee" class="project-m-list w-inline-block"><img
+                      src="images/futuristic-20device-20close-up.avif" loading="lazy"
+                      alt="Email Marketing for Dundee Coffee" class="project-image-m" />
+                    <div class="project-01-text-wrap _01">
+                      <div class="project-01-slider-top">
+                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
+                      </div>
+                      <div class="project-01-slider-bottom">
+                        <div class="ideas-slider-text-bottom-wrap">
+                          <h2 class="h3">Email Marketing for Dundee Coffee</h2>
+                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
+                            <div class="button-text-icon-wrap">
+                              <div class="button-text-wrapper">
+                                <div
+                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                  class="paragraph-02">View Project</div>
+                                <div class="paragraph-02 text-black">View Project</div>
+                              </div>
+                              <div class="button-icon-wrapper"><img
+                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                  class="button-icon" /></div>
+                            </div>
+                            <div class="hover-color bg-primary-color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a></div>
+                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                    style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
+                    href="/project/branding-design-for-saas-startup-website"
+                    class="project-m-list w-inline-block"><img src="images/surreal-203d-20planet-20scene.avif"
+                      loading="lazy" alt="Branding Design for Saas Startup Website" class="project-image-m" />
+                    <div class="project-01-text-wrap _01">
+                      <div class="project-01-slider-top">
+                        <p class="paragraph-03 project-home-01">Explore Our Success Stories</p>
+                      </div>
+                      <div class="project-01-slider-bottom">
+                        <div class="ideas-slider-text-bottom-wrap">
+                          <h2 class="h3">Branding Design for Saas Startup Website</h2>
+                          <div data-w-id="4792818e-b990-bcf4-9970-5ba0ede71bf6" class="button-04">
+                            <div class="button-text-icon-wrap">
+                              <div class="button-text-wrapper">
+                                <div
+                                  style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                  class="paragraph-02">View Project</div>
+                                <div class="paragraph-02 text-black">View Project</div>
+                              </div>
+                              <div class="button-icon-wrapper"><img
+                                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                  loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                  class="button-icon" /></div>
+                            </div>
+                            <div class="hover-color bg-primary-color"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-shade-wrapper">
+        <div data-w-id="99862c1c-08e0-ab16-0c3a-c79bf3c129ce" class="project-01-bottom-wrap hide-mobile">
+          <div class="project-01-banner-inner-wrapper">
+            <div class="project-01-banner-inner-flex">
+              <div class="project-01-slider-wrap slide-01">
+                <div class="w-dyn-list">
+                  <div role="list" class="w-dyn-items">
+                    <div role="listitem" class="w-dyn-item">
+                      <a href="project.php"
+                        class="project-01-link-wrapper w-inline-block">
+                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-203.webp"
+                            loading="lazy" alt="Futuristic Lamp Product UIUX Design" sizes="100vw"
+                            srcset="images/marqly-20project-20image-203-p-500.webp 500w, images/marqly-20project-20image-203-p-800.webp 800w, images/marqly-20project-20image-203-p-1080.webp 1080w, images/marqly-20project-20image-203-p-1600.webp 1600w, images/marqly-20project-20image-203-p-2000.webp 2000w, images/marqly-20project-20image-203-p-2600.webp 2600w, images/marqly-20project-20image-203.webp 2880w"
+                            class="bg-slider-image" />
+                          <div class="project-01-text-wrap">
+                            <div class="project-01-slider-top">
+                              <p class="paragraph-03">01</p>
+                              <p class="paragraph-03">Explore Our Success Stories</p>
+                            </div>
+                            <div class="project-01-slider-bottom">
+                              <div class="ideas-slider-text-bottom-wrap">
+                                <h2 class="h1 max-width">Futuristic Product UIUX Design</h2>
+                                <div data-w-id="a4e6e6cb-65ac-8a7c-7ad2-32da41c4a5bb" class="button-04">
+                                  <div class="button-text-icon-wrap">
+                                    <div class="button-text-wrapper">
+                                      <div
+                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="paragraph-02">View Project</div>
+                                      <div class="paragraph-02 text-black">View Project</div>
+                                    </div>
+                                    <div class="button-icon-wrapper"><img
+                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                        class="button-icon" /></div>
+                                  </div>
+                                  <div class="hover-color bg-primary-color"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
+                  sizes="(max-width: 1440px) 100vw, 1440px"
+                  srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
+                  alt="" class="shade" />
+              </div>
+              <div class="project-01-slider-wrap slide-02">
+                <div class="w-dyn-list">
+                  <div role="list" class="w-dyn-items">
+                    <div role="listitem" class="w-dyn-item">
+                      <a
+                        href="project.php"
+                        class="project-01-link-wrapper w-inline-block">
+                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-202.webp"
+                            loading="lazy" alt="Branding Design for Saas Startup Website" sizes="100vw"
+                            srcset="images/marqly-20project-20image-202-p-500.webp 500w, images/marqly-20project-20image-202-p-800.webp 800w, images/marqly-20project-20image-202-p-1080.webp 1080w, images/marqly-20project-20image-202-p-1600.webp 1600w, images/marqly-20project-20image-202-p-2000.webp 2000w, images/marqly-20project-20image-202-p-2600.webp 2600w, images/marqly-20project-20image-202.webp 2880w"
+                            class="bg-slider-image" />
+                          <div class="project-01-text-wrap">
+                            <div class="project-01-slider-top">
+                              <p class="paragraph-03">02</p>
+                              <p class="paragraph-03">Explore Our Success Stories</p>
+                            </div>
+                            <div class="project-01-slider-bottom">
+                              <div class="ideas-slider-text-bottom-wrap">
+                                <h2 class="h1 max-width">Branding Design for Startup Website</h2>
+                                <div data-w-id="2b090013-0d86-bbfd-f1bd-c6d3e05d2ed9" class="button-04">
+                                  <div class="button-text-icon-wrap">
+                                    <div class="button-text-wrapper">
+                                      <div
+                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="paragraph-02">View Project</div>
+                                      <div class="paragraph-02 text-black">View Project</div>
+                                    </div>
+                                    <div class="button-icon-wrapper"><img
+                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                        class="button-icon" /></div>
+                                  </div>
+                                  <div class="hover-color bg-primary-color"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
+                  sizes="(max-width: 1440px) 100vw, 1440px"
+                  srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
+                  alt="" class="shade" />
+              </div>
+              <div class="project-01-slider-wrap slide-03">
+                <div class="project-list w-dyn-list">
+                  <div role="list" class="w-dyn-items">
+                    <div role="listitem" class="w-dyn-item">
+                      <a href="project.php"
+                        class="project-01-link-wrapper w-inline-block">
+                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image.webp"
+                            loading="lazy" alt="" sizes="100vw"
+                            srcset="images/marqly-20project-20image-p-500.webp 500w, images/marqly-20project-20image-p-800.webp 800w, images/marqly-20project-20image-p-1080.webp 1080w, images/marqly-20project-20image-p-1600.webp 1600w, images/marqly-20project-20image-p-2000.webp 2000w, images/marqly-20project-20image-p-2600.webp 2600w, images/marqly-20project-20image.webp 2880w"
+                            class="bg-slider-image" />
+                          <div class="project-01-text-wrap">
+                            <div class="project-01-slider-top">
+                              <p class="paragraph-03">03</p>
+                              <p class="paragraph-03">Explore Our Success Stories</p>
+                            </div>
+                            <div class="project-01-slider-bottom">
+                              <div class="ideas-slider-text-bottom-wrap">
+                                <h2 class="h1 max-width">Minimal Product Theme UIUX Design</h2>
+                                <div data-w-id="7b561a81-418a-2184-99b6-08b714264dd8" class="button-04">
+                                  <div class="button-text-icon-wrap">
+                                    <div class="button-text-wrapper">
+                                      <div
+                                        style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="paragraph-02">View Project</div>
+                                      <div class="paragraph-02 text-black">View Project</div>
+                                    </div>
+                                    <div class="button-icon-wrapper"><img
+                                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                                        loading="lazy" alt="Button Icon" src="images/button-20icon-20-2-.svg"
+                                        class="button-icon" /></div>
+                                  </div>
+                                  <div class="hover-color bg-primary-color"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide-bar-wrap">
+                <div class="side-bar bg-stock-black">
+                  <div class="animation-bar _01"></div>
+                </div>
+                <div class="side-bar bg-stock-black">
+                  <div class="animation-bar _02"></div>
+                </div>
+                <div class="side-bar bg-stock-black">
+                  <div class="animation-bar _03"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
+          sizes="(max-width: 1440px) 100vw, 1440px"
+          srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
+          alt="" class="shade" />
+      </div>
+    </div>
+  </section>
+
+
+
+
 
   <section class="three-paths">
     <div class="container">
@@ -575,7 +585,7 @@
 
 
           <section class="sticky-section">
-            
+
 
             <div class="card-container">
               <div class="card" id="card-1">
@@ -617,6 +627,13 @@
       </div>
     </div>
   </section>
+
+  <!-- 
+BLOGS
+INSPIRE US
+section -->
+
+  <!-- 
   <section class="blog-01">
     <div class="container">
       <div class="blog-01-wrap">
@@ -726,7 +743,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+
+
   <section data-w-id="3a6de5a0-fdc4-d40a-dc5e-3205af45922a" class="our-progress">
     <div class="container">
       <div class="our-progress-wrap">

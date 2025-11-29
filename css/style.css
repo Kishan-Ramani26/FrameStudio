@@ -5272,7 +5272,8 @@ li {
 .our-progress {
   padding-top: var(--_responsive---margin--margin-100-px);
   padding-bottom: var(--_responsive---margin--margin-100-px);
-  background-image: url("../images/our-20progress-20bg.avif");
+  /* background-image: url("../images/our-20progress-20bg.avif"); */
+  background-image: url("../images/maskgroup.avif");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
