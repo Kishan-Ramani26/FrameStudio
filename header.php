@@ -151,3 +151,27 @@
       </div>
     </div>
   </div>
+
+    <div class="preloader">
+        <div class="progress-bar"></div>
+
+        <div class="preloader-header">
+            <span id="logo-text">FREAMSTUDIO</span>
+        </div>
+
+        <div class="preloader-images">
+            <div class="image-wrapper">
+                <!-- <img
+                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80" alt=""> -->
+                </div>
+            <div class="image-wrapper"><img
+                    src="images/Frame-Studio-bw-Logo.png" alt=""></div>
+            <div class="image-wrapper"><img
+                    src="images/Frame-Studio-Black-Logo.png" alt=""></div>
+            <div class="image-wrapper">
+                <img
+                    src="images/Frame-Studio Logo.png" alt="">
+                </div>
+        </div>
+    </div>
+

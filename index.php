@@ -585,8 +585,6 @@
 
 
           <section class="sticky-section">
-
-
             <div class="card-container">
               <div class="card" id="card-1">
                 <div class="card-front">
