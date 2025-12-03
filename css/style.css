@@ -1,3 +1,16 @@
+/* Performance: lazy-paint large sections */
+.home-hero,
+.priceing,
+.service-02,
+.cta-v1,
+.sticky-section,
+.about-hero,
+.story-section,
+.values-section,
+.project-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 800px;
+}
 
 /* --- PRELOADER (The Overlay) --- */
 .preloader {
@@ -81,11 +94,13 @@
 /* Responsive */
 @media (max-width: 768px) {
   .preloader-images {
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 250px;
+  }
+  .preloader-header {
+    font-size: 14vw;
   }
 }
-
 /* LIQUID GLASS STYLES */
 
 .liquidGlass-wrapper {

@@ -391,9 +391,10 @@
                     <div role="listitem" class="w-dyn-item">
                       <a href="project.php"
                         class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-203.webp"
+                        <div class="project-01-banner-wrap">
+                          <img src="images/horizontal_img_1.jpg"
                             loading="lazy" alt="Futuristic Lamp Product UIUX Design" sizes="100vw"
-                            srcset="images/marqly-20project-20image-203-p-500.webp 500w, images/marqly-20project-20image-203-p-800.webp 800w, images/marqly-20project-20image-203-p-1080.webp 1080w, images/marqly-20project-20image-203-p-1600.webp 1600w, images/marqly-20project-20image-203-p-2000.webp 2000w, images/marqly-20project-20image-203-p-2600.webp 2600w, images/marqly-20project-20image-203.webp 2880w"
+                            srcset="images/horizontal_img_1.jpg 500w, images/horizontal_img_1.jpg 800w, images/horizontal_img_1.jpg 1080w, images/horizontal_img_1.jpg 1600w, images/horizontal_img_1.jpg 2000w, images/horizontal_img_1.jpg 2600w, images/horizontal_img_1.jpg 2880w"
                             class="bg-slider-image" />
                           <div class="project-01-text-wrap">
                             <div class="project-01-slider-top">
@@ -437,9 +438,10 @@
                       <a
                         href="project.php"
                         class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image-202.webp"
+                        <div class="project-01-banner-wrap">
+                          <img src="images/horizontal_img_2.jpg"
                             loading="lazy" alt="Branding Design for Saas Startup Website" sizes="100vw"
-                            srcset="images/marqly-20project-20image-202-p-500.webp 500w, images/marqly-20project-20image-202-p-800.webp 800w, images/marqly-20project-20image-202-p-1080.webp 1080w, images/marqly-20project-20image-202-p-1600.webp 1600w, images/marqly-20project-20image-202-p-2000.webp 2000w, images/marqly-20project-20image-202-p-2600.webp 2600w, images/marqly-20project-20image-202.webp 2880w"
+                            srcset="images/horizontal_img_2.jpg 500w, images/horizontal_img_2.jpg 800w, images/horizontal_img_2.jpg 1080w, images/horizontal_img_2.jpg 1600w, images/horizontal_img_2.jpg 2000w, images/horizontal_img_2.jpg 2600w, images/horizontal_img_2.jpg 2880w"
                             class="bg-slider-image" />
                           <div class="project-01-text-wrap">
                             <div class="project-01-slider-top">
@@ -482,9 +484,10 @@
                     <div role="listitem" class="w-dyn-item">
                       <a href="project.php"
                         class="project-01-link-wrapper w-inline-block">
-                        <div class="project-01-banner-wrap"><img src="images/marqly-20project-20image.webp"
+                        <div class="project-01-banner-wrap">
+                          <img src="images/horizontal_img_3.jpg"
                             loading="lazy" alt="" sizes="100vw"
-                            srcset="images/marqly-20project-20image-p-500.webp 500w, images/marqly-20project-20image-p-800.webp 800w, images/marqly-20project-20image-p-1080.webp 1080w, images/marqly-20project-20image-p-1600.webp 1600w, images/marqly-20project-20image-p-2000.webp 2000w, images/marqly-20project-20image-p-2600.webp 2600w, images/marqly-20project-20image.webp 2880w"
+                            srcset="images/horizontal_img_3.jpg 500w, images/horizontal_img_3.jpg 800w, images/horizontal_img_3.jpg 1080w, images/horizontal_img_3.jpg 1600w, images/horizontal_img_3.jpg 2000w, images/horizontal_img_3.jpg 2600w, images/horizontal_img_3.jpg 2880w"
                             class="bg-slider-image" />
                           <div class="project-01-text-wrap">
                             <div class="project-01-slider-top">

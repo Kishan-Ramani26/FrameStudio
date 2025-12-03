@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(CustomEase);
 
@@ -36,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Progress Bar
   tl.to(".progress-bar", {
     width: "100%",
-    duration: .5,
+    duration: .4,
     ease: "power2.inOut",
   }).to(".progress-bar", {
     scaleY: 0,
