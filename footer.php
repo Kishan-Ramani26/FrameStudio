@@ -95,7 +95,7 @@
             </div>
             <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="/"
                 aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img
-                  src="images/marqly-20logo-1.svg" loading="lazy" alt="Marqly Logo" class="footer-logo" /></a>
+                  src="images/Fram Studio.svg" loading="lazy" alt="Marqly Logo" class="footer-logo" /></a>
               <div class="footer-text-wrap">
                 <p class="paragraph-03">Jaurisova 515/4, Prague 4, Czechia.</p>
                 <p class="paragraph-03 text-gray-color">Marqly is a bold and professional Webflow template crafted for
