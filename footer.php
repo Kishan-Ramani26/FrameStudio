@@ -95,18 +95,17 @@
             </div>
             <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="/"
                 aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img
-                  src="images/Fram Studio.svg" loading="lazy" alt="Marqly Logo" class="footer-logo" /></a>
+                  src="images/Frame Studio.svg" loading="lazy" alt="Frame Studio Logo" width="50px" height="auto" class="footer-logo" /></a>
               <div class="footer-text-wrap">
                 <p class="paragraph-03">Jaurisova 515/4, Prague 4, Czechia.</p>
-                <p class="paragraph-03 text-gray-color">Marqly is a bold and professional Webflow template crafted for
+                <p class="paragraph-03 text-gray-color">Frame Studio is a bold and professional Webflow template crafted for
                   modern marketing agencies, creative studios, and digital firms looking to establish a standout online
                   presence.</p>
               </div>
             </div>
           </div>
           <div class="footer-bottom-wrap">
-            <p class="paragraph-04">© 2025 Marqly All rights reserved Powered by <a href="https://webflow.com/"
-                target="_blank" class="footer-link">Webflow</a></p>
+            <p class="paragraph-04">© 2025 Frame Studio All rights reserved</p>
             <div class="copyright-link-wrap"><a href="/references/style-guide" class="copyright-link paragraph-04">Style
                 Guide</a>
               <div class="horizontal-divider"></div><a href="/references/license"

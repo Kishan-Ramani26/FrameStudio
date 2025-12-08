@@ -103,7 +103,7 @@
                     </div>
                   </div>
                   <div data-w-id="87f1be10-4d31-3e30-052e-943e7079dc3f" class="project-details">
-                    <h2 class="h2 _01">Luxury Drinks Website Redesign in Webflow</h2>
+                    <h2 class="h2 _01">Flieo International Website</h2>
                     <div class="project-button-wrap">
                       <div data-w-id="c0d4de69-e910-2171-25dd-ae63733971df" class="button-04 base-02">
                         <div class="button-text-icon-wrap base-3">

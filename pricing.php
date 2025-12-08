@@ -42,8 +42,8 @@
                           transformation.</div>
                       </div>
                       <div class="priceing-amount-wrap">
-                        <h2 class="h2">$650</h2>
-                        <p class="paragraph-03 text-gray-color margin-top--14">/Monthly</p>
+                        <h2 class="h2">₹39,999</h2>
+                        <p class="paragraph-03 text-gray-color margin-top--14">/One-Time</p>
                       </div>
                       <div class="priceing-button-wrap"><a data-w-id="7390ff90-8d99-4354-1780-67c8a856b998"
                           href="/product/premium-package" class="button-04 w-inline-block">
@@ -96,8 +96,8 @@
                         </div>
                       </div>
                       <div class="priceing-amount-wrap">
-                        <h2 class="h2">$200</h2>
-                        <p class="paragraph-03 text-gray-color margin-top--14">/Monthly</p>
+                        <h2 class="h2">₹19,999</h2>
+                        <p class="paragraph-03 text-gray-color margin-top--14">/One-Time</p>
                       </div>
                       <div class="priceing-button-wrap"><a data-w-id="7390ff90-8d99-4354-1780-67c8a856b998"
                           href="/product/professional-package" class="button-04 w-inline-block">

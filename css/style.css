@@ -4461,8 +4461,8 @@ li {
 }
 
 .footer-logo {
-  width: var(--100);
-  height: var(--100);
+  width: 40%;
+  height: auto;
   object-fit: cover;
 }
 
