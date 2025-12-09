@@ -441,7 +441,7 @@
                         <div class="project-01-banner-wrap">
                           <img src="images/horizontal_img_2.jpg"
                             loading="lazy" alt="Branding Design for Saas Startup Website" sizes="100vw"
-                            srcset="images/horizontal_img_2.jpg 500w, images/horizontal_img_2.jpg 800w, images/horizontal_img_2.jpg 1080w, images/horizontal_img_2.jpg 1600w, images/horizontal_img_2.jpg 2000w, images/horizontal_img_2.jpg 2600w, images/horizontal_img_2.jpg 2880w"
+                            srcset="images/horizontal_img_2 500w, images/horizontal_img_2.jpg 800w, images/horizontal_img_2.jpg 1080w, images/horizontal_img_2.jpg 1600w, images/horizontal_img_2.jpg 2000w, images/horizontal_img_2.jpg 2600w, images/horizontal_img_2.jpg 2880w"
                             class="bg-slider-image" />
                           <div class="project-01-text-wrap">
                             <div class="project-01-slider-top">
@@ -591,7 +591,7 @@
             <div class="card-container">
               <div class="card" id="card-1">
                 <div class="card-front">
-                  <img src="images/three_path_3.jpg" style="object-position: 0% 50%;" alt="Left Slice">
+                  <img src="images/row-1-column-1.webp" style="object-position: 0% 50%;" alt="Left Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(01)</span>
@@ -602,7 +602,7 @@
 
               <div class="card" id="card-2">
                 <div class="card-front">
-                  <img src="images/three_path_2.jpg" style="object-position: 50% 50%;" alt="Center Slice">
+                  <img src="images/row-1-column-2.webp" style="object-position: 50% 50%;" alt="Center Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(02)</span>
@@ -613,7 +613,7 @@
 
               <div class="card" id="card-3">
                 <div class="card-front">
-                  <img src="images/three_path_1.jpg" style="object-position: 100% 50%;" alt="Right Slice">
+                  <img src="images/row-1-column-3.webp" style="object-position: 100% 50%;" alt="Right Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(03)</span>
