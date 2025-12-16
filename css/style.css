@@ -257,12 +257,15 @@
 
 #card-1 .card-back {
   background: var(--card-back-1);
+  border: 1px solid lightgray;
 }
 #card-2 .card-back {
   background: var(--card-back-2);
+  border: 1px solid lightgray;
 }
 #card-3 .card-back {
   background: var(--card-back-3);
+  border: 1px solid lightgray;
 }
 
 .card-index {
@@ -272,7 +275,7 @@
   opacity: 0.5;
 }
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-top: 1rem;
 }
 

@@ -30,8 +30,8 @@
                   <div class="paragraph-02 text-black">Let’s Contact</div>
                 </div>
                 <div class="button-icon-wrapper"><img
-                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                  decoding="async" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
+                    style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                    decoding="async" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
               </div>
               <div class="hover-color bg-primary-color"></div>
             </a></div>
@@ -256,7 +256,7 @@
           <div class="heading-wrap ideas-heading">
             <h2 data-w-id="44604531-fe08-6354-a939-c414da3ec096"
               style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(10px)"
-              class="h2">PROJECTS THAT SET <br/> THE BENCHMARK</h2>
+              class="h2">PROJECTS THAT SET <br /> THE BENCHMARK</h2>
           </div>
           <div data-w-id="d76f46e2-f990-701c-0317-bc00431cb452"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
@@ -589,8 +589,8 @@
                 </div>
                 <div class="card-back">
                   <span class="card-index">(01)</span>
-                  <h3>Concept One</h3>
-                  <p class="card-title">Discovery</p>
+                  <h3>Strategy & Discovery</h3>
+                  <p class="card-title">Progress begins with clarity. We take time to understand your business, audience, and goals, translating insights into a clear digital strategy.</p>
                 </div>
               </div>
 
@@ -600,8 +600,8 @@
                 </div>
                 <div class="card-back">
                   <span class="card-index">(02)</span>
-                  <h3>Concept Two</h3>
-                  <p class="card-title">Creation</p>
+                  <h3>Design & Experience</h3>
+                  <p class="card-title">We craft experiences that feel intuitive, refined, and engaging. From visual identity to user experience, our design process blends creativity with usability.</p>
                 </div>
               </div>
 
@@ -611,8 +611,8 @@
                 </div>
                 <div class="card-back">
                   <span class="card-index">(03)</span>
-                  <h3>Concept Three</h3>
-                  <p class="card-title">Realization</p>
+                  <h3>Development & Growth</h3>
+                  <p class="card-title">Ideas come to life through clean, scalable development. We build high-performance websites and digital solutions optimized for speed, security, and growth.</p>
                 </div>
               </div>
             </div>
