@@ -1,0 +1,55 @@
+/*
+
+This snippet is use for to remove webflow mark in Wappalyzer in chrome
+
+ Webflow cleanup snippet
+ Purpose: remove Webflow-identifying HTML attributes and the global `window.Webflow`
+ after Webflow has initialized. Keeps animations/interactions working while reducing
+ fingerprinting by tools like Wappalyzer.
+
+ Usage:
+ 1. Backup your project (copy footer.php and the Webflow JS files).
+ 2. Include the snippet in your site footer (immediately after including the Webflow
+    runtime scripts and before your custom scripts), or keep this file as a reference
+    and copy/paste the <script> block into `footer.php`.
+ 3. Test the site thoroughly (navigation, animations, forms, sliders, interactions).
+
+ Notes:
+ - This script waits for `window.load` plus ~1.2s to allow Webflow initialization.
+ - The script keeps a backup of `window.Webflow` at `window.__WebflowBackup` in case
+   you need to restore it for debugging.
+ - If you spot any broken behavior after removal, you can restore the global from
+   the backup in the console:
+     if (window.__WebflowBackup) window.Webflow = window.__WebflowBackup;
+
+ The snippet (copy this <script> block into `footer.php` after webflow scripts):
+*/
+
+/* BEGIN SNIPPET */
+<script>
+  // Post-load cleanup to remove Webflow-identifying markers
+  // Runs after window.load with a short delay so Webflow can finish initializing.
+  window.addEventListener('load', function () {
+    setTimeout(function () {
+      try {
+        // remove HTML attributes used by Webflow detection
+        document.documentElement.removeAttribute('data-wf-site');
+        document.documentElement.removeAttribute('data-wf-page');
+
+        // remove generator meta tag if it points to Webflow
+        var meta = document.querySelector('meta[name="generator"][content*="Webflow"]');
+        if (meta && meta.parentNode) meta.parentNode.removeChild(meta);
+
+        // backup and remove global Webflow object to reduce fingerprinting
+        if (window.Webflow) {
+          try { window.__WebflowBackup = window.Webflow; } catch (e) {}
+          try { delete window.Webflow; } catch (e) { window.Webflow = undefined; }
+        }
+      } catch (e) {
+        // non-fatal; log for debugging
+        console.warn('Webflow cleanup error', e);
+      }
+    }, 1200);
+  });
+</script>
+/* END SNIPPET */

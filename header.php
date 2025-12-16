@@ -21,8 +21,16 @@
   <meta property="og:type" content="website" />
   <meta content="summary_large_image" name="twitter:card" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+
+  <link rel="preload" as="image" href="images/hero-2001-20bg-poster-00001.jpg" type="image/jpeg" fetchpriority="high" />
+  <link rel="preload" as="font" href="images/dmsans-regular.ttf" type="font/ttf" crossorigin />
+  <link rel="preload" as="font" href="images/dmsans-bold.ttf" type="font/ttf" crossorigin />
+
   <link href="css/style.css" rel="stylesheet" type="text/css" />
-  <script src="https://unpkg.com/@studio-freight/lenis@1.0.41/dist/lenis.min.js"></script>
+  <script defer src="https://unpkg.com/@studio-freight/lenis@1.0.41/dist/lenis.min.js"></script>
   <script
     type="text/javascript">
     ! function(o, c) {
@@ -41,7 +49,7 @@
     <div data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd54eb" class="navbar-container-wrap">
       <div class="navbar-wrapper">
         <a href="index.php" aria-current="page" class="navbar-brand w-nav-brand w--current">
-          <img loading="lazy" src="images/Frame-Studio Logo.png" alt="Frame Studio Logo" class="navbar-brand-logo" />
+          <img decoding="async" src="images/Frame-Studio Logo.png" alt="Frame Studio Logo" class="navbar-brand-logo" />
         </a>
 
         <div class="liquidGlass-wrapper">
@@ -140,26 +148,39 @@
     </div>
   </div>
 
-    <div class="preloader">
-        <div class="progress-bar"></div>
+  <div class="preloader" data-enabled="true">
+    <div class="progress-bar"></div>
 
-        <div class="preloader-header">
-            <span id="logo-text">FREAMSTUDIO</span>
-        </div>
-
-        <div class="preloader-images">
-            <div class="image-wrapper">
-                <!-- <img
-                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80" alt=""> -->
-                </div>
-            <div class="image-wrapper"><img
-                    src="images/Frame-Studio-bw-Logo.png" alt=""></div>
-            <div class="image-wrapper"><img
-                    src="images/Frame-Studio-Black-Logo.png" alt=""></div>
-            <div class="image-wrapper">
-                <img
-                    src="images/Frame-Studio Logo.png" alt="">
-                </div>
-        </div>
+    <div class="preloader-header">
+      <span id="logo-text">FREAMSTUDIO</span>
     </div>
+
+    <div class="preloader-images">
+      <div class="image-wrapper"></div>
+      <div class="image-wrapper">
+        <img
+          decoding="async"
+          loading="lazy"
+          fetchpriority="low"
+          src="images/Frame-Studio-bw-Logo.png"
+          alt="">
+      </div>
+      <div class="image-wrapper">
+        <img
+          decoding="async"
+          loading="lazy"
+          fetchpriority="low"
+          src="images/Frame-Studio-Black-Logo.png"
+          alt="">
+      </div>
+      <div class="image-wrapper">
+        <img
+          decoding="async"
+          loading="lazy"
+          fetchpriority="low"
+          src="images/Frame-Studio Logo.png"
+          alt="">
+      </div>
+    </div>
+  </div>
 

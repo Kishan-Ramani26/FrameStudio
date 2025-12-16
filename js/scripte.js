@@ -1,5 +1,15 @@
 
 document.addEventListener("DOMContentLoaded", () => {
+  const preloader = document.querySelector(".preloader");
+  const preloaderEnabled = preloader && preloader.dataset && preloader.dataset.enabled === "true";
+
+  // If the preloader isn't explicitly enabled, remove it immediately and skip all animations.
+  // This avoids delaying LCP with a full-screen overlay + heavy GSAP timeline.
+  if (!preloaderEnabled) {
+    if (preloader) preloader.remove();
+    return;
+  }
+
   gsap.registerPlugin(CustomEase);
 
   // 1. SETUP: Custom Ease "Hop"
@@ -10,6 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 2. HELPER: Split Text Manually (Since we don't have the paid plugin)
   const logo = document.querySelector("#logo-text");
+  if (!logo) {
+    if (preloader) preloader.remove();
+    return;
+  }
   const text = logo.textContent;
   logo.innerHTML = ""; // Clear text
 

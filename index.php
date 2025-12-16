@@ -7,9 +7,9 @@
     <div data-poster-url="images/hero-2001-20bg-poster-00001.jpg"
       data-video-urls="images/hero-2001-20bg-transcode.mp4,images/hero-2001-20bg-transcode.webm" data-autoplay="true"
       data-loop="true" data-wf-ignore="true" class="hero-background-video w-background-video w-background-video-atom">
-      <video id="f89c24d8-c072-8dee-0da0-c448eab88633-video" autoplay="" loop=""
-        style="background-image:url(&quot;images/hero-2001-20bg-poster-00001.jpg&quot;)" muted="" playsinline=""
-        data-wf-ignore="true" data-object-fit="cover">
+      <video id="f89c24d8-c072-8dee-0da0-c448eab88633-video" autoplay="" loop="" muted="" playsinline=""
+        poster="images/hero-2001-20bg-poster-00001.jpg" preload="metadata"
+        style="background-image:url(&quot;images/hero-2001-20bg-poster-00001.jpg&quot;)" data-wf-ignore="true" data-object-fit="cover">
         <source src="images/hero-2001-20bg-transcode.mp4" autoplay="true" data-loop="true" data-wf-ignore="true" />
         <source src="images/hero-2001-20bg-transcode.webm" data-wf-ignore="true" />
       </video>
@@ -19,16 +19,10 @@
       <div class="container">
         <div class="hero-01-wrap">
           <div class="hero-01-text-wrap">
-            <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f"
-              style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-              class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
-            <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6"
-              style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-              class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
+            <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
+            <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
-          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5"
-            style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us"
+          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us"
               class="button-02 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -36,8 +30,8 @@
                   <div class="paragraph-02 text-black">Let’s Contact</div>
                 </div>
                 <div class="button-icon-wrapper"><img
-                    style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
-                    loading="lazy" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
+                  style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)"
+                  decoding="async" alt="Button Icon" src="images/button-20icon-20-1-.svg" class="button-icon" /></div>
               </div>
               <div class="hover-color bg-primary-color"></div>
             </a></div>
@@ -613,7 +607,7 @@
 
               <div class="card" id="card-3">
                 <div class="card-front">
-                  <img src="images/row-1-column-3.webp" style="object-position: 100% 50%;" alt="Right Slice">
+                  <img src="images/row-1-column-3.webp" fetchpriority="high" style="object-position: 100% 50%;" alt="Right Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(03)</span>

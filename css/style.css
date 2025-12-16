@@ -1,5 +1,4 @@
 /* Performance: lazy-paint large sections */
-.home-hero,
 .priceing,
 .service-02,
 .cta-v1,
@@ -26,6 +25,12 @@
   align-items: center;
   /* Will animate clip-path to reveal hero later */
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* Performance: disable preloader by default (prevents LCP being delayed by the overlay).
+   To enable, set data-enabled="true" on .preloader. */
+.preloader[data-enabled="false"] {
+  display: none;
 }
 
 /* Progress Bar */

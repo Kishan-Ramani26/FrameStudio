@@ -120,10 +120,10 @@
       </div>
     </section>
     </div>
-    <script src="js/jquery.js?site=6845c0d2aeb4f8e6515d4444" type="text/javascript"></script>
-    <script src="js/webflow.schunk.40f517e78f82ea08.js" type="text/javascript"></script>
-    <script src="js/webflow.schunk.c2536ef350445201.js" type="text/javascript"></script>
-    <script src="js/webflow-script.js" type="text/javascript"></script>
+    <script defer src="js/jquery.js?site=6845c0d2aeb4f8e6515d4444" type="text/javascript"></script>
+    <script defer src="js/webflow.schunk.40f517e78f82ea08.js" type="text/javascript"></script>
+    <script defer src="js/webflow.schunk.c2536ef350445201.js" type="text/javascript"></script>
+    <script defer src="js/webflow-script.js" type="text/javascript"></script>
     <script>
       // Post-load cleanup to remove Webflow-identifying markers for analytics detectors
       // Runs after window.load with a short delay so Webflow can finish initializing.
@@ -150,10 +150,10 @@
         }, 1200);
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
-    <script src="js/scripte.js" type="text/javascript"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <script defer src="js/scripte.js" type="text/javascript"></script>
     </body>
 
     </html>
