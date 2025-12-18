@@ -555,32 +555,7 @@
         </div>
 
         <div class="three-paths-bottom-wrap">
-          <!-- <div class="three-paths-image-wrap">
-            <img src="images/parth-20bg.avif" loading="lazy"
-              data-w-id="0313d795-32a7-4978-0e38-12ee30808347" alt="Parth Bg" class="fit-cover" />
-          </div>
           
-          <div class="path-wrap">
-            <div class="absolute-path parth-01">
-              <h2 class="h4">Technical Precision</h2>
-              <p class="paragraph-03 text-gray-color">Seamless systems and processes for long-term scalability.Clear,
-                data-driven insights to make every step count.</p>
-            </div>
-            <div data-w-id="08bb1df1-43ed-6d7b-7f67-f35c674dbe6c" class="absolute-path parth-03">
-              <h2 class="h4 text-black">Creative Clarity</h2><img src="images/subtract.svg" loading="lazy" alt=""
-                class="image-path" />
-              <p class="paragraph-03 text-black">Focused, innovative design that reflects your brand’s
-                essence.Seamless systems and processes for long-term scalability.</p>
-            </div>
-            <div class="absolute-path parth-02">
-              <h2 class="h4">Strategic Thinking</h2>
-              <p class="paragraph-03 text-gray-color">Clear, data-driven insights to make every step count.Focused,
-                innovative design that reflects your brand’s essence.</p>
-            </div>
-          </div> -->
-
-
-
           <section class="sticky-section">
             <div class="card-container">
               <div class="card" id="card-1">

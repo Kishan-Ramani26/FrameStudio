@@ -3,7 +3,9 @@
         <div class="footer-wrap">
           <div class="footer-top-wrap">
             <div class="footer-left-wrap">
-              <div class="footer-link-list"><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="/"
+
+              <div class="footer-link-list">
+                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="/"
                   aria-current="page" class="footer-link w-inline-block w--current">
                   <div class="footer-link-text">Home</div>
                   <div class="footer-link-text absolute-link">Home</div>
@@ -34,33 +36,7 @@
                   <div class="link-under-line"></div>
                 </a>
               </div>
-              <div class="footer-link-list"><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ff"
-                  href="https://marqly.webflow.io/project/luxury-drinks-website-redesign-in-webflow"
-                  class="footer-link w-inline-block">
-                  <div class="footer-link-text">Project Single</div>
-                  <div class="footer-link-text absolute-link">Project Single</div>
-                  <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b370b"
-                  href="https://marqly.webflow.io/product/premium-package" class="footer-link w-inline-block">
-                  <div class="footer-link-text">Pricing Single</div>
-                  <div class="footer-link-text absolute-link">Pricing Single</div>
-                  <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3711"
-                  href="https://marqly.webflow.io/blog/the-future-of-graphic-design-emerging-trends"
-                  class="footer-link w-inline-block">
-                  <div class="footer-link-text">Blog Single</div>
-                  <div class="footer-link-text absolute-link">Blog Single</div>
-                  <div class="link-under-line"></div>
-                </a><a data-w-id="b4a8078b-5f98-fafa-a4e8-4f6f61a868c2" href="/consulting"
-                  class="footer-link w-inline-block">
-                  <div class="footer-link-text">Consulting</div>
-                  <div class="footer-link-text absolute-link">Consulting</div>
-                  <div class="link-under-line"></div>
-                </a><a data-w-id="f521addb-a490-75e6-ab3d-d462ac55852d" href="/404" class="footer-link w-inline-block">
-                  <div class="footer-link-text">404</div>
-                  <div class="footer-link-text absolute-link">404</div>
-                  <div class="link-under-line"></div>
-                </a></div>
+              
               <div class="footer-link-list _01"><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b371e"
                   href="https://www.instagram.com/" class="footer-social-link w-inline-block">
                   <div class="paragraph-03">Instagram</div>
@@ -98,7 +74,7 @@
                   src="images/Frame Studio.svg" loading="lazy" alt="Frame Studio Logo" width="50px" height="auto" class="footer-logo" /></a>
               <div class="footer-text-wrap">
                 <p class="paragraph-03">Jaurisova 515/4, Prague 4, Czechia.</p>
-                <p class="paragraph-03 text-gray-color">Frame Studio is a bold and professional Webflow template crafted for
+                <p class="paragraph-03 text-gray-color">Frame Studio is a bold and professional template crafted for
                   modern marketing agencies, creative studios, and digital firms looking to establish a standout online
                   presence.</p>
               </div>
