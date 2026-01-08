@@ -45,7 +45,7 @@
     <div class="section-with-background">
       <div class="section-background-wrapper">
         <div class="section-background">
-          <img src="images/bg-section-2.jpg" loading="lazy" alt="" class="section-background-video" />
+          <img src="images/section-2_bg.png" loading="lazy" alt="" class="section-background-video" />
           <div class="section-background-overlay">
 
           </div>
@@ -555,12 +555,12 @@
         </div>
 
         <div class="three-paths-bottom-wrap">
-          
+
           <section class="sticky-section">
             <div class="card-container">
               <div class="card" id="card-1">
                 <div class="card-front">
-                  <img src="images/row-1-column-1.webp" style="object-position: 0% 50%;" alt="Left Slice">
+                  <img src="images/row-1-column-1.png" style="object-position: 0% 50%;" alt="Left Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(01)</span>
@@ -571,7 +571,7 @@
 
               <div class="card" id="card-2">
                 <div class="card-front">
-                  <img src="images/row-1-column-2.webp" style="object-position: 50% 50%;" alt="Center Slice">
+                  <img src="images/row-1-column-2.png" style="object-position: 50% 50%;" alt="Center Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(02)</span>
@@ -582,7 +582,7 @@
 
               <div class="card" id="card-3">
                 <div class="card-front">
-                  <img src="images/row-1-column-3.webp" fetchpriority="high" style="object-position: 100% 50%;" alt="Right Slice">
+                  <img src="images/row-1-column-3.png" fetchpriority="high" style="object-position: 100% 50%;" alt="Right Slice">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(03)</span>
@@ -727,7 +727,7 @@ section -->
               class="h2">OUR PROCESS – BUILT FOR ACTION</h2>
             <p data-w-id="ecee894b-4eb6-066e-c064-09bd5ae09a73"
               style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-              class="paragraph-03 text-gray-color">At Marqly, we follow a structured, yet flexible approach to ensure
+              class="paragraph-03 text-gray-color">At Frame Studio, we follow a structured, yet flexible approach to ensure
               that every website we build achieves its goals. Here’s how we work:</p>
           </div>
           <div data-w-id="05f8a01d-08d9-d5d1-50c8-d9d7f9876ceb"
@@ -751,14 +751,14 @@ section -->
           </div>
           <div class="our-progress-right-wrap">
             <div class="our-progress-list">
-              <h4 class="h4">Goal Alignment Session</h4>
-              <p class="paragraph-03 text-gray-color">We learn about your business, your pain points, and your goals.
-                → No fluff, just focused exploration.</p>
+              <h4 class="h4">Discover & Align</h4>
+              <p class="paragraph-03 text-gray-color">We start by understanding your brand, goals, and audience.
+                Through strategy sessions and research, we align vision with purpose to define a clear direction.</p>
             </div>
             <div class="our-progress-list">
-              <h4 class="h4">Design Flow Assessment</h4>
-              <p class="paragraph-03 text-gray-color">We assess your operations, market position, and opportunities. →
-                Find the gaps. Identify the growth levers.</p>
+              <h4 class="h4">Design with Precision</h4>
+              <p class="paragraph-03 text-gray-color">Every interface is crafted to balance aesthetics and usability.
+                We design clean, intuitive, and engaging experiences that reflect your brand and guide users effortlessly.</p>
             </div>
             <div class="our-progress-list">
               <h4 class="h4">Experience Strategy Plan</h4>
@@ -924,17 +924,17 @@ section -->
       <div class="metrics-sticky-wrapper">
         <div class="metrics-1st">
           <div class="text-wrapper">
-            <h2 class="metrics-text">3_Clients</h2>
+            <h2 class="metrics-text">Design</h2>
           </div>
         </div>
         <div class="metrics-2nd">
           <div class="text-wrapper">
-            <h2 class="metrics-text">3M_ADS</h2>
+            <h2 class="metrics-text">Develop</h2>
           </div>
         </div>
         <div class="metrics-3rd">
           <div class="text-wrapper">
-            <h2 class="metrics-text">2M_USERS</h2>
+            <h2 class="metrics-text">Deliver</h2>
           </div>
         </div>
       </div>

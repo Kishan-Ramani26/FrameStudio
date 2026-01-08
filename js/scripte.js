@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", () => {
         start: "top top",
         end: "+=400%",
         pin: true,
-        scrub: 1,
+        scrub: 2,
         onUpdate: (self) => {
           const progress = self.progress;
 
@@ -285,20 +285,20 @@ document.addEventListener("DOMContentLoaded", () => {
             gsap.to(".card", {
               rotateY: 180,
               stagger: 0.1,
-              duration: 1.2,
+              duration: 1,
               ease: "power3.out",
             });
             gsap.to("#card-1", {
               y: 40,
               rotateZ: -3,
-              duration: 1.2,
+              duration: 1,
               delay: 0.1,
               ease: "power3.out",
             });
             gsap.to("#card-3", {
               y: 40,
               rotateZ: 3,
-              duration: 1.2,
+              duration: 1,
               delay: 0.1,
               ease: "power3.out",
             });
@@ -309,19 +309,19 @@ document.addEventListener("DOMContentLoaded", () => {
               rotateY: 0,
               stagger: { each: 0.1, from: "end" },
               duration: 1.2,
-              ease: "power3.out",
+              ease: "sine.out",
             });
             gsap.to("#card-1", {
               y: 0,
               rotateZ: 0,
               duration: 1.2,
-              ease: "power3.out",
+              ease: "sine.out",
             });
             gsap.to("#card-3", {
               y: 0,
               rotateZ: 0,
               duration: 1.2,
-              ease: "power3.out",
+              ease: "sine.out",
             });
           }
         },
