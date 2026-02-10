@@ -214,39 +214,51 @@ document.addEventListener("DOMContentLoaded", () => {
   function initAnimation() {
     let mm = gsap.matchMedia();
 
-    mm.add("(min-width: 769px)", () => {
+    const createPinnedCardsAnimation = ({
+      startWidth,
+      endWidth,
+      settledWidth,
+      scrollDistance,
+      scrub,
+    }) => {
+      // Reset state when switching breakpoints
+      isGapAnimDone = false;
+      isFlipAnimDone = false;
+
       ScrollTrigger.create({
-        trigger: ".sticky-section",
+        trigger: ".three-paths .sticky-section",
         start: "top top",
-        end: "+=400%",
+        end: scrollDistance,
         pin: true,
-        scrub: 2,
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+        scrub,
         onUpdate: (self) => {
           const progress = self.progress;
 
           // --------------------------
-          // PHASE 1
+          // PHASE 1: Expand container
           // --------------------------
           if (progress <= 0.25) {
             const t = progress / 0.25;
-            const newWidth = gsap.utils.interpolate(30, 80, t);
-            gsap.set(".card-container", { width: `${newWidth}%` });
+            const newWidth = gsap.utils.interpolate(startWidth, endWidth, t);
+            gsap.set(".three-paths .card-container", { width: `${newWidth}%` });
           } else {
-            gsap.set(".card-container", { width: "80%" });
+            gsap.set(".three-paths .card-container", { width: `${settledWidth}%` });
           }
 
           // --------------------------
-          // PHASE 2
+          // PHASE 2: Add gaps + rounding
           // --------------------------
           if (progress > 0.35 && !isGapAnimDone) {
             isGapAnimDone = true;
 
-            gsap.to(".card-container", {
+            gsap.to(".three-paths .card-container", {
               gap: "2rem",
               duration: 0.5,
               ease: "power2.out",
             });
-            gsap.to(".card", {
+            gsap.to(".three-paths .card", {
               borderRadius: "15px",
               duration: 0.5,
               ease: "power2.out",
@@ -254,12 +266,12 @@ document.addEventListener("DOMContentLoaded", () => {
           } else if (progress < 0.35 && isGapAnimDone) {
             isGapAnimDone = false;
 
-            gsap.to(".card-container", {
+            gsap.to(".three-paths .card-container", {
               gap: "0rem",
               duration: 0.5,
               ease: "power2.out",
             });
-            gsap.to(".card", {
+            gsap.to(".three-paths .card", {
               borderRadius: "0px",
               duration: 0.5,
               ease: "power2.out",
@@ -277,12 +289,12 @@ document.addEventListener("DOMContentLoaded", () => {
           }
 
           // --------------------------
-          // PHASE 3
+          // PHASE 3: Flip + tilt
           // --------------------------
           if (progress > 0.7 && !isFlipAnimDone) {
             isFlipAnimDone = true;
 
-            gsap.to(".card", {
+            gsap.to(".three-paths .card", {
               rotateY: 180,
               stagger: 0.1,
               duration: 1,
@@ -305,7 +317,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } else if (progress < 0.7 && isFlipAnimDone) {
             isFlipAnimDone = false;
 
-            gsap.to(".card", {
+            gsap.to(".three-paths .card", {
               rotateY: 0,
               stagger: { each: 0.1, from: "end" },
               duration: 1.2,
@@ -326,7 +338,17 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         },
       });
-    });
+    };
+
+    mm.add("(min-width: 769px)", () =>
+      createPinnedCardsAnimation({
+        startWidth: 30,
+        endWidth: 80,
+        settledWidth: 80,
+        scrollDistance: "+=400%",
+        scrub: 2,
+      })
+    );
   }
 
   initAnimation();

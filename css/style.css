@@ -280,29 +280,53 @@
 }
 
 @media (max-width: 768px) {
-  .sticky-section {
+  /* Mobile: no flip/pin animation; show content full-width and readable. */
+  .three-paths .sticky-section {
     height: auto;
-    padding: 5rem 1rem;
+    padding: 0;
+    overflow: visible;
   }
-  .sticky-header {
-    position: static;
-    opacity: 1;
-    transform: none;
-    margin-bottom: 3rem;
-  }
-  .card-container {
+
+  .three-paths .card-container {
     width: 100%;
+    max-width: none;
     flex-direction: column;
     height: auto;
     aspect-ratio: auto;
-    gap: 2rem;
-    background-color: transparent;
+    gap: 16px;
   }
-  .card {
+
+  .three-paths .card {
     width: 100%;
-    aspect-ratio: 5/7;
-    border-radius: 12px !important;
+    height: auto;
     margin-right: 0;
+    border-radius: 12px;
+    transform: none !important;
+  }
+
+  .three-paths .card-front {
+    display: none;
+  }
+
+  .three-paths .card-back {
+    position: relative;
+    transform: none;
+    backface-visibility: visible;
+    border-radius: 12px;
+    padding: 16px;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .three-paths .card-index {
+    position: static;
+    opacity: 0.7;
+    margin-bottom: 8px;
+  }
+
+  .three-paths .card-title {
+    font-size: 0.95rem;
+    line-height: 1.35;
   }
 }
 
@@ -9833,11 +9857,9 @@ li {
   }
 
   .three-paths-bottom-wrap {
-    justify-content: center;
-    align-items: center;
-    height: 410px;
+    height: auto;
     margin-top: 60px;
-    display: flex;
+    display: block;
   }
 
   .three-paths-image-wrap {
@@ -11053,7 +11075,7 @@ li {
 
   .three-paths {
     padding-bottom: 40px;
-    display: none;
+    display: block;
   }
 
   .three-paths-top-wrap {
@@ -11062,8 +11084,14 @@ li {
   }
 
   .three-paths-bottom-wrap {
-    height: 450px;
+    height: auto;
     margin-top: 40px;
+  }
+
+  /* ScrollTrigger pin/measure reliability on mobile */
+  .three-paths .sticky-section {
+    content-visibility: visible;
+    contain-intrinsic-size: none;
   }
 
   .three-paths-image-wrap {

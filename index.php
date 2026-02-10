@@ -22,7 +22,7 @@
             <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
             <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
-          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us"
+          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php"php"
               class="button-02 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -45,7 +45,7 @@
     <div class="section-with-background">
       <div class="section-background-wrapper">
         <div class="section-background">
-          <img src="images/section-2_bg.png" loading="lazy" alt="" class="section-background-video" />
+          <img src="images/bg-section-2.jpg" loading="lazy" alt="" class="section-background-video" />
           <div class="section-background-overlay">
 
           </div>
@@ -76,7 +76,7 @@
                       growth.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -104,7 +104,7 @@
                       capture your vision.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -134,7 +134,7 @@
                       mind.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -162,7 +162,7 @@
                       direction.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -192,7 +192,7 @@
                       and flows.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -220,7 +220,7 @@
                       scale.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us" class="button-04 w-inline-block">
+                      href="/contact-us.php" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -276,10 +276,11 @@
           <div class="project-mobile-bottom-wrap hide-tab">
             <div class="w-dyn-list">
               <div role="list" class="collection-list-2 w-dyn-items">
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                <div role="listitem" class="w-dyn-item">
+                  <a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
                     style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
                     href="/project/teenage-engineering-uiux-web-design" class="project-m-list w-inline-block"><img
-                      src="images/modern-20control-20panel-20close-up.avif" loading="lazy"
+                      src="images/horizontal_img_1.jpg" loading="lazy"
                       alt="Teenage Engineering UIUX Web Design" class="project-image-m" />
                     <div class="project-01-text-wrap _01">
                       <div class="project-01-slider-top">
@@ -307,10 +308,11 @@
                       </div>
                     </div>
                   </a></div>
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                <div role="listitem" class="w-dyn-item">
+                  <a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
                     style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
                     href="/project/email-marketing-for-dundee-coffee" class="project-m-list w-inline-block"><img
-                      src="images/futuristic-20device-20close-up.avif" loading="lazy"
+                      src="images/horizontal_img_2.jpg" loading="lazy"
                       alt="Email Marketing for Dundee Coffee" class="project-image-m" />
                     <div class="project-01-text-wrap _01">
                       <div class="project-01-slider-top">
@@ -338,10 +340,11 @@
                       </div>
                     </div>
                   </a></div>
-                <div role="listitem" class="w-dyn-item"><a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
+                <div role="listitem" class="w-dyn-item">
+                  <a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
                     style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
                     href="/project/branding-design-for-saas-startup-website"
-                    class="project-m-list w-inline-block"><img src="images/surreal-203d-20planet-20scene.avif"
+                    class="project-m-list w-inline-block"><img src="images/horizontal_img_3.jpg"
                       loading="lazy" alt="Branding Design for Saas Startup Website" class="project-image-m" />
                     <div class="project-01-text-wrap _01">
                       <div class="project-01-slider-top">
@@ -467,7 +470,8 @@
                       </a>
                     </div>
                   </div>
-                </div><img src="images/marqly-20project-20image-20shade.png" loading="lazy"
+                </div>
+                <img src="images/marqly-20project-20image-20shade.png" loading="lazy"
                   sizes="(max-width: 1440px) 100vw, 1440px"
                   srcset="images/marqly-20project-20image-20shade-p-500.png 500w, images/marqly-20project-20image-20shade-p-1080.png 1080w, images/marqly-20project-20image-20shade.png 1440w"
                   alt="" class="shade" />
@@ -733,7 +737,7 @@ section -->
           <div data-w-id="05f8a01d-08d9-d5d1-50c8-d9d7f9876ceb"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
             class="our-progress-button-wrap"><a data-wf--button-01--variant="base"
-              data-w-id="14817668-5d2c-d135-4359-055cf68e9776" href="/contact-us" class="button-01 w-inline-block">
+              data-w-id="14817668-5d2c-d135-4359-055cf68e9776" href="/contact-us.php" class="button-01 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
                   <div class="paragraph-02 text-black">Let’s Contact</div>
@@ -780,6 +784,7 @@ section -->
       </div>
     </div>
   </section>
+
   <section class="testimonial">
     <div class="container">
       <div class="testimonial-wrap">
@@ -889,7 +894,7 @@ section -->
               <div class="team-slider-nav w-slider-nav w-slider-nav-invert w-round"></div>
             </div>
           </div>
-          <div class="testimonial-logo-wrap">
+          <!-- <div class="testimonial-logo-wrap">
             <div class="testimonial-logo-list"><img src="images/testimonial-20logo-20-6-.svg" loading="lazy"
                 alt="Testimonial Logo" class="testimonial-logo" /></div>
             <div class="testimonial-logo-list"><img src="images/testimonial-20logo-20-2-.svg" loading="lazy"
@@ -914,11 +919,12 @@ section -->
                 alt="Testimonial Logo" class="testimonial-logo" /></div>
             <div class="testimonial-logo-list"><img src="images/testimonial-20logo-20-3-.svg" loading="lazy"
                 alt="Testimonial Logo" class="testimonial-logo" /></div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
   </section>
+
   <section data-w-id="295913bc-6b38-5cfd-d936-790192b19c03" class="metrics-01">
     <div class="container-2 _02">
       <div class="metrics-sticky-wrapper">
