@@ -1,3 +1,31 @@
+/* Lenis Recommended CSS - FORCED OVERRIDE */
+html.lenis,
+html.lenis body {
+  height: auto !important;
+  overflow: visible !important; /* Force visible overflow to fight Webflow locking */
+}
+html {
+  overflow-y: scroll !important; /* Force scrollbar */
+  height: 100%;
+}
+body {
+  overflow-y: visible !important;
+  overflow-x: hidden !important; 
+  height: auto !important;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
 /* Performance: lazy-paint large sections */
 .priceing,
 .service-02,

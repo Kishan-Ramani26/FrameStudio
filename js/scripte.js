@@ -1,198 +1,18 @@
-
+// --- FIXED JS: Consolidated Listeners & Safe Initialization ---
 document.addEventListener("DOMContentLoaded", () => {
-  const preloader = document.querySelector(".preloader");
-  const preloaderEnabled = preloader && preloader.dataset && preloader.dataset.enabled === "true";
-
-  // If the preloader isn't explicitly enabled, remove it immediately and skip all animations.
-  // This avoids delaying LCP with a full-screen overlay + heavy GSAP timeline.
-  if (!preloaderEnabled) {
-    if (preloader) preloader.remove();
-    return;
-  }
-
-  gsap.registerPlugin(CustomEase);
-
-  // 1. SETUP: Custom Ease "Hop"
-  CustomEase.create(
-    "hop",
-    "M0,0 C0.084,0.61 0.214,0.802 0.28,0.856 0.356,0.918 0.374,1 1,1"
-  );
-
-  // 2. HELPER: Split Text Manually (Since we don't have the paid plugin)
-  const logo = document.querySelector("#logo-text");
-  if (!logo) {
-    if (preloader) preloader.remove();
-    return;
-  }
-  const text = logo.textContent;
-  logo.innerHTML = ""; // Clear text
-
-  // Create span for each char
-  text.split("").forEach((char) => {
-    const span = document.createElement("span");
-    span.classList.add("char");
-    span.textContent = char;
-    logo.appendChild(span);
-  });
-
-  const chars = document.querySelectorAll(".char");
-  const firstChar = chars[0];
-  const lastChar = chars[chars.length - 1];
-  const middleChars = Array.from(chars).slice(1, -1);
-
-  // 3. ANIMATION TIMELINE
-  const tl = gsap.timeline({ delay: 0.5 });
-
-  // --- A. LOADING SEQUENCE ---
-
-  // Progress Bar
-  tl.to(".progress-bar", {
-    width: "100%",
-    duration: .4,
-    ease: "power2.inOut",
-  }).to(".progress-bar", {
-    scaleY: 0,
-    transformOrigin: "top",
-    duration: 0.3,
-  }).to(".preloader-header", {
-    opacity: 1,
-    duration: 0.3,
-  });
-
-  // Images Reveal (Unfold Up)
-  const imageWrappers = document.querySelectorAll(".image-wrapper");
-  const images = document.querySelectorAll(".image-wrapper img");
-
-  tl.to(
-    imageWrappers,
-    {
-      clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", // Reveal
-      stagger: 0.1,
-      duration: 1,
-      ease: "hop",
-    },
-    "-=0.5"
-  ) // Overlap with progress bar
-
-    // Image Scale (Zoom Out effect)
-    .to(
-      images,
-      {
-        scale: 1,
-        stagger: 0.1,
-        duration: 1,
-        ease: "power2.out",
-      },
-      "<"
-    ); // Run at start of wrapper anim
-
-  // Text Reveal (Staggered Bounce)
-  tl.to(
-    chars,
-    {
-      y: 0,
-      stagger: 0.05,
-      duration: 0.5,
-      ease: "hop",
-    },
-    "-=1"
-  )
-
-  // --- B. EXIT / TRANSITION SEQUENCE ---
-  // Wait a beat
-  tl.to({}, { duration: 0.05 });
-
-  // 1. Collapse Images
-  tl.to(imageWrappers, {
-    clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)", // Hide downwards
-    stagger: 0.05,
-    duration: 0.3,
-    ease: "power3.in",
-  });
-
-  // 2. Hide Middle Letters (Fly away)
-  tl.to(
-    middleChars,
-    {
-      y: "-100%", // Fly up
-      stagger: 0.03,
-      duration: 0.3,
-      ease: "power2.in",
-    },
-    "<"
-  );
-
-  // 3. THE "LOGO MOVE" CALCULATION
-  // We want the first and last letters to meet in the center
-  tl.add(() => {
-    // Get current positions
-    const firstRect = firstChar.getBoundingClientRect();
-    const lastRect = lastChar.getBoundingClientRect();
-    const containerRect = document
-      .querySelector(".preloader-header")
-      .getBoundingClientRect();
-
-    // Calculate distance to center
-    const center = window.innerWidth / 2;
-    const firstDist = center - firstRect.left - firstRect.width / 2;
-    const lastDist = center - lastRect.left - lastRect.width / 2;
-
-    // We move them slightly apart to form a compact logo, not overlapping
-    const gap = 20;
-
-    gsap.to(firstChar, {
-      x: firstDist - gap,
-      duration: 0.5,
-      ease: "hop",
-      color: "#00a8ff",
-    });
-
-    gsap.to(lastChar, {
-      x: lastDist + gap,
-      duration: 0.5,
-      ease: "hop",
-      color: "#00a8ff",
-    });
-  });
-
-  // 4. Move Header to Top (Navbar position)
-  tl.to(".preloader-header", {
-    top: "2rem",
-    scale: 0.5, // Shrink
-    duration: 1,
-    ease: "power3.inOut",
-  });
-
-  // 5. Reveal Hero (Lift Curtain)
-  tl.to(
-    ".preloader",
-    {
-      clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)", // Wipe up
-      duration: 0.7,
-      ease: "power3.inOut",
-      onComplete: () => {
-      const preloader = document.querySelector(".preloader");
-      if (preloader) preloader.remove();
-    },  
-    },
-    "-=0.8"
-  ); // Overlap with logo move
-});
-
-
-document.addEventListener("DOMContentLoaded", () => {
+  // --- 1. LENIS SMOOTH SCROLL ---
   if (typeof Lenis !== "undefined") {
     const lenis = new Lenis({
-      smooth: true, // Desktop smooth scrolling
-      smoothTouch: false, // Keep native fast touch scrolling (best for GSAP)
-      syncTouch: true, // Prevent scroll desync inside sliders
-      duration: 1.1, // Apple-style glide
-      lerp: 0.15, // Smooth but responsive
-      easing: (t) => 1 - Math.pow(2, -10 * t), // Premium Apple-like easing
-      wheelMultiplier: 0.8, // Slower, softer wheel movement
-      touchMultiplier: 1.35, // Balanced swipe (not too fast like 2)
-      normalizeWheel: true, // Consistent scroll across devices
-      autoResize: true, // Adjusts smoothly on resize
+      smooth: true,
+      smoothTouch: false, // Let native touch handle mobile scrolling
+      syncTouch: true,
+      duration: 1.1,
+      lerp: 0.15,
+      easing: (t) => 1 - Math.pow(2, -10 * t),
+      wheelMultiplier: 0.8,
+      touchMultiplier: 1.35,
+      normalizeWheel: true,
+      autoResize: true,
     });
 
     function raf(time) {
@@ -200,20 +20,211 @@ document.addEventListener("DOMContentLoaded", () => {
       requestAnimationFrame(raf);
     }
     requestAnimationFrame(raf);
+
+    // Ensure we start at top without weird offsets
+    // window.scrollTo(0, 0);
   }
 
-  gsap.registerPlugin(ScrollTrigger);
+  // --- 2. GSAP & SCROLLTRIGGER ---
+  gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-  let isGapAnimDone = false;
-  let isFlipAnimDone = false;
+  // Custom Ease "Hop"
+  CustomEase.create(
+    "hop",
+    "M0,0 C0.084,0.61 0.214,0.802 0.28,0.856 0.356,0.918 0.374,1 1,1",
+  );
 
-  function mapRange(inMin, inMax, outMin, outMax, value) {
-    return outMin + ((value - inMin) * (outMax - outMin)) / (inMax - inMin);
+  // --- 3. PRELOADER LOGIC ---
+  const preloader = document.querySelector(".preloader");
+  const logo = document.querySelector("#logo-text");
+  const preloaderEnabled =
+    preloader && preloader.dataset && preloader.dataset.enabled === "true";
+
+  // Cleanup helper
+  const removePreloader = () => {
+    if (preloader) {
+      gsap.to(preloader, {
+        autoAlpha: 0,
+        duration: 0.5,
+        onComplete: () => preloader.remove(),
+      });
+    }
+    document.body.style.overflow = ""; // Ensure scrolling is re-enabled
+    document.documentElement.style.overflow = "";
+    ScrollTrigger.refresh(); // Refresh ST after preloader is gone
+  };
+
+  // Failsafe: Remove preloader after 5s if it hasn't been removed yet
+  if (preloader) {
+    setTimeout(() => {
+      if (document.querySelector(".preloader")) {
+        console.warn("Preloader timed out, removing forcefully.");
+        removePreloader();
+        runPageAnimations();
+      }
+    }, 5000);
   }
 
-  function initAnimation() {
+  if (!preloaderEnabled || !logo) {
+    // Skip animation, remove immediately
+    if (preloader) preloader.remove();
+    // Ensure overflow is reset just in case
+    document.body.style.overflow = "";
+    document.documentElement.style.overflow = "";
+    // Proceed to page animations
+    runPageAnimations();
+  } else {
+    // Run Preloader Animation
+    runPreloaderAnimation(logo, removePreloader);
+  }
+
+  // --- 4. PAGE ANIMATIONS (ScrollTrigger) ---
+  let pageAnimationsRun = false;
+  function runPageAnimations() {
+    if (pageAnimationsRun) return;
+    pageAnimationsRun = true;
+    initCardAnimation();
+    window.addEventListener("resize", () => ScrollTrigger.refresh());
+  }
+
+  function runPreloaderAnimation(logoElement, onCompleteCallback) {
+    const text = logoElement.textContent;
+    logoElement.innerHTML = "";
+
+    text.split("").forEach((char) => {
+      const span = document.createElement("span");
+      span.classList.add("char");
+      span.textContent = char;
+      logoElement.appendChild(span);
+    });
+
+    const chars = document.querySelectorAll(".char");
+    if (chars.length === 0) {
+      onCompleteCallback();
+      return;
+    }
+
+    const firstChar = chars[0];
+    let sIndex = Array.from(chars).findIndex((c) => c.textContent === "S");
+    if (sIndex === -1 || sIndex === 0) sIndex = chars.length - 1;
+    const lastChar = chars[sIndex];
+    const middleChars = Array.from(chars).filter(
+      (c, i) => i !== 0 && i !== sIndex,
+    );
+
+    const tl = gsap.timeline({ delay: 0.5 });
+
+    // Enter
+    tl.to(".progress-bar", {
+      width: "100%",
+      duration: 0.4,
+      ease: "power2.inOut",
+    })
+      .to(".progress-bar", { scaleY: 0, transformOrigin: "top", duration: 0.3 })
+      .to(".preloader-header", { opacity: 1, duration: 0.3 });
+
+    const imageWrappers = document.querySelectorAll(".image-wrapper");
+    const images = document.querySelectorAll(".image-wrapper img");
+
+    tl.to(
+      imageWrappers,
+      {
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        stagger: 0.1,
+        duration: 1,
+        ease: "hop",
+      },
+      "-=0.5",
+    ).to(
+      images,
+      {
+        scale: 1,
+        stagger: 0.1,
+        duration: 1,
+        ease: "power2.out",
+      },
+      "<",
+    );
+
+    tl.to(
+      chars,
+      {
+        y: 0,
+        stagger: { each: 0.03, from: "random", ease: "hop" },
+        duration: 0.5,
+        ease: "hop",
+      },
+      "-=1",
+    );
+
+    // Exit
+    tl.to({}, { duration: 0.05 });
+    tl.to(imageWrappers, {
+      clipPath: "polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%)",
+      stagger: 0.05,
+      duration: 0.3,
+      ease: "power3.in",
+    });
+    tl.to(
+      middleChars,
+      {
+        y: "-100%",
+        opacity: 0,
+        stagger: { each: 0.03, from: "random", ease: "hop" },
+        duration: 0.3,
+        ease: "power2.in",
+      },
+      "<",
+    );
+
+    tl.add(() => {
+      const firstRect = firstChar.getBoundingClientRect();
+      const lastRect = lastChar.getBoundingClientRect();
+      const center = window.innerWidth / 2;
+      const firstDist = center - firstRect.left - firstRect.width / 2;
+      const lastDist = center - lastRect.left - lastRect.width / 2;
+      const isMobile = window.innerWidth < 768;
+      const gap = isMobile ? 8 : 20;
+
+      gsap.to(firstChar, {
+        x: firstDist - gap,
+        duration: 0.5,
+        ease: "hop",
+        color: "#00a8ff",
+      });
+      gsap.to(lastChar, {
+        x: lastDist + gap,
+        duration: 0.5,
+        ease: "hop",
+        color: "#00a8ff",
+      });
+    });
+
+    tl.to(".preloader-header", {
+      top: "2rem",
+      scale: 0.5,
+      duration: 1,
+      ease: "power3.inOut",
+    });
+
+    tl.to(
+      ".preloader",
+      {
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
+        duration: 0.7,
+        ease: "power3.inOut",
+        onComplete: () => {
+          onCompleteCallback(); // Cleanup
+          runPageAnimations(); // Start page logic
+        },
+      },
+      "-=0.8",
+    );
+  }
+
+  function initCardAnimation() {
+    // ... existing logic ...
     let mm = gsap.matchMedia();
-
     const createPinnedCardsAnimation = ({
       startWidth,
       endWidth,
@@ -221,9 +232,11 @@ document.addEventListener("DOMContentLoaded", () => {
       scrollDistance,
       scrub,
     }) => {
-      // Reset state when switching breakpoints
-      isGapAnimDone = false;
-      isFlipAnimDone = false;
+      let isGapAnimDone = false;
+      let isFlipAnimDone = false;
+
+      // Safety check if element exists
+      if (!document.querySelector(".three-paths .sticky-section")) return;
 
       ScrollTrigger.create({
         trigger: ".three-paths .sticky-section",
@@ -236,23 +249,18 @@ document.addEventListener("DOMContentLoaded", () => {
         onUpdate: (self) => {
           const progress = self.progress;
 
-          // --------------------------
-          // PHASE 1: Expand container
-          // --------------------------
           if (progress <= 0.25) {
             const t = progress / 0.25;
             const newWidth = gsap.utils.interpolate(startWidth, endWidth, t);
             gsap.set(".three-paths .card-container", { width: `${newWidth}%` });
           } else {
-            gsap.set(".three-paths .card-container", { width: `${settledWidth}%` });
+            gsap.set(".three-paths .card-container", {
+              width: `${settledWidth}%`,
+            });
           }
 
-          // --------------------------
-          // PHASE 2: Add gaps + rounding
-          // --------------------------
           if (progress > 0.35 && !isGapAnimDone) {
             isGapAnimDone = true;
-
             gsap.to(".three-paths .card-container", {
               gap: "2rem",
               duration: 0.5,
@@ -265,7 +273,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
           } else if (progress < 0.35 && isGapAnimDone) {
             isGapAnimDone = false;
-
             gsap.to(".three-paths .card-container", {
               gap: "0rem",
               duration: 0.5,
@@ -276,24 +283,24 @@ document.addEventListener("DOMContentLoaded", () => {
               duration: 0.5,
               ease: "power2.out",
               onComplete: () => {
-                gsap.set("#card-1", {
-                  borderTopLeftRadius: "12px",
-                  borderBottomLeftRadius: "12px",
-                });
-                gsap.set("#card-3", {
-                  borderTopRightRadius: "12px",
-                  borderBottomRightRadius: "12px",
-                });
+                const c1 = document.querySelector("#card-1");
+                const c3 = document.querySelector("#card-3");
+                if (c1)
+                  gsap.set(c1, {
+                    borderTopLeftRadius: "12px",
+                    borderBottomLeftRadius: "12px",
+                  });
+                if (c3)
+                  gsap.set(c3, {
+                    borderTopRightRadius: "12px",
+                    borderBottomRightRadius: "12px",
+                  });
               },
             });
           }
 
-          // --------------------------
-          // PHASE 3: Flip + tilt
-          // --------------------------
           if (progress > 0.7 && !isFlipAnimDone) {
             isFlipAnimDone = true;
-
             gsap.to(".three-paths .card", {
               rotateY: 180,
               stagger: 0.1,
@@ -316,7 +323,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
           } else if (progress < 0.7 && isFlipAnimDone) {
             isFlipAnimDone = false;
-
             gsap.to(".three-paths .card", {
               rotateY: 0,
               stagger: { each: 0.1, from: "end" },
@@ -347,12 +353,7 @@ document.addEventListener("DOMContentLoaded", () => {
         settledWidth: 80,
         scrollDistance: "+=400%",
         scrub: 2,
-      })
+      }),
     );
   }
-
-  initAnimation();
-  window.addEventListener("resize", () => ScrollTrigger.refresh());
 });
-
-

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Frame Studio</title>
+  <title>Frame Studio | Creative Web Design & Development Agency</title>
   <meta
     name="description"
     content="Frame Studio is a modern web agency specializing in creative design, custom websites, and digital experiences. We help brands stand out with clean UI, smooth interactions, and next-gen development." />
@@ -183,4 +183,3 @@
       </div>
     </div>
   </div>
-
