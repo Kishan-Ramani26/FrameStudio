@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Our Projects & Portfolio | Frame Studio Web Design Work";
+$page_description = "Explore Frame Studio's portfolio of stunning web design projects. See our work in branding, UI/UX design, and custom website development for clients worldwide.";
+$page_keywords = "web design portfolio, UI UX projects, branding work, website design examples, Frame Studio projects, creative portfolio";
+$canonical_url = "https://framestudio.in/project.php";
+include 'header.php';
+?>
 
 <div class="page-wrapper">
   <section class="project">

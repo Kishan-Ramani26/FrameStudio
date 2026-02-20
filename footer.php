@@ -96,40 +96,35 @@
       </div>
     </section>
     </div>
+    <!-- GSAP loaded first for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <!-- jQuery and Webflow runtime -->
     <script defer src="js/jquery.js?site=6845c0d2aeb4f8e6515d4444" type="text/javascript"></script>
     <script defer src="js/webflow.schunk.40f517e78f82ea08.js" type="text/javascript"></script>
     <script defer src="js/webflow.schunk.c2536ef350445201.js" type="text/javascript"></script>
     <script defer src="js/webflow-script.js" type="text/javascript"></script>
+    <!-- Custom animations -->
+    <script src="js/scripte.js" type="text/javascript"></script>
     <script>
-      // Post-load cleanup to remove Webflow-identifying markers for analytics detectors
-      // Runs after window.load with a short delay so Webflow can finish initializing.
+      // Cleanup Webflow fingerprinting (reduced delay for faster perceived load)
       window.addEventListener('load', function () {
-        setTimeout(function () {
+        requestIdleCallback ? requestIdleCallback(cleanup) : setTimeout(cleanup, 500);
+        function cleanup() {
           try {
-            // remove HTML attributes used by Webflow detection
             document.documentElement.removeAttribute('data-wf-site');
             document.documentElement.removeAttribute('data-wf-page');
-
-            // remove generator meta tag if it points to Webflow
             var meta = document.querySelector('meta[name="generator"][content*="Webflow"]');
-            if (meta && meta.parentNode) meta.parentNode.removeChild(meta);
-
-            // backup and remove global Webflow object to reduce fingerprinting
+            if (meta) meta.remove();
             if (window.Webflow) {
-              try { window.__WebflowBackup = window.Webflow; } catch (e) {}
-              try { delete window.Webflow; } catch (e) { window.Webflow = undefined; }
+              window.__WebflowBackup = window.Webflow;
+              delete window.Webflow;
             }
-          } catch (e) {
-            // non-fatal
-            console.warn('Webflow cleanup error', e);
-          }
-        }, 1200);
+          } catch (e) {}
+        }
       });
     </script>
-    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
-    <script defer src="js/scripte.js" type="text/javascript"></script>
     </body>
 
     </html>

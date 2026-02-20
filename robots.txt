@@ -1,0 +1,28 @@
+# Robots.txt for Frame Studio
+# https://framestudio.in/
+
+User-agent: *
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow admin/system directories
+Disallow: /snippets/
+Disallow: /*.json$
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://framestudio.in/sitemap.xml

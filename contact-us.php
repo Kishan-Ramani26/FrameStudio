@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Contact Frame Studio | Get a Free Quote";
+$page_description = "Ready to transform your brand? Contact Frame Studio for a free consultation. Let's discuss your web design, UI/UX, or branding project today.";
+$page_keywords = "contact Frame Studio, web design quote, hire web designer, UI UX consultation, website development inquiry";
+$canonical_url = "https://framestudio.in/contact-us.php";
+include 'header.php';
+?>
   <div class="page-wrapper">
     <section class="contact-us">
       <div class="container">

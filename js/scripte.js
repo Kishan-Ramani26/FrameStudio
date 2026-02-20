@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     requestAnimationFrame(raf);
 
     // Ensure we start at top without weird offsets
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
 
   // --- 2. GSAP & SCROLLTRIGGER ---
@@ -40,13 +40,26 @@ document.addEventListener("DOMContentLoaded", () => {
   const preloaderEnabled =
     preloader && preloader.dataset && preloader.dataset.enabled === "true";
 
+  // Lazy load hero video after preloader
+  const loadHeroVideo = () => {
+    const video = document.querySelector('.hero-background-video video');
+    if (video && video.preload === 'none') {
+      video.preload = 'auto';
+      video.load();
+      video.play().catch(() => {}); // Autoplay may be blocked
+    }
+  };
+
   // Cleanup helper
   const removePreloader = () => {
     if (preloader) {
       gsap.to(preloader, {
         autoAlpha: 0,
         duration: 0.5,
-        onComplete: () => preloader.remove(),
+        onComplete: () => {
+          preloader.remove();
+          loadHeroVideo(); // Start video after preloader is gone
+        },
       });
     }
     document.body.style.overflow = ""; // Ensure scrolling is re-enabled
@@ -71,6 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Ensure overflow is reset just in case
     document.body.style.overflow = "";
     document.documentElement.style.overflow = "";
+    loadHeroVideo(); // Load video immediately
     // Proceed to page animations
     runPageAnimations();
   } else {
@@ -85,6 +99,53 @@ document.addEventListener("DOMContentLoaded", () => {
     pageAnimationsRun = true;
     initCardAnimation();
     window.addEventListener("resize", () => ScrollTrigger.refresh());
+
+    // FORCE HERO SECTION TO REVEAL
+    // Webflow sets these to opacity:0 initially for scroll-into-view animations
+    // Since we're already at top, manually reveal them
+    const heroElements = document.querySelectorAll('.hero-01 [data-w-id], .hero-01-text-wrap, .hero-01-bottom-wrap');
+    heroElements.forEach(el => {
+      gsap.to(el, {
+        opacity: 1,
+        y: 0,
+        filter: 'blur(0px)',
+        duration: 0.6,
+        ease: 'power2.out',
+        clearProps: 'filter'
+      });
+    });
+
+    // Also reveal h1 and paragraph specifically
+    gsap.to('.hero-01 .h1, .hero-01 .paragraph-03', {
+      opacity: 1,
+      y: 0,
+      filter: 'blur(0px)',
+      duration: 0.8,
+      stagger: 0.15,
+      ease: 'power2.out',
+      clearProps: 'filter'
+    });
+
+    // FORCE WEBFLOW INTERACTIONS TO WAKE UP
+    // Dispatch a scroll event to trigger 'Scroll into view' interactions
+    window.dispatchEvent(new Event('scroll'));
+    window.dispatchEvent(new Event('resize')); 
+    
+    // Force a re-layout trigger for Webflow
+    if (window.Webflow && window.Webflow.require && window.Webflow.require('ix2')) {
+        console.log("Reinitting Webflow IX2");
+        window.Webflow.require('ix2').init();
+        window.dispatchEvent(new Event('scroll'));
+    }
+    
+    // Fallback: Manually trigger a tiny scroll to wake up any observers
+    requestAnimationFrame(() => {
+        window.scrollBy(0, 1);
+        requestAnimationFrame(() => {
+            window.scrollTo(0, 0);
+            ScrollTrigger.refresh();
+        });
+    });
   }
 
   function runPreloaderAnimation(logoElement, onCompleteCallback) {

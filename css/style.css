@@ -39,6 +39,22 @@ body {
   contain-intrinsic-size: auto 800px;
 }
 
+/* GPU acceleration for animated elements */
+.preloader,
+.hero-01,
+.card-container,
+.navbar-container,
+.liquidGlass-wrapper {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Reduce paint on scroll */
+.hero-background-video video {
+  transform: translate3d(0,0,0);
+}
+
 /* --- PRELOADER (The Overlay) --- */
 .preloader {
   position: fixed;

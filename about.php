@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "About Frame Studio | Our Story & Creative Vision";
+$page_description = "Learn about Frame Studio - a passionate team of designers and developers creating stunning digital experiences. Discover our story, values, and commitment to exceptional web design.";
+$page_keywords = "about Frame Studio, web design team, creative agency story, design philosophy, UI UX designers India, web development company";
+$canonical_url = "https://framestudio.in/about.php";
+include 'header.php';
+?>
 
   <div class="page-wrapper">
     

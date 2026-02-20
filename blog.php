@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Design Blog & Insights | Frame Studio";
+$page_description = "Stay updated with the latest web design trends, UI/UX tips, and digital marketing insights from Frame Studio. Expert articles on creating stunning websites.";
+$page_keywords = "web design blog, UI UX trends, design tips, digital marketing insights, Frame Studio blog, web development articles";
+$canonical_url = "https://framestudio.in/blog.php";
+include 'header.php';
+?>
 
 <div class="page-wrapper">
   <section class="blog">

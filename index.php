@@ -1,4 +1,10 @@
-<?php include 'header.php'; ?>
+<?php
+$page_title = "Frame Studio | Creative Web Design & Development Agency in India";
+$page_description = "Frame Studio is a premium web design agency creating stunning websites that convert. Expert UI/UX design, custom development, and branding services. Transform your digital presence today.";
+$page_keywords = "web design agency India, custom website development, UI UX design, creative agency, branding, digital experiences, Frame Studio, responsive web design, modern websites";
+$canonical_url = "https://framestudio.in/";
+include 'header.php';
+?>
 
 <div class="page-wrapper">
 
@@ -8,10 +14,10 @@
       data-video-urls="images/hero-2001-20bg-transcode.mp4,images/hero-2001-20bg-transcode.webm" data-autoplay="true"
       data-loop="true" data-wf-ignore="true" class="hero-background-video w-background-video w-background-video-atom">
       <video id="f89c24d8-c072-8dee-0da0-c448eab88633-video" autoplay="" loop="" muted="" playsinline=""
-        poster="images/hero-2001-20bg-poster-00001.jpg" preload="metadata"
+        poster="images/hero-2001-20bg-poster-00001.jpg" preload="none"
         style="background-image:url(&quot;images/hero-2001-20bg-poster-00001.jpg&quot;)" data-wf-ignore="true" data-object-fit="cover">
-        <source src="images/hero-2001-20bg-transcode.mp4" autoplay="true" data-loop="true" data-wf-ignore="true" />
-        <source src="images/hero-2001-20bg-transcode.webm" data-wf-ignore="true" />
+        <source src="images/hero-2001-20bg-transcode.webm" type="video/webm" />
+        <source src="images/hero-2001-20bg-transcode.mp4" type="video/mp4" />
       </video>
     </div>
 
@@ -22,7 +28,7 @@
             <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
             <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
-          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php"php"
+          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php" php"
               class="button-02 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -307,7 +313,8 @@
                         </div>
                       </div>
                     </div>
-                  </a></div>
+                  </a>
+                </div>
                 <div role="listitem" class="w-dyn-item">
                   <a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
                     style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
@@ -339,7 +346,8 @@
                         </div>
                       </div>
                     </div>
-                  </a></div>
+                  </a>
+                </div>
                 <div role="listitem" class="w-dyn-item">
                   <a data-w-id="0d5d5672-4ce3-73e9-cfc7-a99aa055a431"
                     style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
@@ -371,7 +379,8 @@
                         </div>
                       </div>
                     </div>
-                  </a></div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
