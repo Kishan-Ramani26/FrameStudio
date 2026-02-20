@@ -22,7 +22,7 @@
               <div class="contact-icon-wrap"><img src="images/marker-pin-01.svg" loading="lazy" alt=""
                   class="fit-cover" /></div>
               <div class="contact-address">
-                <h4 class="h4">Based in Italy, working worldwide.</h4>
+                <h4 class="h4">Based in India, working worldwide.</h4>
                 <p class="paragraph-03 text-gray-color">Got a project in mind? Let’s talk.</p>
               </div>
             </div>
