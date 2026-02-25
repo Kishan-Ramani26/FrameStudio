@@ -73,10 +73,9 @@
                 aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img
                   src="images/Frame Studio.svg" loading="lazy" alt="Frame Studio Logo" width="50px" height="auto" class="footer-logo" /></a>
               <div class="footer-text-wrap">
-                <p class="paragraph-03">Jaurisova 515/4, Prague 4, Czechia.</p>
-                <p class="paragraph-03 text-gray-color">Frame Studio is a bold and professional template crafted for
-                  modern marketing agencies, creative studios, and digital firms looking to establish a standout online
-                  presence.</p>
+                <p class="paragraph-03">Gujrat, India</p>
+                <p class="paragraph-03 text-gray-color">Frame Studio is a creative web agency based in India, specializing in designing and developing modern, high-performing websites for growing brands.
+We turn ideas into impactful digital experiences that help businesses stand out and scale online.</p>
               </div>
             </div>
           </div>
