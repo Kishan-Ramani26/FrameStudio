@@ -465,14 +465,14 @@ include 'header.php';
           <div class="team-v1-grid">
             <div class="team-v1-wrap">
               <div class="team-v1-img-wrap"><img sizes="(max-width: 630px) 100vw, 630px"
-                  srcset="images/team-20v1-20img-2001.webp 500w, images/team-20v1-20img-2001.webp 630w"
-                  alt="Team V1 Img" src="images/team-20v1-20img-2001.webp" loading="lazy" class="team-v1-img" /></div>
+                  srcset="images/ravi_sardhara.png 500w, images/ravi_sardhara.png 630w"
+                  alt="Team V1 Img" src="images/ravi_sardhara.png" loading="lazy" class="team-v1-img" /></div>
               <div class="team-v1-author-wrap">
                 <div class="team-v1-author-inner-wrap">
-                  <div class="team-v1-author-name">Wade Warren</div>
-                  <div class="team-v1-author-bio">President of Sales</div>
+                  <div class="team-v1-author-name">Ravi Sardhara</div>
+                  <div class="team-v1-author-bio">Founder of Frame Studio</div>
                 </div>
-                <div class="team-v1-social-wrap"><a href="https://www.linkedin.com/" target="_blank"
+                <div class="team-v1-social-wrap"><a href="https://www.linkedin.com/in/ravi-sardhara-461846312/" target="_blank"
                     class="team-v1-social-link w-inline-block"><img loading="lazy" src="images/linkdin-20image.svg"
                       alt="Team V1 Social Img" class="team-v1-social-img" /></a><a href="https://www.facebook.com/"
                     target="_blank" class="team-v1-social-link w-inline-block"><img loading="lazy"
