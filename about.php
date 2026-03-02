@@ -3,6 +3,7 @@ $page_title = "About Frame Studio | Our Story & Creative Vision";
 $page_description = "Learn about Frame Studio - a passionate team of designers and developers creating stunning digital experiences. Discover our story, values, and commitment to exceptional web design.";
 $page_keywords = "about Frame Studio, web design team, creative agency story, design philosophy, UI UX designers India, web development company";
 $canonical_url = "https://framestudio.in/about.php";
+$wf_page_id = "6845c0d2aeb4f8e6515d4495";
 include 'header.php';
 ?>
 
@@ -440,6 +441,9 @@ include 'header.php';
         </div>
       </div>
     </section>
+
+    <!-- Our team section  -->
+<!-- 
     <section class="section team-one">
       <div class="w-layout-blockcontainer container w-container">
         <div class="team-wrapper">
@@ -532,6 +536,9 @@ include 'header.php';
         </div>
       </div>
     </section>
+     -->
+
+     
     <section class="cta-v2">
       <div class="container">
         <div class="cta-v2-wrap">
@@ -582,23 +589,5 @@ include 'header.php';
         </div>
       </div>
     </section>
-
-<script>
-  (function(){
-    function reveal(){
-      // Replace opacity:0 -> opacity:1 and filter:blur(...) -> filter:none
-      document.querySelectorAll('[style]').forEach(function(el){
-        var s = el.getAttribute('style');
-        if(!s) return;
-        var newS = s.replace(/opacity:\s*0/g,'opacity:1').replace(/filter:\s*blur\(\s*\d+px\s*\)/g,'filter:none');
-        if(newS !== s) el.setAttribute('style', newS);
-      });
-      // Ensure common hidden blocks are revealed
-      document.querySelectorAll('.glow-block').forEach(function(el){ el.style.opacity = '1'; el.style.filter = 'none'; });
-    }
-    if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', reveal);
-    else reveal();
-  })();
-</script>
 
 <?php include 'footer.php'; ?>

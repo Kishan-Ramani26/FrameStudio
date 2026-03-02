@@ -6,9 +6,11 @@ $page_description = isset($page_description) ? $page_description : "Frame Studio
 $page_keywords = isset($page_keywords) ? $page_keywords : "web design agency, web development, UI UX design, creative agency, website design India, custom website development, branding agency, digital agency, Frame Studio";
 $canonical_url = isset($canonical_url) ? $canonical_url : $site_url . "/";
 $og_image = isset($og_image) ? $og_image : $site_url . "/images/og-image.jpg";
+$wf_site_id = isset($wf_site_id) ? $wf_site_id : "6845c0d2aeb4f8e6515d4444";
+$wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
 ?>
 <!DOCTYPE html>
-<html data-wf-page="6845c0d2aeb4f8e6515d4443" data-wf-site="6845c0d2aeb4f8e6515d4444" lang="en">
+<html data-wf-page="<?php echo htmlspecialchars($wf_page_id); ?>" data-wf-site="<?php echo htmlspecialchars($wf_site_id); ?>" lang="en">
 
 <head>
   <meta charset="utf-8" />

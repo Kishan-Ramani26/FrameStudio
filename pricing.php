@@ -3,6 +3,7 @@ $page_title = "Web Design Pricing & Packages | Frame Studio";
 $page_description = "Affordable web design packages for startups, businesses, and enterprises. Get transparent pricing for custom website development, UI/UX design, and branding services.";
 $page_keywords = "web design pricing, website development cost, UI UX design packages, affordable web design India, Frame Studio pricing, design packages";
 $canonical_url = "https://framestudio.in/pricing.php";
+$wf_page_id = "6845c0d2aeb4f8e6515d44bc";
 include 'header.php';
 ?>
 
@@ -273,22 +274,5 @@ include 'header.php';
         </div>
       </div>
     </section>
-
-<!-- Reveal fallback: convert inline opacity:0 / filter:blur(...) to visible, in case Webflow runtime doesn't run -->
-<script>
-  (function(){
-    function reveal(){
-      document.querySelectorAll('[style]').forEach(function(el){
-        var s = el.getAttribute('style');
-        if(!s) return;
-        var newS = s.replace(/opacity:\s*0/g,'opacity:1').replace(/filter:\s*blur\(\s*\d+px\s*\)/g,'filter:none');
-        if(newS !== s) el.setAttribute('style', newS);
-      });
-      document.querySelectorAll('.glow-block').forEach(function(el){ el.style.opacity = '1'; el.style.filter = 'none'; });
-    }
-    if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', reveal);
-    else reveal();
-  })();
-</script>
 
 <?php include 'footer.php'; ?>

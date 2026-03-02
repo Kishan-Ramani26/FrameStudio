@@ -107,7 +107,7 @@
     <script defer src="js/webflow-script.js" type="text/javascript"></script>
     <!-- Custom animations -->
     <script src="js/scripte.js" type="text/javascript"></script>
-    <script>
+    <!-- <script>
       // Cleanup Webflow fingerprinting (reduced delay for faster perceived load)
       window.addEventListener('load', function () {
         requestIdleCallback ? requestIdleCallback(cleanup) : setTimeout(cleanup, 500);
@@ -117,14 +117,11 @@
             document.documentElement.removeAttribute('data-wf-page');
             var meta = document.querySelector('meta[name="generator"][content*="Webflow"]');
             if (meta) meta.remove();
-            if (window.Webflow) {
-              window.__WebflowBackup = window.Webflow;
-              delete window.Webflow;
-            }
+            // Keep Webflow runtime intact for page interactions and animations.
           } catch (e) {}
         }
       });
-    </script>
+    </script> -->
     </body>
 
     </html>

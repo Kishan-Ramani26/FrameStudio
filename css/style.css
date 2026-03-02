@@ -7356,10 +7356,15 @@ li {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   flex: 1;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
   max-width: 455px;
   display: flex;
+}
+
+.custom-priceing-button {
+  margin-left: auto;
 }
 
 .priceing-title {
