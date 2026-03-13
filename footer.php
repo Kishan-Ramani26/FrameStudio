@@ -5,32 +5,32 @@
             <div class="footer-left-wrap">
 
               <div class="footer-link-list">
-                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="/"
+                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="index.php"
                   aria-current="page" class="footer-link w-inline-block w--current">
                   <div class="footer-link-text">Home</div>
                   <div class="footer-link-text absolute-link">Home</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e0" href="/project"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e0" href="project.php"
                   class="footer-link w-inline-block">
                   <div class="footer-link-text">Projects</div>
                   <div class="footer-link-text absolute-link">Projects</div>
                   <div class="link-under-line"></div>
                 </a>
-                <a data-w-id="7aecb32a-d7d8-e38e-d31c-39a79b593e94" href="/about" class="footer-link w-inline-block">
+                <a data-w-id="7aecb32a-d7d8-e38e-d31c-39a79b593e94" href="about.php" class="footer-link w-inline-block">
                   <div class="footer-link-text">About</div>
                   <div class="footer-link-text absolute-link">About</div>
                   <div class="link-under-line"></div>
                 </a>
-                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e6" href="/services" class="footer-link w-inline-block">
+                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e6" href="services.html" class="footer-link w-inline-block">
                   <div class="footer-link-text">Service</div>
                   <div class="footer-link-text absolute-link">Service</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ec" href="/pricing.html"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ec" href="pricing.php"
                   class="footer-link w-inline-block">
                   <div class="footer-link-text">Pricing</div>
                   <div class="footer-link-text absolute-link">Pricing</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36f2" href="/blog" class="footer-link w-inline-block">
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36f2" href="blog.php" class="footer-link w-inline-block">
                   <div class="footer-link-text">Blog</div>
                   <div class="footer-link-text absolute-link">Blog</div>
                   <div class="link-under-line"></div>
@@ -69,7 +69,7 @@
                       alt="Right Down" class="footer-link-icon _01" /></div>
                 </a></div>
             </div>
-            <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="/"
+            <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="index.php"
                 aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img
                   src="images/Frame Studio.svg" loading="lazy" alt="Frame Studio Logo" width="50px" height="auto" class="footer-logo" /></a>
               <div class="footer-text-wrap">
@@ -95,6 +95,7 @@ We turn ideas into impactful digital experiences that help businesses stand out 
       </div>
     </section>
     </div>
+    </div><!-- /data-barba="wrapper" -->
     <!-- GSAP loaded first for animations -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
@@ -106,6 +107,10 @@ We turn ideas into impactful digital experiences that help businesses stand out 
     <script defer src="js/webflow-script.js" type="text/javascript"></script>
     <!-- Custom animations -->
     <script src="js/scripte.js" type="text/javascript"></script>
+    <!-- Barba.js for page transitions -->
+    <script src="https://unpkg.com/@barba/core@2.9.7/dist/barba.umd.js"></script>
+    <!-- Page transition animation -->
+    <script src="js/page-transition.js" type="text/javascript"></script>
     <!-- <script>
       // Cleanup Webflow fingerprinting (reduced delay for faster perceived load)
       window.addEventListener('load', function () {

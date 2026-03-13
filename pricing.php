@@ -7,7 +7,7 @@ $wf_page_id = "6845c0d2aeb4f8e6515d44bc";
 include 'header.php';
 ?>
 
-  <div class="page-wrapper">
+  <div class="page-wrapper" data-barba="container" data-barba-namespace="pricing">
     
     <section class="priceing">
       <div class="container">

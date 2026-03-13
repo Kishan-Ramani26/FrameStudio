@@ -3,9 +3,10 @@ $page_title = "Contact Frame Studio | Get a Free Quote";
 $page_description = "Ready to transform your brand? Contact Frame Studio for a free consultation. Let's discuss your web design, UI/UX, or branding project today.";
 $page_keywords = "contact Frame Studio, web design quote, hire web designer, UI UX consultation, website development inquiry";
 $canonical_url = "https://framestudio.in/contact-us.php";
+$wf_page_id = "6845c0d2aeb4f8e6515d44bd";
 include 'header.php';
 ?>
-  <div class="page-wrapper">
+  <div class="page-wrapper" data-barba="container" data-barba-namespace="contact">
     <section class="contact-us">
       <div class="container">
         <div class="contact-us-wrap">

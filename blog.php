@@ -3,10 +3,11 @@ $page_title = "Design Blog & Insights | Frame Studio";
 $page_description = "Stay updated with the latest web design trends, UI/UX tips, and digital marketing insights from Frame Studio. Expert articles on creating stunning websites.";
 $page_keywords = "web design blog, UI UX trends, design tips, digital marketing insights, Frame Studio blog, web development articles";
 $canonical_url = "https://framestudio.in/blog.php";
+$wf_page_id = "6845c0d2aeb4f8e6515d44bb";
 include 'header.php';
 ?>
 
-<div class="page-wrapper">
+<div class="page-wrapper" data-barba="container" data-barba-namespace="blog">
   <section class="blog">
     <div class="container">
       <div class="blog-wrap">

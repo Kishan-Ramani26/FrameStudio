@@ -6,7 +6,7 @@ $canonical_url = "https://framestudio.in/";
 include 'header.php';
 ?>
 
-<div class="page-wrapper">
+<div class="page-wrapper" data-barba="container" data-barba-namespace="home">
 
   <div class="home-hero">
 
@@ -28,7 +28,7 @@ include 'header.php';
             <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
             <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
-          <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php" php"
+            <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php"
               class="button-02 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -550,9 +550,6 @@ include 'header.php';
   </section>
 
 
-
-
-
   <section class="three-paths">
     <div class="container">
       <div class="three-paths-wrap">
@@ -568,12 +565,11 @@ include 'header.php';
         </div>
 
         <div class="three-paths-bottom-wrap">
-
           <section class="sticky-section">
             <div class="card-container">
               <div class="card" id="card-1">
                 <div class="card-front">
-                  <img src="images/row-1-column-1.png" style="object-position: 0% 50%;" alt="Left Slice">
+                  <img src="images/row-1-column-1.png" style="object-position: 0% 50%;" alt="Strategy & Discovery">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(01)</span>
@@ -584,7 +580,7 @@ include 'header.php';
 
               <div class="card" id="card-2">
                 <div class="card-front">
-                  <img src="images/row-1-column-2.png" style="object-position: 50% 50%;" alt="Center Slice">
+                  <img src="images/row-1-column-2.png" style="object-position: 50% 50%;" alt="Design & Experience">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(02)</span>
@@ -595,7 +591,7 @@ include 'header.php';
 
               <div class="card" id="card-3">
                 <div class="card-front">
-                  <img src="images/row-1-column-3.png" fetchpriority="high" style="object-position: 100% 50%;" alt="Right Slice">
+                  <img src="images/row-1-column-3.png" fetchpriority="high" style="object-position: 100% 50%;" alt="Development & Growth">
                 </div>
                 <div class="card-back">
                   <span class="card-index">(03)</span>
@@ -610,6 +606,7 @@ include 'header.php';
       </div>
     </div>
   </section>
+
 
   <!-- 
 BLOGS

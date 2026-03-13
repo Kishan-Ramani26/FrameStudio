@@ -5,7 +5,7 @@ $canonical_url = "https://framestudio.in/404";
 include 'header.php';
 ?>
 
-<div class="page-wrapper">
+<div class="page-wrapper" data-barba="container" data-barba-namespace="error">
   <section class="hero-01" style="background: #0d0d0d;">
     <div class="container">
       <div class="hero-01-wrap" style="text-align: center;">

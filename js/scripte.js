@@ -1,10 +1,13 @@
 // --- FIXED JS: Consolidated Listeners & Safe Initialization ---
 document.addEventListener("DOMContentLoaded", () => {
-  // --- 1. LENIS SMOOTH SCROLL ---
+  // --- 1. GSAP & SCROLLTRIGGER (register first so plugins are available) ---
+  gsap.registerPlugin(ScrollTrigger, CustomEase);
+
+  // --- 2. LENIS SMOOTH SCROLL ---
   if (typeof Lenis !== "undefined") {
     const lenis = new Lenis({
       smooth: true,
-      smoothTouch: false, // Let native touch handle mobile scrolling
+      smoothTouch: false, 
       syncTouch: true,
       duration: 1.1,
       lerp: 0.15,
@@ -14,19 +17,19 @@ document.addEventListener("DOMContentLoaded", () => {
       normalizeWheel: true,
       autoResize: true,
     });
+    window._lenisInstance = lenis;
 
-    function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
-    requestAnimationFrame(raf);
+    // Sync Lenis scroll with GSAP ScrollTrigger
+    lenis.on('scroll', ScrollTrigger.update);
+    window._lenisTickerFn = (time) => {
+      lenis.raf(time * 1000);
+    };
+    gsap.ticker.add(window._lenisTickerFn);
+    gsap.ticker.lagSmoothing(0);
 
     // Ensure we start at top without weird offsets
     window.scrollTo(0, 0);
   }
-
-  // --- 2. GSAP & SCROLLTRIGGER ---
-  gsap.registerPlugin(ScrollTrigger, CustomEase);
 
   // Custom Ease "Hop"
   CustomEase.create(
@@ -88,6 +91,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Proceed to page animations
     runPageAnimations();
   } else {
+    // Mark that preloader has been shown this session
+    try { sessionStorage.setItem('preloaderShown', '1'); } catch (e) {}
     // Run Preloader Animation
     runPreloaderAnimation(logo, removePreloader);
   }
@@ -98,7 +103,16 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pageAnimationsRun) return;
     pageAnimationsRun = true;
     initCardAnimation();
+    // Re-run after all assets are loaded for stable ScrollTrigger pin metrics.
+    window.addEventListener("load", () => {
+      initCardAnimation();
+      ScrollTrigger.refresh();
+    }, { once: true });
     window.addEventListener("resize", () => ScrollTrigger.refresh());
+
+    // Expose for Barba page transitions
+    window._runPageAnimations = runPageAnimations;
+    window._initCardAnimation = initCardAnimation;
 
     // FORCE HERO SECTION TO REVEAL
     // Webflow sets these to opacity:0 initially for scroll-into-view animations
@@ -284,137 +298,79 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function initCardAnimation() {
-    // ... existing logic ...
-    let mm = gsap.matchMedia();
-    const createPinnedCardsAnimation = ({
-      startWidth,
-      endWidth,
-      settledWidth,
-      scrollDistance,
-      scrub,
-    }) => {
-      let isGapAnimDone = false;
-      let isFlipAnimDone = false;
+    const stickySection = document.querySelector(".three-paths .sticky-section");
+    const cardContainer = document.querySelector(".three-paths .card-container");
+    const cards = document.querySelectorAll(".three-paths .card");
+    const card1 = document.querySelector("#card-1");
+    const card3 = document.querySelector("#card-3");
 
-      // Safety check if element exists
-      if (!document.querySelector(".three-paths .sticky-section")) return;
+    if (!stickySection || !cardContainer || !cards.length) return;
 
-      ScrollTrigger.create({
-        trigger: ".three-paths .sticky-section",
-        start: "top top",
-        end: scrollDistance,
-        pin: true,
-        anticipatePin: 1,
-        invalidateOnRefresh: true,
-        scrub,
-        onUpdate: (self) => {
-          const progress = self.progress;
+    // Always recreate to avoid stale triggers after hard refresh edge-cases.
+    if (window._threePathsST) {
+      window._threePathsST.kill();
+      window._threePathsST = null;
+    }
 
-          if (progress <= 0.25) {
-            const t = progress / 0.25;
-            const newWidth = gsap.utils.interpolate(startWidth, endWidth, t);
-            gsap.set(".three-paths .card-container", { width: `${newWidth}%` });
-          } else {
-            gsap.set(".three-paths .card-container", {
-              width: `${settledWidth}%`,
-            });
-          }
+    // Keep mobile static by design.
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      gsap.set(cardContainer, { clearProps: "all" });
+      gsap.set(cards, { clearProps: "transform,borderRadius" });
+      return;
+    }
 
-          if (progress > 0.35 && !isGapAnimDone) {
-            isGapAnimDone = true;
-            gsap.to(".three-paths .card-container", {
-              gap: "2rem",
-              duration: 0.5,
-              ease: "power2.out",
-            });
-            gsap.to(".three-paths .card", {
-              borderRadius: "15px",
-              duration: 0.5,
-              ease: "power2.out",
-            });
-          } else if (progress < 0.35 && isGapAnimDone) {
-            isGapAnimDone = false;
-            gsap.to(".three-paths .card-container", {
-              gap: "0rem",
-              duration: 0.5,
-              ease: "power2.out",
-            });
-            gsap.to(".three-paths .card", {
-              borderRadius: "0px",
-              duration: 0.5,
-              ease: "power2.out",
-              onComplete: () => {
-                const c1 = document.querySelector("#card-1");
-                const c3 = document.querySelector("#card-3");
-                if (c1)
-                  gsap.set(c1, {
-                    borderTopLeftRadius: "12px",
-                    borderBottomLeftRadius: "12px",
-                  });
-                if (c3)
-                  gsap.set(c3, {
-                    borderTopRightRadius: "12px",
-                    borderBottomRightRadius: "12px",
-                  });
-              },
-            });
-          }
+    let isGapAnimDone = false;
+    let isFlipAnimDone = false;
 
-          if (progress > 0.7 && !isFlipAnimDone) {
-            isFlipAnimDone = true;
-            gsap.to(".three-paths .card", {
-              rotateY: 180,
-              stagger: 0.1,
-              duration: 1,
-              ease: "power3.out",
-            });
-            gsap.to("#card-1", {
-              y: 40,
-              rotateZ: -3,
-              duration: 1,
-              delay: 0.1,
-              ease: "power3.out",
-            });
-            gsap.to("#card-3", {
-              y: 40,
-              rotateZ: 3,
-              duration: 1,
-              delay: 0.1,
-              ease: "power3.out",
-            });
-          } else if (progress < 0.7 && isFlipAnimDone) {
-            isFlipAnimDone = false;
-            gsap.to(".three-paths .card", {
-              rotateY: 0,
-              stagger: { each: 0.1, from: "end" },
-              duration: 1.2,
-              ease: "sine.out",
-            });
-            gsap.to("#card-1", {
-              y: 0,
-              rotateZ: 0,
-              duration: 1.2,
-              ease: "sine.out",
-            });
-            gsap.to("#card-3", {
-              y: 0,
-              rotateZ: 0,
-              duration: 1.2,
-              ease: "sine.out",
-            });
-          }
-        },
-      });
-    };
+    window._threePathsST = ScrollTrigger.create({
+      trigger: stickySection,
+      start: "top top",
+      end: "+=400%",
+      pin: true,
+      anticipatePin: 1,
+      invalidateOnRefresh: true,
+      scrub: true,
+      onUpdate: (self) => {
+        const progress = self.progress;
 
-    mm.add("(min-width: 769px)", () =>
-      createPinnedCardsAnimation({
-        startWidth: 30,
-        endWidth: 80,
-        settledWidth: 80,
-        scrollDistance: "+=400%",
-        scrub: 2,
-      }),
-    );
+        if (progress <= 0.25) {
+          const t = progress / 0.25;
+          const newWidth = gsap.utils.interpolate(30, 80, t);
+          gsap.set(cardContainer, { width: `${newWidth}%` });
+        } else {
+          gsap.set(cardContainer, { width: "80%" });
+        }
+
+        if (progress > 0.35 && !isGapAnimDone) {
+          isGapAnimDone = true;
+          gsap.to(cardContainer, { gap: "2rem", duration: 0.5, ease: "power2.out" });
+          gsap.to(cards, { borderRadius: "15px", duration: 0.5, ease: "power2.out" });
+        } else if (progress < 0.35 && isGapAnimDone) {
+          isGapAnimDone = false;
+          gsap.to(cardContainer, { gap: "0rem", duration: 0.5, ease: "power2.out" });
+          gsap.to(cards, {
+            borderRadius: "0px",
+            duration: 0.5,
+            ease: "power2.out",
+            onComplete: () => {
+              if (card1) gsap.set(card1, { borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px" });
+              if (card3) gsap.set(card3, { borderTopRightRadius: "12px", borderBottomRightRadius: "12px" });
+            },
+          });
+        }
+
+        if (progress > 0.7 && !isFlipAnimDone) {
+          isFlipAnimDone = true;
+          gsap.to(cards, { rotateY: 180, stagger: 0.1, duration: 1, ease: "power3.out" });
+          if (card1) gsap.to(card1, { y: 40, rotateZ: -3, duration: 1, delay: 0.1, ease: "power3.out" });
+          if (card3) gsap.to(card3, { y: 40, rotateZ: 3, duration: 1, delay: 0.1, ease: "power3.out" });
+        } else if (progress < 0.7 && isFlipAnimDone) {
+          isFlipAnimDone = false;
+          gsap.to(cards, { rotateY: 0, stagger: { each: 0.1, from: "end" }, duration: 1.2, ease: "sine.out" });
+          if (card1) gsap.to(card1, { y: 0, rotateZ: 0, duration: 1.2, ease: "sine.out" });
+          if (card3) gsap.to(card3, { y: 0, rotateZ: 0, duration: 1.2, ease: "sine.out" });
+        }
+      },
+    });
   }
 });

@@ -219,7 +219,7 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
                 </li>
                 <li class="mobile-margin-top-12">
                   <div class="nav-button-wrapper mobile">
-                    <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5502" href="/contact-us.html"
+                    <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5502" href="contact-us.php"
                       class="button-04 nav w-inline-block">
                       <div class="button-text-wrapper">
                         <div class="paragraph-02">Let’s Contact</div>
@@ -287,6 +287,10 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
     </div>
   </div>
 
+  <?php
+  // Preloader only shows on first visit (sessionStorage check done in JS)
+  // We always render the HTML but JS will hide it if already seen
+  ?>
   <div class="preloader" data-enabled="true">
     <div class="progress-bar"></div>
 
@@ -322,3 +326,37 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
       </div>
     </div>
   </div>
+
+  <!-- Page Transition Overlay (outside barba wrapper so it persists) -->
+  <div id="transition-overlay" class="transition-overlay" aria-hidden="true">
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 1316 664"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition-svg"
+      preserveAspectRatio="xMidYMid slice"
+    >
+      <path
+        id="transition-path"
+        class="transition-path"
+        pathLength="1"
+        d="M13.4746 291.27C13.4746 291.27 100.646 -18.6724 255.617 16.8418C410.588 52.356 61.0296 431.197 233.017 546.326C431.659 679.299 444.494 21.0125 652.73 100.784C860.967 180.556 468.663 430.709 617.216 546.326C765.769 661.944 819.097 48.2722 988.501 120.156C1174.21 198.957 809.424 543.841 988.501 636.726C1189.37 740.915 1301.67 149.213 1301.67 149.213"
+        stroke="#00a8ff"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </div>
+
+  <script>
+    // Disable preloader if user has already seen it this session
+    if (sessionStorage.getItem('preloaderShown')) {
+      var pl = document.querySelector('.preloader');
+      if (pl) pl.setAttribute('data-enabled', 'false');
+    }
+  </script>
+
+  <!-- Barba.js wrapper for page transitions -->
+  <div data-barba="wrapper">

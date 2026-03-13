@@ -10,7 +10,7 @@ html {
 }
 body {
   overflow-y: visible !important;
-  overflow-x: hidden !important; 
+  overflow-x: hidden !important;
   height: auto !important;
 }
 .lenis.lenis-smooth {
@@ -50,9 +50,72 @@ body {
   backface-visibility: hidden;
 }
 
+/* --- CARD BACK COLORS --- */
+:root {
+  --card-back-1: #c2b2a3;
+  --card-back-2: #a3b2c2;
+  --card-back-3: #a3c2b2;
+}
+
+/* --- PAGE TRANSITION OVERLAY --- */
+:root {
+  --overlay-color: #00a8ff;
+}
+
+.transition-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.transition-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150vmax;
+  height: auto;
+  aspect-ratio: 1316 / 664;
+  min-width: 100%;
+  transform: translate(-50%, -50%) scale(1.08);
+  transform-origin: center center;
+  flex: none;
+}
+
+.transition-path {
+  stroke: var(--overlay-color);
+  stroke-width: 2;
+  stroke-dasharray: 0 1;
+  stroke-dashoffset: 0;
+}
+
+@media (max-width: 991px) {
+  .transition-svg {
+    width: 175vmax;
+    transform: translate(-50%, -50%) scale(1.12);
+  }
+}
+
+@media (max-width: 767px) {
+  .transition-svg {
+    width: 205vmax;
+    transform: translate(-50%, -50%) scale(1.16);
+  }
+}
+
+@media (max-width: 480px) {
+  .transition-svg {
+    width: 235vmax;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+
 /* Reduce paint on scroll */
 .hero-background-video video {
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }
 
 /* --- PRELOADER (The Overlay) --- */
@@ -161,12 +224,16 @@ body {
   overflow: hidden;
   color: black;
   cursor: pointer;
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 6px 6px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(0, 0, 0, 0.1);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
 }
 .liquidGlass-wrapper:hover {
   transform: scale(1.025);
-  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 12px 12px rgba(0, 0, 0, 0.3),
+    0 0 30px rgba(0, 0, 0, 0.2);
 }
 .liquidGlass-effect {
   position: absolute;
@@ -300,15 +367,12 @@ body {
 }
 
 #card-1 .card-back {
-  background: var(--card-back-1);
   border: 1px solid var(--color--primary-color);
 }
 #card-2 .card-back {
-  background: var(--card-back-2);
   border: 1px solid var(--color--primary-color);
 }
 #card-3 .card-back {
-  background: var(--card-back-3);
   border: 1px solid var(--color--primary-color);
 }
 
@@ -550,7 +614,6 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="search"] {
   -webkit-appearance: none;
-
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -694,7 +757,6 @@ html.w-mod-touch * {
 
 input.w-button {
   -webkit-appearance: button;
-
 }
 
 html[data-w-dynpage] [data-w-cloak] {
@@ -767,7 +829,9 @@ pre.w-code-block code {
 .w-webflow-badge {
   white-space: nowrap;
   cursor: pointer;
-  box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
+  box-shadow:
+    0 0 0 1px #0000001a,
+    0 1px 3px #0000001a;
   visibility: visible !important;
   opacity: 1 !important;
   z-index: 2147483647 !important;
@@ -1721,7 +1785,9 @@ textarea.w-select {
   width: 1em;
   height: 1em;
   margin: 0 3px 0.5em;
-  transition: background-color 0.1s, color 0.1s;
+  transition:
+    background-color 0.1s,
+    color 0.1s;
   display: inline-block;
   position: relative;
 }
@@ -1896,7 +1962,13 @@ textarea.w-select {
   -webkit-tap-highlight-color: transparent;
   background: #000000e6;
   outline: 0;
-  font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Ubuntu,
+    Segoe UI,
+    Verdana,
+    sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 300;
