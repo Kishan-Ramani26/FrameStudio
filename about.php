@@ -443,7 +443,7 @@ include 'header.php';
     </section>
 
     <!-- Our team section  -->
-<!-- 
+
     <section class="section team-one">
       <div class="w-layout-blockcontainer container w-container">
         <div class="team-wrapper">
@@ -536,7 +536,7 @@ include 'header.php';
         </div>
       </div>
     </section>
-     -->
+
 
      
     <section class="cta-v2">
