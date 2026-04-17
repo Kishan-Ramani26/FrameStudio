@@ -39,6 +39,12 @@ body {
   contain-intrinsic-size: auto 800px;
 }
 
+/* ScrollTrigger pin/measure reliability */
+.three-paths .sticky-section {
+  content-visibility: visible;
+  contain-intrinsic-size: none;
+}
+
 /* GPU acceleration for animated elements */
 .preloader,
 .hero-01,
