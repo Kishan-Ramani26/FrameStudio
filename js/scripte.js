@@ -100,24 +100,34 @@ document.addEventListener("DOMContentLoaded", () => {
   // --- 4. PAGE ANIMATIONS (ScrollTrigger) ---
   let pageAnimationsRun = false;
   function runPageAnimations() {
-    if (pageAnimationsRun) return;
-    pageAnimationsRun = true;
-    initCardAnimation();
-    // Re-run after all assets are loaded for stable ScrollTrigger pin metrics.
-    window.addEventListener("load", () => {
-      initCardAnimation();
-      ScrollTrigger.refresh();
-    }, { once: true });
-    window.addEventListener("resize", () => ScrollTrigger.refresh());
+    if (!pageAnimationsRun) {
+      pageAnimationsRun = true;
 
-    // Expose for Barba page transitions
-    window._runPageAnimations = runPageAnimations;
-    window._initCardAnimation = initCardAnimation;
+      // Re-run after all assets are loaded for stable ScrollTrigger pin metrics.
+      window.addEventListener("load", () => {
+        runPageAnimationsFor(document);
+        ScrollTrigger.refresh();
+      }, { once: true });
+      window.addEventListener("resize", () => ScrollTrigger.refresh());
+
+      // Expose for Barba page transitions
+      window._runPageAnimations = runPageAnimations;
+      window._runPageAnimationsFor = runPageAnimationsFor;
+      window._initCardAnimation = initCardAnimation;
+    }
+
+    runPageAnimationsFor(document);
+  }
+
+  function runPageAnimationsFor(root) {
+    const scope = root || document;
+
+    initCardAnimation(scope);
 
     // FORCE HERO SECTION TO REVEAL
     // Webflow sets these to opacity:0 initially for scroll-into-view animations
     // Since we're already at top, manually reveal them
-    const heroElements = document.querySelectorAll('.hero-01 [data-w-id], .hero-01-text-wrap, .hero-01-bottom-wrap');
+    const heroElements = scope.querySelectorAll('.hero-01 [data-w-id], .hero-01-text-wrap, .hero-01-bottom-wrap');
     heroElements.forEach(el => {
       gsap.to(el, {
         opacity: 1,
@@ -130,35 +140,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Also reveal h1 and paragraph specifically
-    gsap.to('.hero-01 .h1, .hero-01 .paragraph-03', {
-      opacity: 1,
-      y: 0,
-      filter: 'blur(0px)',
-      duration: 0.8,
-      stagger: 0.15,
-      ease: 'power2.out',
-      clearProps: 'filter'
-    });
-
-    // FORCE WEBFLOW INTERACTIONS TO WAKE UP
-    // Dispatch a scroll event to trigger 'Scroll into view' interactions
-    window.dispatchEvent(new Event('scroll'));
-    window.dispatchEvent(new Event('resize')); 
-    
-    // Force a re-layout trigger for Webflow
-    if (window.Webflow && window.Webflow.require && window.Webflow.require('ix2')) {
-        console.log("Reinitting Webflow IX2");
-        window.Webflow.require('ix2').init();
-        window.dispatchEvent(new Event('scroll'));
+    const heroText = scope.querySelectorAll('.hero-01 .h1, .hero-01 .paragraph-03');
+    if (heroText.length) {
+      gsap.to(heroText, {
+        opacity: 1,
+        y: 0,
+        filter: 'blur(0px)',
+        duration: 0.8,
+        stagger: 0.15,
+        ease: 'power2.out',
+        clearProps: 'filter'
+      });
     }
-    
-    // Fallback: Manually trigger a tiny scroll to wake up any observers
+
+    // Wake up scroll-based interactions after swaps
     requestAnimationFrame(() => {
-        window.scrollBy(0, 1);
-        requestAnimationFrame(() => {
-            window.scrollTo(0, 0);
-            ScrollTrigger.refresh();
-        });
+      ScrollTrigger.refresh();
+      window.dispatchEvent(new Event('scroll'));
+      window.dispatchEvent(new Event('resize'));
     });
   }
 
@@ -297,12 +296,13 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
-  function initCardAnimation() {
-    const stickySection = document.querySelector(".three-paths .sticky-section");
-    const cardContainer = document.querySelector(".three-paths .card-container");
-    const cards = document.querySelectorAll(".three-paths .card");
-    const card1 = document.querySelector("#card-1");
-    const card3 = document.querySelector("#card-3");
+  function initCardAnimation(root) {
+    const scope = root || document;
+    const stickySection = scope.querySelector(".three-paths .sticky-section");
+    const cardContainer = scope.querySelector(".three-paths .card-container");
+    const cards = scope.querySelectorAll(".three-paths .card");
+    const card1 = scope.querySelector("#card-1");
+    const card3 = scope.querySelector("#card-3");
 
     if (!stickySection || !cardContainer || !cards.length) return;
 

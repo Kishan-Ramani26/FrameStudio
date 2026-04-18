@@ -8,6 +8,9 @@
   let isTransitioning = false;
   let overlayAnim = null;
   let pathAnim = null;
+  let transitionTimeout = null;
+  let clickLock = false;
+  let clickLockTimeout = null;
 
   // Responsive animation parameters — FAST timings
   function getAnimParams() {
@@ -41,16 +44,82 @@
     if (pathAnim) { try { pathAnim.cancel(); } catch (e) {} pathAnim = null; }
   }
 
+  function clearClickLock() {
+    if (clickLockTimeout) {
+      clearTimeout(clickLockTimeout);
+      clickLockTimeout = null;
+    }
+    clickLock = false;
+  }
+
+  function setClickLock(timeoutMs) {
+    clearClickLock();
+    clickLock = true;
+    clickLockTimeout = setTimeout(function () {
+      clickLock = false;
+      clickLockTimeout = null;
+    }, Math.max(0, timeoutMs || 0));
+  }
+
+  function clearSafetyTimer() {
+    if (transitionTimeout) {
+      clearTimeout(transitionTimeout);
+      transitionTimeout = null;
+    }
+  }
+
+  function scheduleSafetyReset(timeoutMs) {
+    clearSafetyTimer();
+    transitionTimeout = setTimeout(function () {
+      if (isTransitioning) {
+        resetOverlay();
+        isTransitioning = false;
+      }
+    }, Math.max(0, timeoutMs || 0));
+  }
+
+  function finalizeTransition() {
+    clearSafetyTimer();
+    resetOverlay();
+    isTransitioning = false;
+    clearClickLock();
+  }
+
+  function safeFinished(anim, fallbackMs) {
+    var fallback = Math.max(0, fallbackMs || 0);
+    var fallbackPromise = new Promise(function (resolve) {
+      setTimeout(resolve, fallback);
+    });
+    if (!anim || !anim.finished) {
+      return fallbackPromise;
+    }
+    return Promise.race([
+      anim.finished.catch(function () {}),
+      fallbackPromise
+    ]);
+  }
+
   function animateOverlayOpacity(from, to, durationMs, delayMs) {
+    overlay.style.visibility = 'visible';
+    if (!overlay.animate) {
+      overlay.style.opacity = String(to);
+      return Promise.resolve();
+    }
     overlayAnim = overlay.animate(
       [{ opacity: from }, { opacity: to }],
       { duration: durationMs, delay: delayMs || 0, easing: 'cubic-bezier(0.4,0,0.2,1)', fill: 'forwards' }
     );
-    return overlayAnim.finished;
+    return safeFinished(overlayAnim, durationMs + (delayMs || 0));
   }
 
   function animatePathLeave() {
     var p = getAnimParams();
+    if (!path.animate) {
+      path.style.strokeDasharray = '1 0';
+      path.style.strokeDashoffset = '0';
+      path.style.strokeWidth = String(p.bigStroke);
+      return Promise.resolve();
+    }
     pathAnim = path.animate(
       [
         { strokeDasharray: '0 1', strokeDashoffset: 0, strokeWidth: 2 },
@@ -58,11 +127,17 @@
       ],
       { duration: p.pathDuration, easing: 'cubic-bezier(0.4,0,0.2,1)', fill: 'forwards' }
     );
-    return pathAnim.finished;
+    return safeFinished(pathAnim, p.pathDuration);
   }
 
   function animatePathEnter() {
     var p = getAnimParams();
+    if (!path.animate) {
+      path.style.strokeDasharray = '0 1';
+      path.style.strokeDashoffset = '-1';
+      path.style.strokeWidth = '2';
+      return Promise.resolve();
+    }
     pathAnim = path.animate(
       [
         { strokeDasharray: '1 0', strokeDashoffset: 0, strokeWidth: p.bigStroke },
@@ -70,12 +145,13 @@
       ],
       { duration: p.pathDuration, easing: 'cubic-bezier(0.4,0,0.2,1)', fill: 'forwards' }
     );
-    return pathAnim.finished;
+    return safeFinished(pathAnim, p.pathDuration);
   }
 
   function resetOverlay() {
     cancelAnimations();
     overlay.style.opacity = '0';
+    overlay.style.visibility = 'hidden';
     path.style.strokeDasharray = '0 1';
     path.style.strokeDashoffset = '0';
     path.style.strokeWidth = '2';
@@ -83,6 +159,37 @@
     overlay.getAnimations().forEach(function (a) { a.cancel(); });
     path.getAnimations().forEach(function (a) { a.cancel(); });
   }
+
+  function shouldHandleLink(el) {
+    if (!el || el.tagName !== 'A') return false;
+    if (el.hasAttribute('download')) return false;
+    var href = el.getAttribute('href') || '';
+    if (!href || href.charAt(0) === '#') return false;
+    if (href.indexOf('javascript:') === 0) return false;
+    if (el.getAttribute('target') === '_blank') return false;
+    if (el.protocol && el.protocol !== ':' && el.protocol !== 'http:' && el.protocol !== 'https:') return false;
+    if (el.href && el.href.indexOf(window.location.origin) === -1) return false;
+    if (href.indexOf('/references') !== -1 || href.indexOf('/401') !== -1) return false;
+    if (el.hash && el.pathname === window.location.pathname && el.search === window.location.search) return false;
+    return true;
+  }
+
+  document.addEventListener('click', function (event) {
+    if (event.defaultPrevented) return;
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    var link = event.target && event.target.closest ? event.target.closest('a[href]') : null;
+    if (!link) return;
+
+    if (isTransitioning || clickLock) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      return;
+    }
+
+    if (shouldHandleLink(link)) {
+      setClickLock(700);
+    }
+  }, true);
 
   // Re-init page scripts after Barba swap
   function reinitPage(data) {
@@ -163,8 +270,10 @@
     }
 
     // Re-run card animation if available
-    if (typeof window._initCardAnimation === 'function') {
-      window._initCardAnimation();
+    if (typeof window._runPageAnimationsFor === 'function') {
+      window._runPageAnimationsFor(container || document);
+    } else if (typeof window._initCardAnimation === 'function') {
+      window._initCardAnimation(container || document);
     }
 
     // Lazy load hero video on new page
@@ -189,6 +298,7 @@
   // Initialize Barba.js for multi-page transitions
   if (window.barba) {
     barba.init({
+      preventRunning: true,
       prevent: function (data) {
         var el = data.el;
         if (!el) return false;
@@ -209,8 +319,7 @@
       // If Barba fails to fetch a page, gracefully fallback to normal navigation
       requestError: function (trigger, action, url, response) {
         // Reset overlay in case it got stuck
-        resetOverlay();
-        isTransitioning = false;
+        finalizeTransition();
         // Fallback to normal navigation
         if (action === 'click') {
           barba.force(url);
@@ -225,53 +334,72 @@
           isTransitioning = true;
           cancelAnimations();
           var p = getAnimParams();
+          scheduleSafetyReset(p.pathDuration + p.overlayDuration + 2000);
 
-          window.scrollTo({ top: 0, behavior: 'instant' });
+          window.scrollTo({ top: 0, behavior: 'auto' });
 
-          await Promise.all([
+          await Promise.allSettled([
             animateOverlayOpacity(0, 1, p.overlayDuration),
             animatePathLeave()
           ]);
 
           // Hide old content immediately
-          data.current.container.style.display = 'none';
+          if (data.current && data.current.container) {
+            data.current.container.style.display = 'none';
+          }
         },
 
         // ENTER: Reveal new page — runs AFTER Barba inserts new container
         async enter(data) {
           var p = getAnimParams();
-          var container = data.next.container;
+          var container = data.next && data.next.container ? data.next.container : null;
 
           // Make sure new container is fully visible instantly
-          container.style.opacity = '1';
-          container.style.visibility = 'visible';
+          if (container) {
+            container.style.opacity = '1';
+            container.style.visibility = 'visible';
+          }
 
-          // Reinit scripts NOW while overlay still covers screen
-          reinitPage(data);
+          scheduleSafetyReset(p.pathDuration + p.overlayDuration + 2000);
 
-          // Start reveal — path shrinks back, overlay fades
-          // Run BOTH in parallel, no artificial delay
-          await Promise.all([
-            animatePathEnter(),
-            animateOverlayOpacity(1, 0, p.overlayDuration, Math.max(0, p.pathDuration - p.overlayDuration))
-          ]);
+          try {
+            // Reinit scripts NOW while overlay still covers screen
+            reinitPage(data);
 
-          resetOverlay();
-          isTransitioning = false;
+            // Start reveal — path shrinks back, overlay fades
+            // Run BOTH in parallel, no artificial delay
+            await Promise.allSettled([
+              animatePathEnter(),
+              animateOverlayOpacity(1, 0, p.overlayDuration, Math.max(0, p.pathDuration - p.overlayDuration))
+            ]);
+          } finally {
+            finalizeTransition();
+          }
         }
       }]
     });
 
     // Error recovery — if Barba fetch fails, do a normal page load
     barba.hooks.after(function () {
-      isTransitioning = false;
+      if (isTransitioning) {
+        finalizeTransition();
+      }
     });
 
     // If something goes wrong, always reset state
     window.addEventListener('error', function () {
       if (isTransitioning) {
-        resetOverlay();
-        isTransitioning = false;
+        finalizeTransition();
+      }
+    });
+
+    // BFCache/visibility recovery — never leave overlay stuck
+    window.addEventListener('pageshow', function () {
+      finalizeTransition();
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible' && isTransitioning) {
+        finalizeTransition();
       }
     });
   }
