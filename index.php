@@ -28,7 +28,7 @@ include 'header.php';
             <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
             <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
-            <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us.php"
+            <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us"
               class="button-02 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -82,7 +82,7 @@ include 'header.php';
                       growth.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -110,7 +110,7 @@ include 'header.php';
                       capture your vision.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -140,7 +140,7 @@ include 'header.php';
                       mind.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -168,7 +168,7 @@ include 'header.php';
                       direction.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -198,7 +198,7 @@ include 'header.php';
                       and flows.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -226,7 +226,7 @@ include 'header.php';
                       scale.</p>
                   </div>
                   <div class="expetise-card-button"><a data-w-id="5be6120a-9bda-289a-6c64-dfbc5d6d0ad6"
-                      href="/contact-us.php" class="button-04 w-inline-block">
+                      href="/contact-us" class="button-04 w-inline-block">
                       <div class="button-text-icon-wrap _01">
                         <div class="button-text-wrapper">
                           <div class="paragraph-02">Details</div>
@@ -266,7 +266,7 @@ include 'header.php';
           </div>
           <div data-w-id="d76f46e2-f990-701c-0317-bc00431cb452"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="ideas-button-wrap"><a data-w-id="b55656cd-7ec6-5c52-ac20-079668c41fbe" href="project.php"
+            class="ideas-button-wrap"><a data-w-id="b55656cd-7ec6-5c52-ac20-079668c41fbe" href="project"
               class="button-01 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
@@ -395,7 +395,7 @@ include 'header.php';
                 <div class="w-dyn-list">
                   <div role="list" class="w-dyn-items">
                     <div role="listitem" class="w-dyn-item">
-                      <a href="project.php"
+                      <a href="project"
                         class="project-01-link-wrapper w-inline-block">
                         <div class="project-01-banner-wrap">
                           <img src="images/horizontal_img_1.jpg"
@@ -442,7 +442,7 @@ include 'header.php';
                   <div role="list" class="w-dyn-items">
                     <div role="listitem" class="w-dyn-item">
                       <a
-                        href="project.php"
+                        href="project"
                         class="project-01-link-wrapper w-inline-block">
                         <div class="project-01-banner-wrap">
                           <img src="images/horizontal_img_2.jpg"
@@ -489,7 +489,7 @@ include 'header.php';
                 <div class="project-list w-dyn-list">
                   <div role="list" class="w-dyn-items">
                     <div role="listitem" class="w-dyn-item">
-                      <a href="project.php"
+                      <a href="project"
                         class="project-01-link-wrapper w-inline-block">
                         <div class="project-01-banner-wrap">
                           <img src="images/horizontal_img_3.jpg"
@@ -743,7 +743,7 @@ section -->
           <div data-w-id="05f8a01d-08d9-d5d1-50c8-d9d7f9876ceb"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
             class="our-progress-button-wrap"><a data-wf--button-01--variant="base"
-              data-w-id="14817668-5d2c-d135-4359-055cf68e9776" href="/contact-us.php" class="button-01 w-inline-block">
+              data-w-id="14817668-5d2c-d135-4359-055cf68e9776" href="/contact-us" class="button-01 w-inline-block">
               <div class="button-text-icon-wrap">
                 <div class="button-text-wrapper">
                   <div class="paragraph-02 text-black">Let’s Contact</div>
@@ -810,13 +810,12 @@ section -->
                   <div class="testimonial-team-block">
                     <div class="testimonial-details">
                       <p class="paragraph-02">01</p>
-                      <p class="paragraph-03">&quot;From branding to product UI, their work elevated our entire
-                        digital experience. The communication was smooth, and the results speak for themselves.&quot;
+                      <p class="paragraph-03">&quot;Working with Frame Studio was one of the best decisions for our business. They completely transformed our online presence with a modern, fast, and mobile-friendly website. Communication was excellent throughout the project, and everything was delivered on time. We've received great feedback from our customers since launching the new site.&quot;
                       </p>
                     </div>
                     <div class="testimonial-client-info">
-                      <p class="paragraph-02">Jason Ahmed</p>
-                      <p class="paragraph-03 text-gray-color">Founder of BloomCRM</p>
+                      <p class="paragraph-02">Darshit Dobariya</p>
+                      <p class="paragraph-03 text-gray-color">Founder of Flieo International</p>
                     </div>
                   </div>
                 </div>
@@ -824,12 +823,11 @@ section -->
                   <div class="testimonial-team-block">
                     <div class="testimonial-details">
                       <p class="paragraph-02">02</p>
-                      <p class="paragraph-03">&quot;They truly understood our brand voice and delivered a website that
-                        feels like &#x27;us.&#x27; Our users love it, and so do we.&quot;</p>
+                      <p class="paragraph-03">&quot;Frame Studio built our e-commerce website exactly the way we envisioned. The design is clean, premium, and easy for customers to navigate. They were always available to answer questions and made the entire process smooth from start to finish. I highly recommend them to anyone looking for a professional website.&quot;</p>
                     </div>
                     <div class="testimonial-client-info">
-                      <p class="paragraph-02">Monica Reyes</p>
-                      <p class="paragraph-03 text-gray-color">Marketing Director at Fitwise</p>
+                      <p class="paragraph-02">Jay Lunagariya</p>
+                      <p class="paragraph-03 text-gray-color">Sales Head At Vrtaj</p>
                     </div>
                   </div>
                   <div class="border-square"></div>
@@ -838,12 +836,12 @@ section -->
                   <div class="testimonial-team-block">
                     <div class="testimonial-details">
                       <p class="paragraph-02">03</p>
-                      <p class="paragraph-03">&quot;Working with [Your Agency Name] was a game-changer. Their ability
+                      <p class="paragraph-03">&quot;Working with Frame Studio was a game-changer. Their ability
                         to turn abstract ideas into beautiful, functional designs is unmatched.&quot;</p>
                     </div>
                     <div class="testimonial-client-info">
-                      <p class="paragraph-02">Sarah Lin</p>
-                      <p class="paragraph-03 text-gray-color">CEO at Nova Tech</p>
+                      <p class="paragraph-02">Mihir Moliya</p>
+                      <p class="paragraph-03 text-gray-color">CEO at Avinto International</p>
                     </div>
                   </div>
                   <div class="border-square"></div>
@@ -968,7 +966,7 @@ section -->
         </div>
         <div class="cta-v2-bottom-wrap">
           <div class="form-block-2 w-form">
-            <form id="wf-form-CTA-Response" name="wf-form-CTA-Response" data-name="CTA Response" method="get"
+            <form action="https://formsubmit.co/hello@framestudio.in" id="wf-form-CTA-Response" name="wf-form-CTA-Response" data-name="CTA Response" method="POST"
               class="form-3" data-wf-page-id="6845c0d2aeb4f8e6515d4443"
               data-wf-element-id="31e002d7-6b86-d753-6de6-d8af95395c50">
               <div data-w-id="31e002d7-6b86-d753-6de6-d8af95395c51" class="cta-text-filed-wrap"><input

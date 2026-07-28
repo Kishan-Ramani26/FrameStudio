@@ -1,9 +1,9 @@
 <?php
 // Dynamic SEO Variables - set these before including header.php
 $site_url = "https://framestudio.in";
-$page_title = isset($page_title) ? $page_title : "Frame Studio | Creative Web Design & Development Agency in India";
-$page_description = isset($page_description) ? $page_description : "Frame Studio is a premium web design agency offering custom website development, UI/UX design, branding, and digital experiences. Transform your brand with stunning websites that convert.";
-$page_keywords = isset($page_keywords) ? $page_keywords : "web design agency, web development, UI UX design, creative agency, website design India, custom website development, branding agency, digital agency, Frame Studio";
+$page_title = isset($page_title) ? $page_title : "Frame Studio | Premium Web Design & Development Agency in Rajkot, India";
+$page_description = isset($page_description) ? $page_description : "Frame Studio is a premium web design and development agency based in Rajkot, India, offering custom website development, UI/UX design, branding, and e-commerce solutions. Transform your digital presence today.";
+$page_keywords = isset($page_keywords) ? $page_keywords : "web design agency Rajkot, web development agency Rajkot, web agency India, UI UX design, creative agency Rajkot, custom website development, branding agency, e-commerce web agency, Frame Studio";
 $canonical_url = isset($canonical_url) ? $canonical_url : $site_url . "/";
 $og_image = isset($og_image) ? $og_image : $site_url . "/images/og-image.jpg";
 $wf_site_id = isset($wf_site_id) ? $wf_site_id : "6845c0d2aeb4f8e6515d4444";
@@ -14,6 +14,7 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
   data-wf-site="<?php echo htmlspecialchars($wf_site_id); ?>" lang="en">
 
 <head>
+  <base href="/">
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
 
@@ -80,6 +81,8 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
     "description": "Frame Studio is a premium web design agency offering custom website development, UI/UX design, branding, and digital experiences.",
     "address": {
       "@type": "PostalAddress",
+      "addressLocality": "Rajkot",
+      "addressRegion": "Gujarat",
       "addressCountry": "IN"
     },
     "sameAs": [
@@ -238,7 +241,7 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
     role="banner" class="navbar-container w-nav">
     <div data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd54eb" class="navbar-container-wrap">
       <div class="navbar-wrapper">
-        <a href="index.php" aria-current="page" class="navbar-brand w-nav-brand w--current">
+        <a href="/" aria-current="page" class="navbar-brand w-nav-brand w--current">
           <img decoding="async" src="images/Frame-Studio Logo.png" alt="Frame Studio Logo" class="navbar-brand-logo" />
         </a>
 
@@ -251,26 +254,26 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
             <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
               <ul role="list" class="nav-menus w-list-unstyled">
                 <li class="nav-item">
-                  <a href="index.php" aria-current="page" class="nav-link-text w--current">Home</a>
+                  <a href="/" aria-current="page" class="nav-link-text w--current">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="about.php" class="nav-link-text">About</a>
+                  <a href="/about" class="nav-link-text">About</a>
                 </li>
                 <li class="nav-item">
-                  <a href="project.php" class="nav-link-text">Projects</a>
+                  <a href="/project" class="nav-link-text">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pricing.php" class="nav-link-text">Pricing</a>
+                  <a href="/pricing" class="nav-link-text">Pricing</a>
                 </li>
                 <li class="nav-item hide">
-                  <a href="services.php" class="nav-link-text">Service</a>
+                  <a href="/services" class="nav-link-text">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a href="blog.php" class="nav-link-text">Blog</a>
+                  <a href="/blog" class="nav-link-text">Blog</a>
                 </li>
                 <li class="mobile-margin-top-12">
                   <div class="nav-button-wrapper mobile">
-                    <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5502" href="contact-us.php"
+                    <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5502" href="/contact-us"
                       class="button-04 nav w-inline-block">
                       <div class="button-text-wrapper">
                         <div class="paragraph-02">Let’s Contact</div>
@@ -312,7 +315,7 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
         <div class="nav-right-wrap">
           <div class="nav-right">
             <div class="nav-button-wrapper">
-              <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5546" href="contact-us.php"
+              <a data-w-id="0b18129c-3348-a3fe-a5ce-e30bedbd5546" href="/contact-us"
                 class="button-04 nav w-inline-block">
                 <div class="button-text-wrapper">
                   <div class="paragraph-02">Let’s Contact</div>

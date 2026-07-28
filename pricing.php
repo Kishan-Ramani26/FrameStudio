@@ -2,7 +2,7 @@
 $page_title = "Web Design Pricing & Packages | Frame Studio";
 $page_description = "Affordable web design packages for startups, businesses, and enterprises. Get transparent pricing for custom website development, UI/UX design, and branding services.";
 $page_keywords = "web design pricing, website development cost, UI UX design packages, affordable web design India, Frame Studio pricing, design packages";
-$canonical_url = "https://framestudio.in/pricing.php";
+$canonical_url = "https://framestudio.in/pricing";
 $wf_page_id = "6845c0d2aeb4f8e6515d44bc";
 include 'header.php';
 ?>

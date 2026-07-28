@@ -2,7 +2,7 @@
 $page_title = "Our Projects & Portfolio | Frame Studio Web Design Work";
 $page_description = "Explore Frame Studio's portfolio of stunning web design projects. See our work in branding, UI/UX design, and custom website development for clients worldwide.";
 $page_keywords = "web design portfolio, UI UX projects, branding work, website design examples, Frame Studio projects, creative portfolio";
-$canonical_url = "https://framestudio.in/project.php";
+$canonical_url = "https://framestudio.in/project";
 $wf_page_id = "6845c0d2aeb4f8e6515d44b9";
 include 'header.php';
 ?>
@@ -40,362 +40,81 @@ include 'header.php';
         <div class="project-bottom-wrap">
           <div class="w-dyn-list">
             <div role="list" class="project-collection-list w-dyn-items">
-              <div role="listitem" class="w-dyn-item"><a data-w-id="14cb4070-7ea0-3865-6fbf-307b7724736f"
-                  style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none"
-                  href="project/branding-design-for-saas-startup-website.html" class="projet-list w-inline-block">
-                  <div class="project-image"><img src="images/image-203.avif" loading="lazy"
-                      style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      data-w-id="5170022f-7c1d-7664-f686-f91cebcc7aae" alt="" class="fit-cover boder-30" />
-                    <div class="image-grid">
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df5-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df6-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df7-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df8-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df9-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfa-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfb-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfc-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfd-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfe-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dff-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e00-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e01-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e02-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e03-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e04-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e05-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e06-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e07-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e08-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e09-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0a-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0b-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0c-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0d-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0e-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0f-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e10-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e11-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e12-599e6df4" class="works-grid-item _06">
-                      </div>
-                    </div>
+              <!-- New Project 1: Vrtaj -->
+              <div role="listitem" class="w-dyn-item">
+                <a data-w-id="project-vrtaj" style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none" href="/project-detail/vrtaj" class="projet-list w-inline-block">
+                  <div class="project-image">
+                    <img src="images/vrtaj_ecommerce.png" loading="lazy" alt="Vrtaj Kitchenware Wholesale E-commerce" class="fit-cover boder-30" />
                   </div>
-                  <div data-w-id="87f1be10-4d31-3e30-052e-943e7079dc3f" class="project-details">
-                    <h2 class="h2 _01">Flieo International Website</h2>
+                  <div class="project-details">
+                    <h2 class="h2 _01">Vrtaj Kitchenware</h2>
+                    <p class="paragraph-03 text-primary-color" style="margin-top: 8px;">Kitchenware Wholesale E-commerce</p>
                     <div class="project-button-wrap">
-                      <div data-w-id="c0d4de69-e910-2171-25dd-ae63733971df" class="button-04 base-02">
+                      <div class="button-04 base-02">
                         <div class="button-text-icon-wrap base-3">
                           <div class="button-text-wrapper base-4">
                             <div class="paragraph-02 base-5">View Project</div>
                             <div class="paragraph-02 base-5 text-black base-6">View Project</div>
                           </div>
-                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy"
-                              alt="Right Arrow" class="button-icon base-8" /></div>
+                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy" alt="Right Arrow" class="button-icon base-8" /></div>
                         </div>
                         <div class="hover-color bg-primary-color base-9"></div>
                       </div>
-                    </div>
-                    <div class="glow-main-block">
-                      <div style="opacity:1" class="glow-block"></div>
-                    </div>
-                  </div>
-                </a></div>
-              <div role="listitem" class="w-dyn-item"><a data-w-id="14cb4070-7ea0-3865-6fbf-307b7724736f"
-                  style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none"
-                  href="project/futuristic-lamp-product-uiux-design.html" class="projet-list w-inline-block">
-                  <div class="project-image"><img src="images/group-202085664640.avif" loading="lazy"
-                      style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      data-w-id="5170022f-7c1d-7664-f686-f91cebcc7aae" alt="" class="fit-cover boder-30" />
-                    <div class="image-grid">
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df5-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df6-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df7-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df8-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df9-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfa-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfb-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfc-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfd-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfe-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dff-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e00-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e01-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e02-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e03-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e04-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e05-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e06-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e07-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e08-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e09-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0a-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0b-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0c-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0d-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0e-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0f-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e10-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e11-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e12-599e6df4" class="works-grid-item _06">
-                      </div>
-                    </div>
-                  </div>
-                  <div data-w-id="87f1be10-4d31-3e30-052e-943e7079dc3f" class="project-details">
-                    <h2 class="h2 _01">Futuristic Lamp Product UIUX Design</h2>
-                    <div class="project-button-wrap">
-                      <div data-w-id="c0d4de69-e910-2171-25dd-ae63733971df" class="button-04 base-02">
-                        <div class="button-text-icon-wrap base-3">
-                          <div class="button-text-wrapper base-4">
-                            <div class="paragraph-02 base-5">View Project</div>
-                            <div class="paragraph-02 base-5 text-black base-6">View Project</div>
-                          </div>
-                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy"
-                              alt="Right Arrow" class="button-icon base-8" /></div>
-                        </div>
-                        <div class="hover-color bg-primary-color base-9"></div>
-                      </div>
-                    </div>
-                    <div class="glow-main-block">
-                      <div style="opacity:1" class="glow-block"></div>
-                    </div>
-                  </div>
-                </a></div>
-              <div role="listitem" class="w-dyn-item"><a data-w-id="14cb4070-7ea0-3865-6fbf-307b7724736f"
-                  style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none"
-                  href="project/branding-design-for-saas-startup-website.html" class="projet-list w-inline-block">
-                  <div class="project-image"><img src="images/surreal-203d-20planet-20scene.avif" loading="lazy"
-                      style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      data-w-id="5170022f-7c1d-7664-f686-f91cebcc7aae" alt="" class="fit-cover boder-30" />
-                    <div class="image-grid">
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df5-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df6-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df7-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df8-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df9-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfa-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfb-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfc-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfd-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfe-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dff-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e00-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e01-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e02-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e03-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e04-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e05-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e06-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e07-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e08-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e09-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0a-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0b-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0c-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0d-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0e-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0f-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e10-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e11-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e12-599e6df4" class="works-grid-item _06">
-                      </div>
-                    </div>
-                  </div>
-                  <div data-w-id="87f1be10-4d31-3e30-052e-943e7079dc3f" class="project-details">
-                    <h2 class="h2 _01">Branding Design for Saas Startup Website</h2>
-                    <div class="project-button-wrap">
-                      <div data-w-id="c0d4de69-e910-2171-25dd-ae63733971df" class="button-04 base-02">
-                        <div class="button-text-icon-wrap base-3">
-                          <div class="button-text-wrapper base-4">
-                            <div class="paragraph-02 base-5">View Project</div>
-                            <div class="paragraph-02 base-5 text-black base-6">View Project</div>
-                          </div>
-                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy"
-                              alt="Right Arrow" class="button-icon base-8" /></div>
-                        </div>
-                        <div class="hover-color bg-primary-color base-9"></div>
-                      </div>
-                    </div>
-                    <div class="glow-main-block">
-                      <div style="opacity:1" class="glow-block"></div>
-                    </div>
-                  </div>
-                </a></div>
-              <div role="listitem" class="w-dyn-item"><a data-w-id="14cb4070-7ea0-3865-6fbf-307b7724736f"
-                  style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none"
-                  href="project/email-marketing-for-dundee-coffee.html" class="projet-list w-inline-block">
-                  <div class="project-image"><img src="images/futuristic-20device-20close-up.avif" loading="lazy"
-                      style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                      data-w-id="5170022f-7c1d-7664-f686-f91cebcc7aae" alt="" class="fit-cover boder-30" />
-                    <div class="image-grid">
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df5-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df6-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df7-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df8-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6df9-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfa-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfb-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfc-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfd-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dfe-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6dff-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e00-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e01-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e02-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e03-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e04-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e05-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e06-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e07-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e08-599e6df4" class="works-grid-item _03">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e09-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0a-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0b-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0c-599e6df4" class="works-grid-item _06">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0d-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0e-599e6df4" class="works-grid-item _05">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e0f-599e6df4" class="works-grid-item _02">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e10-599e6df4" class="works-grid-item _04">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e11-599e6df4" class="works-grid-item _01">
-                      </div>
-                      <div id="w-node-_90067991-29cf-39f2-e63d-8fc4599e6e12-599e6df4" class="works-grid-item _06">
-                      </div>
-                    </div>
-                  </div>
-                  <div data-w-id="87f1be10-4d31-3e30-052e-943e7079dc3f" class="project-details">
-                    <h2 class="h2 _01">Email Marketing for Dundee Coffee</h2>
-                    <div class="project-button-wrap">
-                      <div data-w-id="c0d4de69-e910-2171-25dd-ae63733971df" class="button-04 base-02">
-                        <div class="button-text-icon-wrap base-3">
-                          <div class="button-text-wrapper base-4">
-                            <div class="paragraph-02 base-5">View Project</div>
-                            <div class="paragraph-02 base-5 text-black base-6">View Project</div>
-                          </div>
-                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy"
-                              alt="Right Arrow" class="button-icon base-8" /></div>
-                        </div>
-                        <div class="hover-color bg-primary-color base-9"></div>
-                      </div>
-                    </div>
-                    <div class="glow-main-block">
-                      <div style="opacity:1" class="glow-block"></div>
                     </div>
                   </div>
                 </a>
+              </div>
+
+              <!-- New Project 2: Flieo -->
+              <div role="listitem" class="w-dyn-item">
+                <a data-w-id="project-flieo" style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none" href="/project-detail/flieo" class="projet-list w-inline-block">
+                  <div class="project-image">
+                    <img src="images/flieo_ecommerce (2).png" loading="lazy" alt="Flieo Toys Wholesale E-commerce" class="fit-cover boder-30" />
+                  </div>
+                  <div class="project-details">
+                    <h2 class="h2 _01">Flieo Toys</h2>
+                    <p class="paragraph-03 text-primary-color" style="margin-top: 8px;">Toys Wholesale E-commerce</p>
+                    <div class="project-button-wrap">
+                      <div class="button-04 base-02">
+                        <div class="button-text-icon-wrap base-3">
+                          <div class="button-text-wrapper base-4">
+                            <div class="paragraph-02 base-5">View Project</div>
+                            <div class="paragraph-02 base-5 text-black base-6">View Project</div>
+                          </div>
+                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy" alt="Right Arrow" class="button-icon base-8" /></div>
+                        </div>
+                        <div class="hover-color bg-primary-color base-9"></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- New Project 3: Avinto -->
+              <div role="listitem" class="w-dyn-item">
+                <a data-w-id="project-avinto" style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1;filter:none" href="/project-detail/avinto" class="projet-list w-inline-block">
+                  <div class="project-image">
+                    <img src="images/avinto_ecommerce (1).png" loading="lazy" alt="Avinto Toys Wholesale E-commerce" class="fit-cover boder-30" />
+                  </div>
+                  <div class="project-details">
+                    <h2 class="h2 _01">Avinto Toys</h2>
+                    <p class="paragraph-03 text-primary-color" style="margin-top: 8px;">Toys Wholesale E-commerce</p>
+                    <div class="project-button-wrap">
+                      <div class="button-04 base-02">
+                        <div class="button-text-icon-wrap base-3">
+                          <div class="button-text-wrapper base-4">
+                            <div class="paragraph-02 base-5">View Project</div>
+                            <div class="paragraph-02 base-5 text-black base-6">View Project</div>
+                          </div>
+                          <div class="button-icon-wrapper base-7"><img src="images/right-20arrow.svg" loading="lazy" alt="Right Arrow" class="button-icon base-8" /></div>
+                        </div>
+                        <div class="hover-color bg-primary-color base-9"></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 $page_title = "Contact Frame Studio | Get a Free Quote";
 $page_description = "Ready to transform your brand? Contact Frame Studio for a free consultation. Let's discuss your web design, UI/UX, or branding project today.";
 $page_keywords = "contact Frame Studio, web design quote, hire web designer, UI UX consultation, website development inquiry";
-$canonical_url = "https://framestudio.in/contact-us.php";
+$canonical_url = "https://framestudio.in/contact-us";
 $wf_page_id = "6845c0d2aeb4f8e6515d44bd";
 include 'header.php';
 ?>
@@ -41,7 +41,7 @@ include 'header.php';
                 <p class="paragraph-03 text-gray-color">Fill out the form below, and we’ll get back to you ASAP.</p>
               </div>
               <div class="contact-form-block w-form">
-                <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-2"
+                <form action="https://formsubmit.co/hello@framestudio.in" id="email-form" name="email-form" data-name="Email Form" method="POST" class="form-2"
                   data-wf-page-id="6845c0d2aeb4f8e6515d44bd" data-wf-element-id="01af471e-4c7d-8e4b-0072-605f0b43ded9">
                   <div class="filed-wrap"><label for="name" class="text-field-label paragraph-02">Your
                       Name</label><input class="text-field-option w-input" maxlength="256" name="name" data-name="Name"

@@ -2,7 +2,7 @@
 $page_title = "Design Blog & Insights | Frame Studio";
 $page_description = "Stay updated with the latest web design trends, UI/UX tips, and digital marketing insights from Frame Studio. Expert articles on creating stunning websites.";
 $page_keywords = "web design blog, UI UX trends, design tips, digital marketing insights, Frame Studio blog, web development articles";
-$canonical_url = "https://framestudio.in/blog.php";
+$canonical_url = "https://framestudio.in/blog";
 $wf_page_id = "6845c0d2aeb4f8e6515d44bb";
 include 'header.php';
 ?>
@@ -82,9 +82,66 @@ include 'header.php';
                 <div class="blog-list-wrap _01">
                   <div class="w-dyn-list">
                     <div role="list" class="blog-collection-list w-dyn-items">
+                      <!-- New Blog 1: Rajkot Web Design -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/why-rajkot-businesses-need-modern-web-design" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-201.webp" loading="lazy" alt="Why Rajkot Businesses Need Modern Web Design" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">Web Design</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">Why Rajkot Businesses Need Modern Web Design to Scale Globally</h2>
+                              <p>Discover why traditional Rajkot manufacturing and wholesale companies must embrace modern web design to scale globally.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- New Blog 2: E-commerce in B2B -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/role-of-ecommerce-in-wholesale-business" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-202.webp" loading="lazy" alt="E-commerce B2B Wholesale Development" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">E-commerce</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">The Critical Role of E-commerce in B2B Wholesale Business Growth</h2>
+                              <p>Learn how automated catalog updates and custom B2B cart flows can boost efficiency and B2B wholesale ordering.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="b2ce001d-3a37-74a4-b378-46ea80f7c9ac"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/the-future-of-graphic-design-emerging-trends" class="blog-list w-inline-block">
+                          href="/blog-post/the-future-of-graphic-design-emerging-trends" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="d6391c3c-3398-4460-c39a-98ad54fe4912"
@@ -190,7 +247,7 @@ include 'header.php';
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="b2ce001d-3a37-74a4-b378-46ea80f7c9ac"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/where-design-is-headed-top-trends-shaping" class="blog-list w-inline-block">
+                          href="/blog-post/where-design-is-headed-top-trends-shaping" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="d6391c3c-3398-4460-c39a-98ad54fe4912"
@@ -296,7 +353,7 @@ include 'header.php';
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="b2ce001d-3a37-74a4-b378-46ea80f7c9ac"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/next-gen-graphic-design-whats-coming" class="blog-list w-inline-block">
+                          href="/blog-post/next-gen-graphic-design-whats-coming" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="d6391c3c-3398-4460-c39a-98ad54fe4912"
@@ -403,9 +460,66 @@ include 'header.php';
                 <div class="blog-list-wrap _02">
                   <div class="w-dyn-list">
                     <div role="list" class="blog-collection-list w-dyn-items">
+                      <!-- New Blog 1: Rajkot Web Design -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/why-rajkot-businesses-need-modern-web-design" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-201.webp" loading="lazy" alt="Why Rajkot Businesses Need Modern Web Design" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">Web Design</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">Why Rajkot Businesses Need Modern Web Design to Scale Globally</h2>
+                              <p>Discover why traditional Rajkot manufacturing and wholesale companies must embrace modern web design to scale globally.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- New Blog 2: E-commerce in B2B -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/role-of-ecommerce-in-wholesale-business" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-202.webp" loading="lazy" alt="E-commerce B2B Wholesale Development" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">E-commerce</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">The Critical Role of E-commerce in B2B Wholesale Business Growth</h2>
+                              <p>Learn how automated catalog updates and custom B2B cart flows can boost efficiency and B2B wholesale ordering.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9d"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/design-2030-innovations-that-will-redefine" class="blog-list w-inline-block">
+                          href="/blog-post/design-2030-innovations-that-will-redefine" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9f"
@@ -511,7 +625,7 @@ include 'header.php';
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9d"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/from-static-to-smart-how-graphic-is-evolving" class="blog-list w-inline-block">
+                          href="/blog-post/from-static-to-smart-how-graphic-is-evolving" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9f"
@@ -617,7 +731,7 @@ include 'header.php';
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9d"
                           style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-                          href="/blog/the-new-era-of-graphic-design-trends" class="blog-list w-inline-block">
+                          href="/blog-post/the-new-era-of-graphic-design-trends" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="01861798-4bd4-3951-7e72-20e83a2f9d9f"
@@ -729,8 +843,65 @@ include 'header.php';
                 <div class="blog-list-wrap">
                   <div class="w-dyn-list">
                     <div role="list" class="blog-collection-list w-dyn-items">
+                      <!-- New Blog 1: Rajkot Web Design -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/why-rajkot-businesses-need-modern-web-design" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-201.webp" loading="lazy" alt="Why Rajkot Businesses Need Modern Web Design" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">Web Design</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">Why Rajkot Businesses Need Modern Web Design to Scale Globally</h2>
+                              <p>Discover why traditional Rajkot manufacturing and wholesale companies must embrace modern web design to scale globally.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- New Blog 2: E-commerce in B2B -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/role-of-ecommerce-in-wholesale-business" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-202.webp" loading="lazy" alt="E-commerce B2B Wholesale Development" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">E-commerce</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">The Critical Role of E-commerce in B2B Wholesale Business Growth</h2>
+                              <p>Learn how automated catalog updates and custom B2B cart flows can boost efficiency and B2B wholesale ordering.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
                       <div role="listitem" class="w-dyn-item"><a
-                          href="/blog/the-future-of-graphic-design-emerging-trends" class="blog-list w-inline-block">
+                          href="/blog-post/the-future-of-graphic-design-emerging-trends" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="2c0ecf5a-9612-e269-2e5a-4f2261f452a3"
@@ -771,7 +942,7 @@ include 'header.php';
                             </div>
                           </div>
                         </a></div>
-                      <div role="listitem" class="w-dyn-item"><a href="/blog/the-new-era-of-graphic-design-trends"
+                      <div role="listitem" class="w-dyn-item"><a href="/blog-post/the-new-era-of-graphic-design-trends"
                           class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -821,8 +992,65 @@ include 'header.php';
                 <div class="blog-list-wrap">
                   <div class="w-dyn-list">
                     <div role="list" class="blog-collection-list w-dyn-items">
+                      <!-- New Blog 1: Rajkot Web Design -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/why-rajkot-businesses-need-modern-web-design" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-201.webp" loading="lazy" alt="Why Rajkot Businesses Need Modern Web Design" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">Web Design</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">Why Rajkot Businesses Need Modern Web Design to Scale Globally</h2>
+                              <p>Discover why traditional Rajkot manufacturing and wholesale companies must embrace modern web design to scale globally.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- New Blog 2: E-commerce in B2B -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/role-of-ecommerce-in-wholesale-business" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-202.webp" loading="lazy" alt="E-commerce B2B Wholesale Development" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">E-commerce</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">The Critical Role of E-commerce in B2B Wholesale Business Growth</h2>
+                              <p>Learn how automated catalog updates and custom B2B cart flows can boost efficiency and B2B wholesale ordering.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
                       <div role="listitem" class="w-dyn-item"><a
-                          href="/blog/where-design-is-headed-top-trends-shaping" class="blog-list w-inline-block">
+                          href="/blog-post/where-design-is-headed-top-trends-shaping" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="44cc4570-ebcc-278f-bfe9-21b85d586826"
@@ -864,7 +1092,7 @@ include 'header.php';
                           </div>
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a
-                          href="/blog/from-static-to-smart-how-graphic-is-evolving" class="blog-list w-inline-block">
+                          href="/blog-post/from-static-to-smart-how-graphic-is-evolving" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="44cc4570-ebcc-278f-bfe9-21b85d586826"
@@ -913,7 +1141,64 @@ include 'header.php';
                 <div class="blog-list-wrap">
                   <div class="w-dyn-list">
                     <div role="list" class="blog-collection-list w-dyn-items">
-                      <div role="listitem" class="w-dyn-item"><a href="/blog/next-gen-graphic-design-whats-coming"
+                      <!-- New Blog 1: Rajkot Web Design -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/why-rajkot-businesses-need-modern-web-design" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-201.webp" loading="lazy" alt="Why Rajkot Businesses Need Modern Web Design" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">Web Design</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">Why Rajkot Businesses Need Modern Web Design to Scale Globally</h2>
+                              <p>Discover why traditional Rajkot manufacturing and wholesale companies must embrace modern web design to scale globally.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <!-- New Blog 2: E-commerce in B2B -->
+                      <div role="listitem" class="w-dyn-item">
+                        <a style="opacity:1;filter:none" href="/blog-post/role-of-ecommerce-in-wholesale-business" class="blog-list w-inline-block">
+                          <div class="blog-image-wrap">
+                            <img src="images/blog-20main-20image-202.webp" loading="lazy" alt="E-commerce B2B Wholesale Development" class="fit-cover boder-16" />
+                          </div>
+                          <div class="blog-details-wrap">
+                            <div class="blog-text-wrap">
+                              <div class="category-details">
+                                <p class="paragraph-03">E-commerce</p>
+                                <div class="horizontal-divider"></div>
+                                <p class="paragraph-03 text-gray-color">June 27, 2026</p>
+                              </div>
+                              <h2 class="h3">The Critical Role of E-commerce in B2B Wholesale Business Growth</h2>
+                              <p>Learn how automated catalog updates and custom B2B cart flows can boost efficiency and B2B wholesale ordering.</p>
+                            </div>
+                            <div class="blog-button-wrap">
+                              <div class="button-04 _01">
+                                <div class="button-text-icon-wrap _01">
+                                  <div class="button-text-wrapper"><div class="paragraph-02">Read more</div><div class="paragraph-02 text-black">Read more</div></div>
+                                  <div class="button-icon-wrapper"><img loading="lazy" alt="Right Arrow" src="images/right-20arrow.svg" class="button-icon _001" /></div>
+                                </div>
+                                <div class="hover-color bg-primary-color _01"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div role="listitem" class="w-dyn-item"><a href="/blog-post/next-gen-graphic-design-whats-coming"
                           class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -953,7 +1238,7 @@ include 'header.php';
                           </div>
                         </a></div>
                       <div role="listitem" class="w-dyn-item"><a
-                          href="/blog/design-2030-innovations-that-will-redefine" class="blog-list w-inline-block">
+                          href="/blog-post/design-2030-innovations-that-will-redefine" class="blog-list w-inline-block">
                           <div class="blog-image-wrap"><img
                               style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                               data-w-id="9b8c9a33-56cf-9557-4fb2-8bfe0f2ed705"

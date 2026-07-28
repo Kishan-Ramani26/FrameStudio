@@ -5,18 +5,18 @@
             <div class="footer-left-wrap">
 
               <div class="footer-link-list">
-                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="index.php"
+                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36da" href="/"
                   aria-current="page" class="footer-link w-inline-block w--current">
                   <div class="footer-link-text">Home</div>
                   <div class="footer-link-text absolute-link">Home</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e0" href="project.php"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e0" href="/project"
                   class="footer-link w-inline-block">
                   <div class="footer-link-text">Projects</div>
                   <div class="footer-link-text absolute-link">Projects</div>
                   <div class="link-under-line"></div>
                 </a>
-                <a data-w-id="7aecb32a-d7d8-e38e-d31c-39a79b593e94" href="about.php" class="footer-link w-inline-block">
+                <a data-w-id="7aecb32a-d7d8-e38e-d31c-39a79b593e94" href="/about" class="footer-link w-inline-block">
                   <div class="footer-link-text">About</div>
                   <div class="footer-link-text absolute-link">About</div>
                   <div class="link-under-line"></div>
@@ -25,12 +25,12 @@
                   <div class="footer-link-text">Service</div>
                   <div class="footer-link-text absolute-link">Service</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ec" href="pricing.php"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ec" href="/pricing"
                   class="footer-link w-inline-block">
                   <div class="footer-link-text">Pricing</div>
                   <div class="footer-link-text absolute-link">Pricing</div>
                   <div class="link-under-line"></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36f2" href="blog.php" class="footer-link w-inline-block">
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36f2" href="/blog" class="footer-link w-inline-block">
                   <div class="footer-link-text">Blog</div>
                   <div class="footer-link-text absolute-link">Blog</div>
                   <div class="link-under-line"></div>
@@ -41,7 +41,7 @@
                   href="https://www.instagram.com/" class="footer-social-link w-inline-block">
                   <div class="paragraph-03">Instagram</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
-                      alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
+                       alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>
                 </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3724" href="https://linkedin.com/"
                   class="footer-social-link w-inline-block">
@@ -69,13 +69,12 @@
                       alt="Right Down" class="footer-link-icon _01" /></div>
                 </a></div>
             </div>
-            <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="index.php"
+            <div data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b373c" class="footer-right-wrap"><a href="/"
                 aria-current="page" class="footer-logo-wrap w-inline-block w--current"><img
                   src="images/Frame Studio.svg" loading="lazy" alt="Frame Studio Logo" width="50px" height="auto" class="footer-logo" /></a>
               <div class="footer-text-wrap">
-                <p class="paragraph-03">Gujrat, India</p>
-                <p class="paragraph-03 text-gray-color">Frame Studio is a creative web agency based in India, specializing in designing and developing modern, high-performing websites for growing brands.
-We turn ideas into impactful digital experiences that help businesses stand out and scale online.</p>
+                <p class="paragraph-03">Rajkot, Gujarat, India</p>
+                <p class="paragraph-03 text-gray-color">Frame Studio is a creative web agency based in Rajkot, Gujarat, India, specializing in designing and developing modern, high-performing websites and e-commerce platforms for growing brands. We turn ideas into impactful digital experiences that help businesses stand out and scale online.</p>
               </div>
             </div>
           </div>
