@@ -1,7 +1,7 @@
 <?php
-$page_title = "Contact Frame Studio | Get a Free Quote";
-$page_description = "Ready to transform your brand? Contact Frame Studio for a free consultation. Let's discuss your web design, UI/UX, or branding project today.";
-$page_keywords = "contact Frame Studio, web design quote, hire web designer, UI UX consultation, website development inquiry";
+$page_title = "Contact Frame Studio | Hire Web Design & Development Agency India";
+$page_description = "Ready to build a high-converting website? Contact Frame Studio for a free strategy call & project proposal. Web development experts in Rajkot, India serving clients worldwide.";
+$page_keywords = "contact Frame Studio, hire web developers India, web design quote, Shopify developer consultation, custom PHP development agency";
 $canonical_url = "https://framestudio.in/contact-us";
 $wf_page_id = "6845c0d2aeb4f8e6515d44bd";
 include 'header.php';
@@ -17,9 +17,9 @@ include 'header.php';
             <div class="sub-heading-wrap contact-sub-heading">
               <p data-w-id="6909faf3-c649-5791-c2c0-cf4778fbbea1"
                 style="-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;opacity:1;filter:none"
-                class="paragraph-03 text-gray-color">At Media Chytře, we don’t just build brands—we craft experiences,
-                ignite growth, and turn bold ideas into reality. Whether you need a high-converting website, a powerful
-                brand identity, or a marketing strategy that actually works, we’re here to help.</p>
+                class="paragraph-03 text-gray-color">At Frame Studio, we don’t just build websites—we craft digital experiences,
+                ignite growth, and turn bold ideas into high-converting online platforms. Whether you need a Shopify eCommerce store,
+                a custom PHP web portal, scalable WordPress development, or high-performance SEO, we’re here to help.</p>
             </div>
           </div>
           <div class="contact-bottom-wrap">

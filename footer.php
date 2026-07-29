@@ -21,9 +21,9 @@
                   <div class="footer-link-text absolute-link">About</div>
                   <div class="link-under-line"></div>
                 </a>
-                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e6" href="services.html" class="footer-link w-inline-block">
-                  <div class="footer-link-text">Service</div>
-                  <div class="footer-link-text absolute-link">Service</div>
+                <a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36e6" href="/services" class="footer-link w-inline-block">
+                  <div class="footer-link-text">Services</div>
+                  <div class="footer-link-text absolute-link">Services</div>
                   <div class="link-under-line"></div>
                 </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b36ec" href="/pricing"
                   class="footer-link w-inline-block">
@@ -38,32 +38,32 @@
               </div>
               
               <div class="footer-link-list _01"><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b371e"
-                  href="https://www.instagram.com/" class="footer-social-link w-inline-block">
+                  href="https://www.instagram.com/framestudio" target="_blank" rel="noopener" class="footer-social-link w-inline-block">
                   <div class="paragraph-03">Instagram</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
                        alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3724" href="https://linkedin.com/"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3724" href="https://www.linkedin.com/company/framestudio" target="_blank" rel="noopener"
                   class="footer-social-link w-inline-block">
                   <div class="paragraph-03">LinkedIn</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b372a" href="https://dribbble.com/"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b372a" href="https://dribbble.com/framestudio" target="_blank" rel="noopener"
                   class="footer-social-link w-inline-block">
-                  <div class="paragraph-03">Dribble</div>
+                  <div class="paragraph-03">Dribbble</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3730" href="https://www.behance.net/"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3730" href="https://www.behance.net/framestudio" target="_blank" rel="noopener"
                   class="footer-social-link w-inline-block">
-                  <div class="paragraph-03">Bechance</div>
+                  <div class="paragraph-03">Behance</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>
-                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3736" href="https://x.com/"
+                </a><a data-w-id="d2db964f-3eb9-ab3a-0647-7c81163b3736" href="https://x.com/framestudio" target="_blank" rel="noopener"
                   class="footer-social-link w-inline-block">
-                  <div class="paragraph-03">(X) twitter</div>
+                  <div class="paragraph-03">X / Twitter</div>
                   <div class="footer-link-icon-wrap"><img src="images/right-20down-20-1-.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon" /><img src="images/right-20down.svg" loading="lazy"
                       alt="Right Down" class="footer-link-icon _01" /></div>

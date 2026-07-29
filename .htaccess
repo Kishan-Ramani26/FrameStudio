@@ -79,22 +79,15 @@ FileETag None
 # SEO OPTIMIZATIONS
 # ===================
 
-# Force HTTPS (uncomment when SSL is enabled)
-# <IfModule mod_rewrite.c>
-#     RewriteEngine On
-#     RewriteCond %{HTTPS} off
-#     RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# </IfModule>
-
-# Force www or non-www (choose one, uncomment the one you want)
-# Force non-www (recommended for framestudio.in)
+# Force HTTPS & non-www
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+    RewriteCond %{HTTPS} off [OR]
+    RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
+    RewriteRule ^(.*)$ https://framestudio.in/$1 [R=301,L]
 </IfModule>
 
-# Remove .php extension for cleaner URLs (optional)
+# Remove .php extension for cleaner URLs
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
@@ -123,12 +116,14 @@ FileETag None
 # Default index file
 DirectoryIndex index.php index.html
 
-# Security Headers (also helps SEO by preventing clickjacking)
+# Security Headers & HSTS (improves security and SEO)
 <IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "SAMEORIGIN"
     Header always set X-XSS-Protection "1; mode=block"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
 </IfModule>
 
 # Block bad bots (protects server resources)

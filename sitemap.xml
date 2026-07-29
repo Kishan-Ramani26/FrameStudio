@@ -5,19 +5,63 @@
   <!-- Homepage -->
   <url>
     <loc>https://framestudio.in/</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://framestudio.in/images/Frame-Studio Logo.png</image:loc>
+      <image:loc>https://framestudio.in/images/Frame-Studio%20Logo.png</image:loc>
       <image:title>Frame Studio Logo</image:title>
     </image:image>
+  </url>
+
+  <!-- Services Hub & Landing Pages -->
+  <url>
+    <loc>https://framestudio.in/services</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/shopify-development</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/wordpress-development</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/php-development</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/ecommerce-development</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/website-maintenance</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://framestudio.in/seo-services</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- About Page -->
   <url>
     <loc>https://framestudio.in/about</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

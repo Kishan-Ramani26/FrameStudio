@@ -70,92 +70,68 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
   <link rel="preload" as="font" href="images/dmsans-regular.ttf" type="font/ttf" crossorigin />
   <link rel="preload" as="font" href="images/dmsans-bold.ttf" type="font/ttf" crossorigin />
 
-  <!-- JSON-LD Structured Data for Organization -->
+  <!-- JSON-LD Structured Data Graph -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in",
-    "logo": "https://framestudio.in/images/Frame-Studio Logo.png",
-    "description": "Frame Studio is a premium web design agency offering custom website development, UI/UX design, branding, and digital experiences.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Rajkot",
-      "addressRegion": "Gujarat",
-      "addressCountry": "IN"
-    },
-    "sameAs": [
-      "https://www.instagram.com/framestudio",
-      "https://www.linkedin.com/company/framestudio",
-      "https://dribbble.com/framestudio",
-      "https://www.behance.net/framestudio",
-      "https://twitter.com/framestudio"
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "customer service",
-      "url": "https://framestudio.in/contact-us.php"
-    }
-  }
-  </script>
-
-  <!-- JSON-LD Structured Data for WebSite (enables sitelinks search) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://framestudio.in/?s={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
-
-  <!-- JSON-LD for Local Business / Professional Service -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Frame Studio",
-    "image": "https://framestudio.in/images/Frame-Studio Logo.png",
-    "url": "https://framestudio.in",
-    "priceRange": "$$",
-    "serviceType": ["Web Design", "Web Development", "UI/UX Design", "Branding", "Digital Marketing"],
-    "areaServed": {
-      "@type": "Country",
-      "name": "Worldwide"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Web Design Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Custom Website Design"
-          }
+    "@graph": [
+      {
+        "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+        "@id": "https://framestudio.in/#organization",
+        "name": "Frame Studio",
+        "legalName": "Frame Studio Web Technologies",
+        "url": "https://framestudio.in",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://framestudio.in/#logo",
+          "url": "https://framestudio.in/images/Frame-Studio%20Logo.png",
+          "caption": "Frame Studio Logo"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "UI/UX Design"
-          }
+        "image": "https://framestudio.in/images/og-image.jpg",
+        "telephone": "+91-9000000000",
+        "email": "hello@framestudio.in",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Main Commercial Road",
+          "addressLocality": "Rajkot",
+          "addressRegion": "Gujarat",
+          "postalCode": "360001",
+          "addressCountry": "IN"
         },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Brand Identity Design"
-          }
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 22.3039,
+          "longitude": 70.8022
+        },
+        "sameAs": [
+          "https://www.instagram.com/framestudio",
+          "https://www.linkedin.com/company/framestudio",
+          "https://dribbble.com/framestudio",
+          "https://www.behance.net/framestudio",
+          "https://twitter.com/framestudio"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "48",
+          "bestRating": "5",
+          "worstRating": "1"
         }
-      ]
-    }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://framestudio.in/#website",
+        "url": "https://framestudio.in",
+        "name": "Frame Studio",
+        "publisher": { "@id": "https://framestudio.in/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://framestudio.in/blog?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    ]
   }
   </script>
 
@@ -265,8 +241,8 @@ $wf_page_id = isset($wf_page_id) ? $wf_page_id : "6845c0d2aeb4f8e6515d4443";
                 <li class="nav-item">
                   <a href="/pricing" class="nav-link-text">Pricing</a>
                 </li>
-                <li class="nav-item hide">
-                  <a href="/services" class="nav-link-text">Service</a>
+                <li class="nav-item">
+                  <a href="/services" class="nav-link-text">Services</a>
                 </li>
                 <li class="nav-item">
                   <a href="/blog" class="nav-link-text">Blog</a>

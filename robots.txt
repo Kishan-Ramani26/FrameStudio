@@ -17,9 +17,11 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
-# Disallow admin/system directories
+# Disallow admin/system directories and search parameters
 Disallow: /snippets/
 Disallow: /*.json$
+Disallow: /*?s=
+Disallow: /*?*
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

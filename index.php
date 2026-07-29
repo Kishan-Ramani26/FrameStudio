@@ -1,7 +1,7 @@
 <?php
-$page_title = "Frame Studio | Creative Web Design & Development Agency in India";
-$page_description = "Frame Studio is a premium web design agency creating stunning websites that convert. Expert UI/UX design, custom development, and branding services. Transform your digital presence today.";
-$page_keywords = "web design agency India, custom website development, UI UX design, creative agency, branding, digital experiences, Frame Studio, responsive web design, modern websites";
+$page_title = "Web Design & Development Company in India | Frame Studio";
+$page_description = "Frame Studio is a top web design & development company in India. We build custom websites, Shopify eCommerce stores, and PHP applications that scale revenue.";
+$page_keywords = "web design company in India, web development agency India, custom website development, Shopify development company India, UI UX design, WordPress agency, Frame Studio";
 $canonical_url = "https://framestudio.in/";
 include 'header.php';
 ?>
@@ -25,7 +25,7 @@ include 'header.php';
       <div class="container">
         <div class="hero-01-wrap">
           <div class="hero-01-text-wrap">
-            <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO.</span></h1>
+            <h1 data-w-id="2d8e7311-863b-ba46-23cf-487567a1a23f" class="h1">FRAME <span class="text-primary">STUDIO</span></h1>
             <p data-w-id="d7e08be4-88fd-9063-bb90-77b9427007e6" class="paragraph-03 text-gray-color">We’re here to create bold digital solutions that convert.</p>
           </div>
             <div data-w-id="0985cc94-5ef9-9d46-9df5-f85ca86253b5" class="hero-01-bottom-wrap"><a data-w-id="caf71889-6002-1901-62a0-57e4c3961783" href="/contact-us"
@@ -64,7 +64,7 @@ include 'header.php';
         <div class="section-background-header-inner">
           <div class="container">
             <div class="service-heading-wrap">
-              <h1 class="h1">OUR BEST <span class="text-primary">SERVICES!</span></h1>
+              <h2 class="h1">OUR BEST <span class="text-primary">SERVICES!</span></h2>
             </div>
           </div>
         </div>
@@ -554,9 +554,9 @@ include 'header.php';
     <div class="container">
       <div class="three-paths-wrap">
         <div class="three-paths-top-wrap">
-          <h1 data-w-id="f2269510-e1b3-4007-bf65-834a47f054f5"
+          <h2 data-w-id="f2269510-e1b3-4007-bf65-834a47f054f5"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="h1">Three paths to progress</h1>
+            class="h1">Three paths to progress</h2>
           <p data-w-id="0f21129f-eb74-cc68-417c-7def1c8c4020"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
             class="paragraph-03 text-gray-color">At the core of our approach are three key areas of expertise that
@@ -619,9 +619,9 @@ section -->
       <div class="blog-01-wrap">
         <div class="blog-01-top-wrap">
           <div class="heading-wrap blog-01-heading">
-            <h1 data-w-id="4dccf299-b5e7-2ae1-c068-bdab53a9671a"
+            <h2 data-w-id="4dccf299-b5e7-2ae1-c068-bdab53a9671a"
               style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-              class="h1">BLOGS <span class="text-primary">INSPIRE US</span></h1>
+              class="h1">BLOGS <span class="text-primary">INSPIRE US</span></h2>
           </div>
           <div class="sub-heading-wrap blog-01-sub-heading">
             <p data-w-id="c0b12589-4d89-83ef-413f-3b34bf616314"
@@ -795,9 +795,9 @@ section -->
     <div class="container">
       <div class="testimonial-wrap">
         <div class="testimonial-top-wrap">
-          <h1 data-w-id="2ea5cbd2-7ef5-8019-d015-08b23afbd539"
+          <h2 data-w-id="2ea5cbd2-7ef5-8019-d015-08b23afbd539"
             style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="h1">TESTIMONIALS</h1>
+            class="h1">TESTIMONIALS</h2>
         </div>
         <div class="testimonial-bottom-wrap">
           <div class="testimonial-slider-wrap">
@@ -956,7 +956,7 @@ section -->
         <div class="cta-v2-top-wrap">
           <p data-w-id="31e002d7-6b86-d753-6de6-d8af95395c46" class="paragraph-03 text-primary">Let’s Connect</p>
           <div class="heading-wrap cta-v2-heading">
-            <h1 data-w-id="31e002d7-6b86-d753-6de6-d8af95395c49" class="h1">NEED TO START A PROJECT?</h1>
+            <h2 data-w-id="31e002d7-6b86-d753-6de6-d8af95395c49" class="h1">NEED TO START A PROJECT?</h2>
           </div>
           <div class="sub-heading-wrap cta-v2-sub-heading">
             <p data-w-id="31e002d7-6b86-d753-6de6-d8af95395c4c" class="paragraph-03 text-gray-color">Reach out to us,
