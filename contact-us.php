@@ -1,8 +1,13 @@
 <?php
-$page_title = "Contact Frame Studio | Hire Web Design & Development Agency India";
-$page_description = "Ready to build a high-converting website? Contact Frame Studio for a free strategy call & project proposal. Web development experts in Rajkot, India serving clients worldwide.";
-$page_keywords = "contact Frame Studio, hire web developers India, web design quote, Shopify developer consultation, custom PHP development agency";
-$canonical_url = "https://framestudio.in/contact-us";
+$seo = [
+  'type'        => 'contact',
+  'title'       => 'Contact Frame Studio | Hire Web Design & Development Agency India',
+  'description' => 'Ready to build a high-converting website? Contact Frame Studio for a free strategy call & project proposal. Web development experts in Rajkot, India serving clients worldwide.',
+  'keywords'    => 'contact Frame Studio, hire web developers India, web design quote, Shopify developer consultation, custom PHP development agency',
+  'path'        => '/contact-us',
+  'breadcrumb'  => [['Home', '/'], ['Contact', '/contact-us']],
+  'answer'      => 'Contact Frame Studio to discuss your next web design, Shopify store, or custom PHP web application. We deliver project estimates and strategy calls within 24 hours.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d44bd";
 include 'header.php';
 ?>

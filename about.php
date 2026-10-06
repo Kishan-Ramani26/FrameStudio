@@ -1,8 +1,13 @@
 <?php
-$page_title = "About Frame Studio | Our Story & Creative Vision";
-$page_description = "Learn about Frame Studio - a passionate team of designers and developers creating stunning digital experiences. Discover our story, values, and commitment to exceptional web design.";
-$page_keywords = "about Frame Studio, web design team, creative agency story, design philosophy, UI UX designers India, web development company";
-$canonical_url = "https://framestudio.in/about";
+$seo = [
+  'type'        => 'about',
+  'title'       => 'About Frame Studio | Our Story & Creative Vision',
+  'description' => 'Learn about Frame Studio - a passionate team of designers and developers creating stunning digital experiences. Discover our story, values, and commitment to exceptional web design.',
+  'keywords'    => 'about Frame Studio, web design team, creative agency story, design philosophy, UI UX designers India, web development company',
+  'path'        => '/about',
+  'breadcrumb'  => [['Home', '/'], ['About', '/about']],
+  'answer'      => 'Frame Studio is a boutique design and engineering agency founded in Rajkot, India by Kishan Ramani. We craft bespoke visual identities and high-performing digital experiences for ambitious brands.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4495";
 include 'header.php';
 ?>
@@ -180,8 +185,7 @@ include 'header.php';
               <h2 class="h2">MARKETING SOLUTIONS WE OFFER</h2>
             </div>
             <div class="sub-heading-wrap marketing-sub-heading-wrap">
-              <p class="paragraph-03 text-gray-color">At Marqly, we understand that each project has unique needs. We
-                don’t offer one-size-fits-all pricing because every website.</p>
+              <p class="paragraph-03 text-gray-color">At Frame Studio, we understand that each project has unique needs. We craft bespoke digital solutions tailored to your brand's growth and revenue goals.</p>
             </div>
           </div>
           <div data-w-id="f008d4b4-a4d8-b0ee-3254-921b850c4373"

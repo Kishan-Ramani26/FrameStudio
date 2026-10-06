@@ -1,8 +1,13 @@
 <?php
-$page_title = "Vrtaj Kitchenware - Premium Home Storage & Kitchenware E-commerce | Frame Studio Rajkot";
-$page_description = "Discover how Frame Studio built a high-performing B2B wholesale e-commerce platform for Vrtaj Kitchenware, facilitating bulk orders and inventory management.";
-$page_keywords = "vrtaj kitchenware, wholesale e-commerce, B2B platform, Rajkot web design";
-$canonical_url = "https://framestudio.in/project-detail/vrtaj";
+$seo = [
+  'type'        => 'page',
+  'title'       => 'Vrtaj Kitchenware - Premium Home Storage & Kitchenware E-commerce | Frame Studio Rajkot',
+  'description' => 'Discover how Frame Studio built a high-performing B2B wholesale e-commerce platform for Vrtaj Kitchenware, facilitating bulk orders and inventory management.',
+  'keywords'    => 'vrtaj kitchenware, wholesale e-commerce, B2B platform, Rajkot web design',
+  'path'        => '/project-detail/vrtaj',
+  'breadcrumb'  => [['Home', '/'], ['Projects', '/project'], ['VRTAJ Kitchenware', '/project-detail/vrtaj']],
+  'answer'      => 'Frame Studio engineered a custom B2B and wholesale eCommerce platform for Vrtaj Kitchenware in Rajkot, optimizing bulk order pipelines and digital product catalogs.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4504";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

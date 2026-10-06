@@ -1,8 +1,17 @@
 <?php
-$page_title = "Web Design & Development Services India | Frame Studio";
-$page_description = "Explore Frame Studio's web design & development services in India: Shopify development, WordPress engineering, custom PHP web apps, eCommerce, website maintenance & SEO.";
-$page_keywords = "web design services India, web development services India, Shopify development, WordPress agency, custom PHP development, website maintenance India, SEO services";
-$canonical_url = "https://framestudio.in/services";
+$seo = [
+  'type'        => 'page',
+  'title'       => 'Web Design & Development Services India | Frame Studio',
+  'description' => "Explore Frame Studio's web design & development services in India: Shopify development, WordPress engineering, custom PHP web apps, eCommerce, website maintenance & SEO.",
+  'keywords'    => 'web design services India, web development services India, Shopify development, WordPress agency, custom PHP development, website maintenance India, SEO services',
+  'path'        => '/services',
+  'breadcrumb'  => [['Home', '/'], ['Services', '/services']],
+  'answer'      => 'Frame Studio provides full-spectrum web development services including bespoke Shopify stores, custom WordPress themes, scalable PHP web applications, and technical SEO optimizations.',
+  'faqs'        => [
+    ['What web technologies does Frame Studio work with?', 'We build using modern HTML5, clean CSS3, JavaScript, PHP, WordPress, WooCommerce, Shopify Liquid, and modern API architectures.'],
+    ['Do you build custom designs or use templates?', 'We specialize in 100% custom, bespoke UI/UX designs crafted specifically for your brand identity and conversion goals.'],
+  ],
+];
 include 'header.php';
 ?>
 

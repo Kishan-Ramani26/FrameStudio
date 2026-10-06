@@ -1,8 +1,15 @@
 <?php
-$page_title = "Why Rajkot Businesses Need Modern Web Design to Scale | Frame Studio Blog";
-$page_description = "Rajkot is an industrial powerhouse. Learn why Rajkot manufacturing and wholesale businesses need custom, high-converting web design to scale globally.";
-$page_keywords = "why rajkot businesses need modern web design, web design blog, Frame Studio Insights";
-$canonical_url = "https://framestudio.in/blog-post/why-rajkot-businesses-need-modern-web-design";
+$seo = [
+  'type'        => 'article',
+  'title'       => 'Why Rajkot Businesses Need Modern Web Design to Scale | Frame Studio Blog',
+  'description' => 'Rajkot is an industrial powerhouse. Learn why Rajkot manufacturing and wholesale businesses need custom, high-converting web design to scale globally.',
+  'keywords'    => 'why rajkot businesses need modern web design, web design blog, Frame Studio Insights',
+  'path'        => '/blog-post/why-rajkot-businesses-need-modern-web-design',
+  'breadcrumb'  => [['Home', '/'], ['Blog', '/blog'], ['Why Rajkot Businesses Need Modern Web Design', '/blog-post/why-rajkot-businesses-need-modern-web-design']],
+  'author'      => 'Kishan Ramani',
+  'published'   => '2026-06-27',
+  'modified'    => '2026-10-06',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4505";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

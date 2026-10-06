@@ -1,8 +1,13 @@
 <?php
-$page_title = "Avinto Toys - Montessori & Learning Toys E-commerce | Frame Studio Rajkot";
-$page_description = "See how Frame Studio designed and built Avinto, a next-gen B2B toys e-commerce platform showcasing futuristic toys and smart robotics.";
-$page_keywords = "avinto kitchenware, wholesale e-commerce, B2B platform, Rajkot web design";
-$canonical_url = "https://framestudio.in/project-detail/avinto";
+$seo = [
+  'type'        => 'page',
+  'title'       => 'Avinto Toys - Montessori & Learning Toys E-commerce | Frame Studio Rajkot',
+  'description' => 'See how Frame Studio designed and built Avinto, a next-gen B2B toys e-commerce platform showcasing futuristic toys and smart robotics.',
+  'keywords'    => 'avinto toys, wholesale e-commerce, educational toys B2B, Rajkot web design agency',
+  'path'        => '/project-detail/avinto',
+  'breadcrumb'  => [['Home', '/'], ['Projects', '/project'], ['AVINTO Toys', '/project-detail/avinto']],
+  'answer'      => 'Frame Studio designed and built the Avinto Toys eCommerce digital flagship, integrating modern UI/UX with smooth catalog navigation and fast checkout.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4504";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

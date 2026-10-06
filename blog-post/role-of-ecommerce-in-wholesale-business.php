@@ -1,8 +1,15 @@
 <?php
-$page_title = "The Role of E-commerce in B2B Wholesale Business Growth | Frame Studio Blog";
-$page_description = "Discover how custom B2B e-commerce platforms streamline wholesale ordering, catalog management, and B2B growth for manufacturers.";
-$page_keywords = "role of ecommerce in wholesale business, web design blog, Frame Studio Insights";
-$canonical_url = "https://framestudio.in/blog-post/role-of-ecommerce-in-wholesale-business";
+$seo = [
+  'type'        => 'article',
+  'title'       => 'The Role of E-commerce in B2B Wholesale Business Growth | Frame Studio Blog',
+  'description' => 'Discover how custom B2B e-commerce platforms streamline wholesale ordering, catalog management, and B2B growth for manufacturers.',
+  'keywords'    => 'role of ecommerce in wholesale business, web design blog, Frame Studio Insights',
+  'path'        => '/blog-post/role-of-ecommerce-in-wholesale-business',
+  'breadcrumb'  => [['Home', '/'], ['Blog', '/blog'], ['Role of E-commerce in Wholesale', '/blog-post/role-of-ecommerce-in-wholesale-business']],
+  'author'      => 'Kishan Ramani',
+  'published'   => '2026-06-27',
+  'modified'    => '2026-10-06',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4505";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

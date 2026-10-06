@@ -1,8 +1,18 @@
 <?php
-$page_title = "Web Design & Development Company in India | Frame Studio";
-$page_description = "Frame Studio is a top web design & development company in India. We build custom websites, Shopify eCommerce stores, and PHP applications that scale revenue.";
-$page_keywords = "web design company in India, web development agency India, custom website development, Shopify development company India, UI UX design, WordPress agency, Frame Studio";
-$canonical_url = "https://framestudio.in/";
+$seo = [
+  'type'        => 'home',
+  'title'       => 'Web Design & Development Company in India | Frame Studio',
+  'description' => 'Frame Studio is a top web design & development company in India. We build custom websites, Shopify eCommerce stores, and PHP applications that scale revenue.',
+  'keywords'    => 'web design company in India, web development agency India, custom website development, Shopify development company India, UI UX design, WordPress agency, Frame Studio',
+  'path'        => '/',
+  'breadcrumb'  => [['Home', '/']],
+  'answer'      => 'Frame Studio is a premium web design and development company based in Rajkot, India. We design, develop, and deliver high-performance websites, bespoke Shopify stores, and custom PHP web applications for ambitious brands worldwide.',
+  'faqs'        => [
+    ['What services does Frame Studio offer?', 'Frame Studio offers custom web design, Shopify and eCommerce development, WordPress engineering, bespoke PHP web application development, website maintenance, and technical SEO.'],
+    ['Where is Frame Studio located?', 'Frame Studio is located at 307, Sardar Arcade, Rolex Road, Kothariya, Rajkot, Gujarat, India, serving clients across India and internationally.'],
+    ['How can I start a project with Frame Studio?', 'You can contact us via our website contact form at https://framestudio.in/contact-us, email us at Framestudiomail@gmail.com, or call +91-9510680017.'],
+  ],
+];
 include 'header.php';
 ?>
 
@@ -551,58 +561,45 @@ include 'header.php';
 
 
   <section class="three-paths">
-    <div class="container">
-      <div class="three-paths-wrap">
-        <div class="three-paths-top-wrap">
-          <h2 data-w-id="f2269510-e1b3-4007-bf65-834a47f054f5"
-            style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="h1">Three paths to progress</h2>
-          <p data-w-id="0f21129f-eb74-cc68-417c-7def1c8c4020"
-            style="-webkit-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;filter:blur(3px)"
-            class="paragraph-03 text-gray-color">At the core of our approach are three key areas of expertise that
-            drive impactful results. Explore how our strategy, creativity, and technology work together to fuel your
-            growth.</p>
+    <div class="sticky-section">
+      <div class="sticky-header">
+        <h2 class="h1">Three paths to progress</h2>
+        <p class="paragraph-03 text-gray-color">At the core of our approach are three key areas of expertise that drive impactful results. Explore how our strategy, creativity, and technology work together to fuel your growth.</p>
+      </div>
+
+      <div class="card-container">
+        <div class="card" id="card-1">
+          <div class="card-front">
+            <img src="images/row-1-column-1.png" style="object-position: 0% 50%;" alt="Strategy & Discovery">
+          </div>
+          <div class="card-back">
+            <span class="card-index">(01)</span>
+            <h3>Strategy & Discovery</h3>
+            <p class="card-title">Progress begins with clarity. We take time to understand your business, audience, and goals, translating insights into a clear digital strategy.</p>
+          </div>
         </div>
 
-        <div class="three-paths-bottom-wrap">
-          <section class="sticky-section">
-            <div class="card-container">
-              <div class="card" id="card-1">
-                <div class="card-front">
-                  <img src="images/row-1-column-1.png" style="object-position: 0% 50%;" alt="Strategy & Discovery">
-                </div>
-                <div class="card-back">
-                  <span class="card-index">(01)</span>
-                  <h3>Strategy & Discovery</h3>
-                  <p class="card-title">Progress begins with clarity. We take time to understand your business, audience, and goals, translating insights into a clear digital strategy.</p>
-                </div>
-              </div>
-
-              <div class="card" id="card-2">
-                <div class="card-front">
-                  <img src="images/row-1-column-2.png" style="object-position: 50% 50%;" alt="Design & Experience">
-                </div>
-                <div class="card-back">
-                  <span class="card-index">(02)</span>
-                  <h3>Design & Experience</h3>
-                  <p class="card-title">We craft experiences that feel intuitive, refined, and engaging. From visual identity to user experience, our design process blends creativity with usability.</p>
-                </div>
-              </div>
-
-              <div class="card" id="card-3">
-                <div class="card-front">
-                  <img src="images/row-1-column-3.png" fetchpriority="high" style="object-position: 100% 50%;" alt="Development & Growth">
-                </div>
-                <div class="card-back">
-                  <span class="card-index">(03)</span>
-                  <h3>Development & Growth</h3>
-                  <p class="card-title">Ideas come to life through clean, scalable development. We build high-performance websites and digital solutions optimized for speed, security, and growth.</p>
-                </div>
-              </div>
-            </div>
-          </section>
+        <div class="card" id="card-2">
+          <div class="card-front">
+            <img src="images/row-1-column-2.png" style="object-position: 50% 50%;" alt="Design & Experience">
+          </div>
+          <div class="card-back">
+            <span class="card-index">(02)</span>
+            <h3>Design & Experience</h3>
+            <p class="card-title">We craft experiences that feel intuitive, refined, and engaging. From visual identity to user experience, our design process blends creativity with usability.</p>
+          </div>
         </div>
 
+        <div class="card" id="card-3">
+          <div class="card-front">
+            <img src="images/row-1-column-3.png" style="object-position: 100% 50%;" alt="Development & Growth">
+          </div>
+          <div class="card-back">
+            <span class="card-index">(03)</span>
+            <h3>Development & Growth</h3>
+            <p class="card-title">Ideas come to life through clean, scalable development. We build high-performance websites and digital solutions optimized for speed, security, and growth.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>

@@ -1,36 +1,20 @@
 <?php
-$page_title = "WordPress Development Company in India | Frame Studio";
-$page_description = "Frame Studio is a premier WordPress development company in India. Expert custom WordPress theme development, WooCommerce, headless WordPress, & speed optimization.";
-$page_keywords = "WordPress development company India, WordPress agency, WooCommerce development India, custom WordPress theme, headless WordPress, hire WordPress developer";
-$canonical_url = "https://framestudio.in/wordpress-development";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'WordPress Development',
+  'title'        => 'WordPress Development Company in India | Frame Studio',
+  'description'  => 'Frame Studio is a premier WordPress development company in India. Expert custom WordPress theme development, WooCommerce, headless WordPress, & speed optimization.',
+  'keywords'     => 'WordPress development company India, WordPress agency, WooCommerce development India, custom WordPress theme, headless WordPress, hire WordPress developer',
+  'path'         => '/wordpress-development',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['WordPress Development', '/wordpress-development']],
+  'answer'       => 'Frame Studio builds custom WordPress websites and headless CMS solutions with clean PHP engineering, bespoke Gutenberg blocks, zero bloat, and 90+ Core Web Vitals scores.',
+  'faqs'         => [
+    ['Why choose custom WordPress development over off-the-shelf templates?', 'Pre-made templates often carry excessive CSS/JS bloat and plugin dependencies. Frame Studio builds custom, tailored WordPress themes engineered for maximum security, brand uniqueness, and top page speed.'],
+    ['Can you build custom WooCommerce eCommerce stores?', 'Yes, we develop custom WooCommerce solutions including custom checkouts, inventory synchronizations, and payment gateways suited to high transaction volumes.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "WordPress Development Services",
-  "name": "WordPress Development Company in India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "Custom WordPress theme development, WooCommerce online store setup, headless WordPress architecture, speed optimization, and security hardening.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "799.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="wordpress">
 

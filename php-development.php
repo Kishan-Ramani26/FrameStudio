@@ -1,36 +1,20 @@
 <?php
-$page_title = "Custom PHP Development Company in India | Frame Studio";
-$page_description = "Frame Studio is an expert custom PHP development agency in India. We engineer custom PHP web portals, enterprise web applications, APIs, & B2B platforms.";
-$page_keywords = "PHP development company India, custom PHP development, Laravel agency India, custom web application, hire PHP developer India, B2B web portal development";
-$canonical_url = "https://framestudio.in/php-development";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'Custom PHP Development',
+  'title'        => 'Custom PHP Development Company in India | Frame Studio',
+  'description'  => 'Frame Studio is an expert custom PHP development agency in India. We engineer custom PHP web portals, enterprise web applications, APIs, & B2B platforms.',
+  'keywords'     => 'PHP development company India, custom PHP development, Laravel agency India, custom web application, hire PHP developer India, B2B web portal development',
+  'path'         => '/php-development',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['PHP Development', '/php-development']],
+  'answer'       => 'Frame Studio designs and builds enterprise-grade custom PHP web applications, client dashboards, ERP portals, and secure REST APIs engineered for speed and reliability.',
+  'faqs'         => [
+    ['Why build custom PHP web applications instead of using no-code?', 'Custom PHP development offers complete control over your business logic, database performance, intellectual property, and security with zero recurring platform fee lock-in.'],
+    ['Can Frame Studio maintain or upgrade existing PHP systems?', 'Yes, we refactor legacy codebases, perform security hardening, update PHP runtimes to latest PHP 8+, and optimize SQL queries for speed.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "PHP Development Services",
-  "name": "Custom PHP Development Company in India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "Enterprise PHP application development, custom B2B portals, Laravel backend engineering, API development, and database architecture optimization.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "1199.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="phpdev">
 

@@ -1,14 +1,11 @@
 # Frame Studio – robots.txt
-# https://framestudio.in/
-# Strategy: allow search + AI-search/answer crawlers (for citations & traffic), enable AI model training crawlers.
+# Strategy: allow search + AI-search/answer crawlers (so you get cited), decide separately on AI *training* crawlers.
 
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /cgi-bin/
-Disallow: /snippets/
-Disallow: /*.json$
 Disallow: /*?*utm_
 Disallow: /*?*sessionid=
 Disallow: /thank-you
@@ -25,7 +22,7 @@ User-agent: MistralAI-User
 User-agent: Applebot
 Allow: /
 
-# ── AI TRAINING CRAWLERS (ALLOW: brand gets indexed into models) ──
+# ── AI TRAINING CRAWLERS (currently ALLOW → brand gets baked into models. Change to Disallow: / to opt out) ──
 User-agent: GPTBot
 User-agent: ClaudeBot
 User-agent: Google-Extended
@@ -36,5 +33,4 @@ User-agent: Bytespider
 User-agent: Amazonbot
 Allow: /
 
-# Sitemap Location
 Sitemap: https://framestudio.in/sitemap.xml

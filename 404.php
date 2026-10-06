@@ -1,7 +1,10 @@
 <?php
-$page_title = "Page Not Found | Frame Studio";
-$page_description = "The page you're looking for doesn't exist. Return to Frame Studio homepage to explore our web design services.";
-$canonical_url = "https://framestudio.in/404";
+$seo = [
+  'title'       => 'Page Not Found | Frame Studio',
+  'description' => "The page you're looking for doesn't exist. Return to Frame Studio homepage to explore our web design services.",
+  'path'        => '/404',
+  'noindex'     => true,
+];
 include 'header.php';
 ?>
 

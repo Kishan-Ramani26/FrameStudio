@@ -298,79 +298,104 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function initCardAnimation(root) {
     const scope = root || document;
-    const stickySection = scope.querySelector(".three-paths .sticky-section");
-    const cardContainer = scope.querySelector(".three-paths .card-container");
-    const cards = scope.querySelectorAll(".three-paths .card");
+    const stickySection = scope.querySelector(".sticky-section");
+    const stickyHeader = scope.querySelector(".sticky-header");
+    const cardContainer = scope.querySelector(".card-container");
+    const cards = scope.querySelectorAll(".card");
     const card1 = scope.querySelector("#card-1");
     const card3 = scope.querySelector("#card-3");
 
     if (!stickySection || !cardContainer || !cards.length) return;
 
-    // Always recreate to avoid stale triggers after hard refresh edge-cases.
-    if (window._threePathsST) {
-      window._threePathsST.kill();
-      window._threePathsST = null;
+    if (window._threePathsMM) {
+      window._threePathsMM.revert();
     }
 
-    // Keep mobile static by design.
-    if (window.matchMedia("(max-width: 768px)").matches) {
+    let mm = gsap.matchMedia();
+    window._threePathsMM = mm;
+
+    mm.add("(min-width: 769px)", () => {
+      let isGapAnimDone = false;
+      let isFlipAnimDone = false;
+
+      function mapRange(inMin, inMax, outMin, outMax, value) {
+        return outMin + (value - inMin) * (outMax - outMin) / (inMax - inMin);
+      }
+
+      // Initial state
+      if (card1) gsap.set(card1, { borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px" });
+      if (card3) gsap.set(card3, { borderTopRightRadius: "12px", borderBottomRightRadius: "12px" });
+      gsap.set(cardContainer, { width: "30%", gap: "0rem" });
+      if (stickyHeader) gsap.set(stickyHeader, { opacity: 0, y: 50 });
+
+      ScrollTrigger.create({
+        trigger: stickySection,
+        start: "top top",
+        end: "+=400%",
+        pin: true,
+        scrub: 1,
+        anticipatePin: 1,
+        invalidateOnRefresh: true,
+        onUpdate: (self) => {
+          const progress = self.progress;
+
+          // PHASE 1: Expand width & reveal sticky header
+          if (progress <= 0.25) {
+            const t = progress / 0.25;
+            const newWidth = gsap.utils.interpolate(30, 80, t);
+            gsap.set(cardContainer, { width: `${newWidth}%` });
+
+            if (stickyHeader) {
+              const opacity = gsap.utils.clamp(0, 1, mapRange(0.05, 0.25, 0, 1, progress));
+              const yPos = gsap.utils.clamp(0, 50, mapRange(0.05, 0.25, 50, 0, progress));
+              gsap.set(stickyHeader, { opacity: opacity, y: yPos });
+            }
+          } else {
+            gsap.set(cardContainer, { width: "80%" });
+            if (stickyHeader) gsap.set(stickyHeader, { opacity: 1, y: 0 });
+          }
+
+          // PHASE 2: Separate cards with gap and rounded corners
+          if (progress > 0.35 && !isGapAnimDone) {
+            isGapAnimDone = true;
+            gsap.to(cardContainer, { gap: "2rem", duration: 0.5, ease: "power2.out" });
+            gsap.to(cards, { borderRadius: "15px", duration: 0.5, ease: "power2.out" });
+          } else if (progress < 0.35 && isGapAnimDone) {
+            isGapAnimDone = false;
+            gsap.to(cardContainer, { gap: "0rem", duration: 0.5, ease: "power2.out" });
+            gsap.to(cards, {
+              borderRadius: "0px",
+              duration: 0.5,
+              ease: "power2.out",
+              onComplete: () => {
+                if (card1) gsap.set(card1, { borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px" });
+                if (card3) gsap.set(card3, { borderTopRightRadius: "12px", borderBottomRightRadius: "12px" });
+              }
+            });
+          }
+
+          // PHASE 3: 3D Card flip with perspective tilt
+          if (progress > 0.70 && !isFlipAnimDone) {
+            isFlipAnimDone = true;
+            gsap.to(cards, { rotateY: 180, stagger: 0.1, duration: 1.2, ease: "power3.out" });
+            if (card1) gsap.to(card1, { y: 40, rotateZ: -3, duration: 1.2, delay: 0.1, ease: "power3.out" });
+            if (card3) gsap.to(card3, { y: 40, rotateZ: 3, duration: 1.2, delay: 0.1, ease: "power3.out" });
+          } else if (progress < 0.70 && isFlipAnimDone) {
+            isFlipAnimDone = false;
+            gsap.to(cards, { rotateY: 0, stagger: { each: 0.1, from: "end" }, duration: 1.2, ease: "power3.out" });
+            if (card1) gsap.to(card1, { y: 0, rotateZ: 0, duration: 1.2, ease: "power3.out" });
+            if (card3) gsap.to(card3, { y: 0, rotateZ: 0, duration: 1.2, ease: "power3.out" });
+          }
+        }
+      });
+    });
+
+    mm.add("(max-width: 768px)", () => {
       gsap.set(cardContainer, { clearProps: "all" });
-      gsap.set(cards, { clearProps: "transform,borderRadius" });
-      return;
-    }
-
-    let isGapAnimDone = false;
-    let isFlipAnimDone = false;
-
-    window._threePathsST = ScrollTrigger.create({
-      trigger: stickySection,
-      start: "top top",
-      end: "+=400%",
-      pin: true,
-      anticipatePin: 1,
-      invalidateOnRefresh: true,
-      scrub: true,
-      onUpdate: (self) => {
-        const progress = self.progress;
-
-        if (progress <= 0.25) {
-          const t = progress / 0.25;
-          const newWidth = gsap.utils.interpolate(30, 80, t);
-          gsap.set(cardContainer, { width: `${newWidth}%` });
-        } else {
-          gsap.set(cardContainer, { width: "80%" });
-        }
-
-        if (progress > 0.35 && !isGapAnimDone) {
-          isGapAnimDone = true;
-          gsap.to(cardContainer, { gap: "2rem", duration: 0.5, ease: "power2.out" });
-          gsap.to(cards, { borderRadius: "15px", duration: 0.5, ease: "power2.out" });
-        } else if (progress < 0.35 && isGapAnimDone) {
-          isGapAnimDone = false;
-          gsap.to(cardContainer, { gap: "0rem", duration: 0.5, ease: "power2.out" });
-          gsap.to(cards, {
-            borderRadius: "0px",
-            duration: 0.5,
-            ease: "power2.out",
-            onComplete: () => {
-              if (card1) gsap.set(card1, { borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px" });
-              if (card3) gsap.set(card3, { borderTopRightRadius: "12px", borderBottomRightRadius: "12px" });
-            },
-          });
-        }
-
-        if (progress > 0.7 && !isFlipAnimDone) {
-          isFlipAnimDone = true;
-          gsap.to(cards, { rotateY: 180, stagger: 0.1, duration: 1, ease: "power3.out" });
-          if (card1) gsap.to(card1, { y: 40, rotateZ: -3, duration: 1, delay: 0.1, ease: "power3.out" });
-          if (card3) gsap.to(card3, { y: 40, rotateZ: 3, duration: 1, delay: 0.1, ease: "power3.out" });
-        } else if (progress < 0.7 && isFlipAnimDone) {
-          isFlipAnimDone = false;
-          gsap.to(cards, { rotateY: 0, stagger: { each: 0.1, from: "end" }, duration: 1.2, ease: "sine.out" });
-          if (card1) gsap.to(card1, { y: 0, rotateZ: 0, duration: 1.2, ease: "sine.out" });
-          if (card3) gsap.to(card3, { y: 0, rotateZ: 0, duration: 1.2, ease: "sine.out" });
-        }
-      },
+      gsap.set(cards, { clearProps: "all" });
+      if (card1) gsap.set(card1, { clearProps: "all" });
+      if (card3) gsap.set(card3, { clearProps: "all" });
+      if (stickyHeader) gsap.set(stickyHeader, { clearProps: "all" });
     });
   }
 });

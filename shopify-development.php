@@ -1,36 +1,20 @@
 <?php
-$page_title = "Shopify Development Company in India | Frame Studio";
-$page_description = "Frame Studio is a premier Shopify development company in India. We design & develop custom Shopify stores, Liquid themes, apps, & headless ecommerce platforms.";
-$page_keywords = "Shopify development company India, Shopify agency, hire Shopify developer India, custom Shopify theme, Shopify Liquid development, eCommerce web design India";
-$canonical_url = "https://framestudio.in/shopify-development";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'Shopify Development',
+  'title'        => 'Shopify Development Company in India | Frame Studio',
+  'description'  => 'Frame Studio is a premier Shopify development company in India. We design & develop custom Shopify stores, Liquid themes, apps, & headless ecommerce platforms.',
+  'keywords'     => 'Shopify development company India, Shopify agency, hire Shopify developer India, custom Shopify theme, Shopify Liquid development, eCommerce web design India',
+  'path'         => '/shopify-development',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['Shopify Development', '/shopify-development']],
+  'answer'       => 'Frame Studio is a premier Shopify development agency in India that designs and develops high-converting, scalable Shopify and Shopify Plus stores with custom Liquid themes and app integrations.',
+  'faqs'         => [
+    ['How much does custom Shopify development cost in India?', 'Shopify development pricing at Frame Studio depends on your specific requirements such as custom Liquid theme design, third-party integrations, and app functionality. Request a tailored quote within 24 hours.'],
+    ['Can Frame Studio migrate our store to Shopify without losing rankings?', 'Yes, we execute complete end-to-end migrations from WooCommerce, Magento, PrestaShop, or custom PHP to Shopify preserving all customer data, URLs, and SEO ranking positions.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Shopify Development Services",
-  "name": "Shopify Development Company in India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "Custom Shopify store engineering, Liquid theme customization, custom app integration, speed optimization, and migration services.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "999.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="shopify">
 

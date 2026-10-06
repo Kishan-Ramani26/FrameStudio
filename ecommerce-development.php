@@ -1,36 +1,20 @@
 <?php
-$page_title = "Ecommerce Website Development Company India | Frame Studio";
-$page_description = "Frame Studio is a leading eCommerce website development company in India. High-converting online stores built on Shopify, WooCommerce, & Custom PHP backends.";
-$page_keywords = "eCommerce website development company India, online store developer India, D2C eCommerce agency, Shopify eCommerce, WooCommerce developer";
-$canonical_url = "https://framestudio.in/ecommerce-development";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'eCommerce Website Development',
+  'title'        => 'Ecommerce Website Development Company India | Frame Studio',
+  'description'  => 'Frame Studio is a leading eCommerce website development company in India. High-converting online stores built on Shopify, WooCommerce, & Custom PHP backends.',
+  'keywords'     => 'eCommerce website development company India, online store developer India, D2C eCommerce agency, Shopify eCommerce, WooCommerce developer',
+  'path'         => '/ecommerce-development',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['eCommerce Development', '/ecommerce-development']],
+  'answer'       => 'Frame Studio builds custom, high-converting eCommerce websites and B2B portals for retail and direct-to-consumer (D2C) brands with fast checkouts and payment gateway integrations.',
+  'faqs'         => [
+    ['Which eCommerce platform is best for my business?', 'We recommend Shopify for rapid scaling, minimal server overhead, and easy catalog management; WooCommerce or Custom PHP if you require deep bespoke integrations and specialized checkout workflows.'],
+    ['What payment gateways do you integrate?', 'We integrate Razorpay, Stripe, PayPal, Cashfree, PayU, and international multicurrency gateways with full fraud prevention and UPI flows.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "eCommerce Development Services",
-  "name": "Ecommerce Website Development Company in India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "High-converting online retail stores, D2C brand websites, B2B wholesale portals, multi-currency payment checkout integrations, and mobile shopping optimization.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "999.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="ecommerce">
 

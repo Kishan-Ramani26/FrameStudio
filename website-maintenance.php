@@ -1,36 +1,20 @@
 <?php
-$page_title = "Website Maintenance Services India | Frame Studio";
-$page_description = "Frame Studio provides reliable website maintenance services in India. Monthly technical support, security patches, backups, & speed optimization for WordPress & PHP sites.";
-$page_keywords = "website maintenance services India, website support packages, WordPress maintenance India, website security service, website speed optimization";
-$canonical_url = "https://framestudio.in/website-maintenance";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'Website Maintenance Services',
+  'title'        => 'Website Maintenance Services India | Frame Studio',
+  'description'  => 'Frame Studio provides reliable website maintenance services in India. Monthly technical support, security patches, backups, & speed optimization for WordPress & PHP sites.',
+  'keywords'     => 'website maintenance services India, website support packages, WordPress maintenance India, website security service, website speed optimization',
+  'path'         => '/website-maintenance',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['Website Maintenance', '/website-maintenance']],
+  'answer'       => 'Frame Studio offers 24/7 proactive website maintenance services including real-time uptime monitoring, malware protection, database optimizations, and monthly technical support.',
+  'faqs'         => [
+    ['What is included in website maintenance plans?', 'Our maintenance packages cover 24/7 uptime monitoring, security updates, daily cloud backups, performance auditing, bug fixing, and dedicated hours for content updates.'],
+    ['What platforms do you support for maintenance?', 'We maintain custom PHP applications, WordPress & WooCommerce websites, Shopify storefronts, and static sites.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Website Maintenance Services",
-  "name": "Website Maintenance Services India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "Comprehensive monthly website maintenance, server monitoring, security vulnerability patching, automated cloud backups, and content updates.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "299.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="maintenance">
 

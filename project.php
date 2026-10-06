@@ -1,8 +1,13 @@
 <?php
-$page_title = "Our Projects & Portfolio | Frame Studio Web Design Work";
-$page_description = "Explore Frame Studio's portfolio of stunning web design projects. See our work in branding, UI/UX design, and custom website development for clients worldwide.";
-$page_keywords = "web design portfolio, UI UX projects, branding work, website design examples, Frame Studio projects, creative portfolio";
-$canonical_url = "https://framestudio.in/project";
+$seo = [
+  'type'        => 'page',
+  'title'       => 'Our Projects & Portfolio | Frame Studio Web Design Work',
+  'description' => "Explore Frame Studio's portfolio of stunning web design projects. See our work in branding, UI/UX design, and custom website development for clients worldwide.",
+  'keywords'    => 'web design portfolio, UI UX projects, branding work, website design examples, Frame Studio projects, creative portfolio',
+  'path'        => '/project',
+  'breadcrumb'  => [['Home', '/'], ['Projects', '/project']],
+  'answer'      => 'Browse selected case studies by Frame Studio showcasing custom web design, eCommerce architectures, and branding solutions for leading brands.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d44b9";
 include 'header.php';
 ?>

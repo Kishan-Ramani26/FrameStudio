@@ -1,8 +1,13 @@
 <?php
-$page_title = "Flieo Toys - Educational Toys Manufacturer B2B Portal | Frame Studio Rajkot";
-$page_description = "Explore how Frame Studio developed Flieo, a premium wholesale toys e-commerce store with custom B2B catalog filters and scalable ordering infrastructure.";
-$page_keywords = "flieo kitchenware, wholesale e-commerce, B2B platform, Rajkot web design";
-$canonical_url = "https://framestudio.in/project-detail/flieo";
+$seo = [
+  'type'        => 'page',
+  'title'       => 'Flieo Toys - Educational Toys Manufacturer B2B Portal | Frame Studio Rajkot',
+  'description' => 'Explore how Frame Studio developed Flieo, a premium wholesale toys e-commerce store with custom B2B catalog filters and scalable ordering infrastructure.',
+  'keywords'    => 'flieo toys, wholesale e-commerce, educational toys B2B, Rajkot web design agency',
+  'path'        => '/project-detail/flieo',
+  'breadcrumb'  => [['Home', '/'], ['Projects', '/project'], ['FLIEO Toys', '/project-detail/flieo']],
+  'answer'      => 'Frame Studio developed the Flieo Toys online B2B marketplace featuring custom catalog filtering, bulk order capabilities, and intuitive mobile responsiveness.',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4504";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

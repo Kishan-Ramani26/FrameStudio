@@ -1,0 +1,29 @@
+# Frame Studio
+
+> Frame Studio is a design and development studio (also known as Frame Web Studio) based in Rajkot, Gujarat, India. We build brand identities, websites and digital products for startups and growing businesses worldwide. Tagline: "Design, Develop, Deliver."
+
+Frame Studio specialises in web design, web development, UI/UX design, brand identity and SEO (including GEO/AEO for AI search). Brand colours: Bright Sky Blue #00A8FF, Vivid Blue #1F69F2, Pale Aqua #E1F1EF. Brand typeface: Neue Haas Grotesk Display Pro.
+
+## Key facts
+- Name: Frame Studio
+- Location: 307, Sardar Arcade, Rolex Road, Kothariya, Rajkot, Gujarat 360002, India (serving clients across India and worldwide)
+- Founded: 2025
+- Contact: Framestudiomail@gmail.com | +91-9510680017
+- Website: https://framestudio.in
+
+## Services
+- [Web Design](https://framestudio.in/services/web-design): Custom UI/UX and website design.
+- [Web Development](https://framestudio.in/services/web-development): Fast, secure, SEO-ready websites and web apps.
+- [Brand Identity](https://framestudio.in/services/branding): Logo, visual identity and brand guidelines.
+- [SEO & Digital Growth](https://framestudio.in/services/seo): Technical SEO, GEO and AI-search optimisation.
+
+## Company
+- [About Frame Studio](https://framestudio.in/about): Team, story and approach.
+- [Portfolio](https://framestudio.in/portfolio): Selected case studies.
+- [Contact](https://framestudio.in/contact): Start a project.
+
+## FAQ
+- [Frequently asked questions](https://framestudio.in/faq): Pricing, timelines, process.
+
+## Optional
+- [Blog](https://framestudio.in/blog): Guides on design, development and SEO.

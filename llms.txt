@@ -1,0 +1,41 @@
+# Frame Studio
+
+> Frame Studio (also known as Frame Web Studio) is a premium web design and development agency based in Rajkot, Gujarat, India. We design and engineer bespoke brand identities, custom websites, high-converting Shopify eCommerce stores, and scalable PHP web applications for startups and established brands in India and worldwide. Tagline: "Design, Develop, Deliver."
+
+Frame Studio specialises in UI/UX design, custom web development, Shopify development, WordPress engineering, custom PHP web applications, technical SEO, and Generative Engine Optimization (GEO/AEO).
+
+Brand colours: Bright Sky Blue #00A8FF, Vivid Blue #1F69F2, Pale Aqua #E1F1EF.
+Brand typeface: DM Sans / Neue Haas Grotesk.
+
+## Key Facts
+- Name: Frame Studio (Frame Web Studio)
+- Head Office: 307, Sardar Arcade, Rolex Road, Kothariya, Rajkot, Gujarat 360002, India
+- Global Service Areas: India, United States, United Kingdom, United Arab Emirates, Canada, Australia
+- Founded: 2025
+- Founder: Kishan Ramani
+- Official Contact Email: Framestudiomail@gmail.com
+- Official Phone: +91-9510680017
+- Official Website: https://framestudio.in
+- Social Profiles:
+  - Instagram: https://www.instagram.com/framestudio_in/
+  - LinkedIn: https://www.linkedin.com/company/frame-studio25/
+
+## Core Services
+- [Shopify Development](https://framestudio.in/shopify-development): Bespoke Shopify and Shopify Plus eCommerce stores, custom Liquid theme design, app development, speed optimization, and secure platform migrations.
+- [WordPress Development](https://framestudio.in/wordpress-development): High-performance custom WordPress theme architecture, WooCommerce development, headless CMS builds, and enterprise speed engineering.
+- [PHP & Custom Web Apps](https://framestudio.in/php-development): Scalable, secure, custom PHP web systems, bespoke client portals, REST APIs, and database engineering.
+- [eCommerce Development](https://framestudio.in/ecommerce-development): Full-cycle eCommerce platforms with streamlined checkout funnels, payment gateway integration, and high conversion rates.
+- [Technical SEO & Digital Growth](https://framestudio.in/seo-services): Technical SEO audits, Core Web Vitals optimization, schema graph architecture, local SEO, and Generative Engine Optimization (GEO/AEO).
+- [Website Maintenance](https://framestudio.in/website-maintenance): Proactive 24/7 security monitoring, backups, performance tuning, and technical support.
+- [All Services](https://framestudio.in/services): Overview of Frame Studio design and engineering capabilities.
+
+## Company & Portfolio
+- [About Frame Studio](https://framestudio.in/about): Company background, engineering philosophy, and values.
+- [Projects & Case Studies](https://framestudio.in/project): Selected design and development case studies including VRTAJ, FLIEO, and AVINTO eCommerce platforms.
+- [Pricing Packages](https://framestudio.in/pricing): Transparent website and eCommerce development packages.
+- [Contact Frame Studio](https://framestudio.in/contact-us): Inquire about a project, request a proposal, or book a free discovery consultation.
+
+## Articles & Insights
+- [Frame Studio Blog](https://framestudio.in/blog): Guides on modern web design, frontend engineering, and digital growth strategy.
+- [Why Rajkot Businesses Need Modern Web Design](https://framestudio.in/blog-post/why-rajkot-businesses-need-modern-web-design): Guide on scaling manufacturing and industrial businesses globally with modern websites.
+- [Role of eCommerce in Wholesale Business](https://framestudio.in/blog-post/role-of-ecommerce-in-wholesale-business): How wholesale and B2B distributors scale with digital storefronts.

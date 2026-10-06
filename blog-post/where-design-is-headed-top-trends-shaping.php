@@ -1,8 +1,15 @@
 <?php
-$page_title = "Where Design Is Headed: Top Trends Shaping - Marqly Webflow Ecommerce Website Template";
-$page_description = "";
-$page_keywords = "where design is headed top trends shaping, web design blog, Frame Studio Insights";
-$canonical_url = "https://framestudio.in/blog-post/where-design-is-headed-top-trends-shaping";
+$seo = [
+  'type'        => 'article',
+  'title'       => 'Where Design Is Headed: Top Trends Shaping the Future | Frame Studio Blog',
+  'description' => 'Uncover the key design trends shaping the future—from AI-assisted creative workflows to immersive interactions, micro-animations, and fluid digital design systems.',
+  'keywords'    => 'where design is headed top trends shaping, web design trends, UI UX design future, Frame Studio Insights',
+  'path'        => '/blog-post/where-design-is-headed-top-trends-shaping',
+  'breadcrumb'  => [['Home', '/'], ['Blog', '/blog'], ['Where Design Is Headed', '/blog-post/where-design-is-headed-top-trends-shaping']],
+  'author'      => 'Kishan Ramani',
+  'published'   => '2025-06-13',
+  'modified'    => '2026-10-06',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4505";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

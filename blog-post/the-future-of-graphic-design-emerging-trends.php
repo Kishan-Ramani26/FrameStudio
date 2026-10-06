@@ -1,8 +1,15 @@
 <?php
-$page_title = "The Future of Graphic Design: Emerging Trends - Marqly Webflow Ecommerce Website Template";
-$page_description = "Marqly – A sleek and modern Webflow Ecommerce template designed for SaaS products, digital tools, and tech startups. Fully responsive and conversion-optimized, Marqly makes it easy to showcase features, engage users, and grow your online business with style.";
-$page_keywords = "the future of graphic design emerging trends, web design blog, Frame Studio Insights";
-$canonical_url = "https://framestudio.in/blog-post/the-future-of-graphic-design-emerging-trends";
+$seo = [
+  'type'        => 'article',
+  'title'       => 'The Future of Graphic Design: Emerging Trends | Frame Studio Blog',
+  'description' => 'Explore the cutting-edge trends shaping graphic design in 2025 and beyond: AI-driven workflows, immersive 3D, generative systems, and modern digital branding.',
+  'keywords'    => 'the future of graphic design emerging trends, graphic design trends, AI design, Frame Studio Insights',
+  'path'        => '/blog-post/the-future-of-graphic-design-emerging-trends',
+  'breadcrumb'  => [['Home', '/'], ['Blog', '/blog'], ['The Future of Graphic Design', '/blog-post/the-future-of-graphic-design-emerging-trends']],
+  'author'      => 'Kishan Ramani',
+  'published'   => '2025-06-13',
+  'modified'    => '2026-10-06',
+];
 $wf_page_id = "6845c0d2aeb4f8e6515d4505";
 $wf_site_id = "6845c0d2aeb4f8e6515d4444";
 include '../header.php';

@@ -1,0 +1,78 @@
+# Frame Studio – Comprehensive LLM Knowledge Base
+
+## Overview
+Frame Studio (legal name: Frame Web Studio) is an elite web design and development agency based in Rajkot, Gujarat, India. Frame Studio specializes in creating high-performance, visually stunning, custom digital solutions for startups, direct-to-consumer (D2C) brands, manufacturing enterprises, and global businesses.
+
+- Tagline: "Design, Develop, Deliver."
+- Founding Year: 2025
+- Founder: Kishan Ramani
+- Official Website: https://framestudio.in
+- Headquarters: 307, Sardar Arcade, Rolex Road, Kothariya, Rajkot, Gujarat 360002, India
+- Coordinates: Latitude 22.2740, Longitude 70.7770
+- Contact Email: Framestudiomail@gmail.com
+- Contact Phone: +91-9510680017
+- Service Coverage: India (Pan-India), United States, United Kingdom, United Arab Emirates, Canada, Australia, and worldwide.
+- Languages Supported: English, Hindi, Gujarati
+
+## Official Social Profiles
+- Instagram: https://www.instagram.com/framestudio_in/
+- LinkedIn: https://www.linkedin.com/company/frame-studio25/
+
+## Core Services & Capabilities
+
+### 1. Shopify Development (https://framestudio.in/shopify-development)
+- Custom Shopify & Shopify Plus store design and development
+- Liquid theme development built from scratch with modern UX standards
+- Custom Shopify app integrations, ERP connections, and private app development
+- Seamless data migrations from WooCommerce, Magento, PrestaShop, or custom PHP to Shopify
+- High-converting checkout flows and conversion rate optimization (CRO)
+- International multi-currency and multi-language setup
+
+### 2. WordPress Development (https://framestudio.in/wordpress-development)
+- Bespoke custom WordPress theme development without bloated page builders
+- WooCommerce setup and customized store architecture
+- Headless WordPress implementations with REST API and modern frontend frameworks
+- Enterprise security hardening and malware protection
+- High-grade Core Web Vitals performance tuning (90+ Google PageSpeed score)
+
+### 3. PHP & Custom Web Development (https://framestudio.in/php-development)
+- Secure and scalable custom PHP web applications and business portals
+- Custom CRM, ERP, and operational dashboard engineering
+- RESTful API development and third-party webhook integrations
+- Database architecture design and query optimization for high-traffic environments
+- Legacy codebase refactoring and modern PHP upgrades
+
+### 4. eCommerce Development (https://framestudio.in/ecommerce-development)
+- Full-funnel eCommerce architecture for retail, D2C brands, and wholesale/B2B suppliers
+- Integrated payment gateways (Razorpay, Stripe, PayPal, Cashfree, UPI)
+- Real-time inventory sync, shipping API integrations (Shiprocket, Delhivery, etc.)
+- Product filtering, instantaneous search, and mobile-first shopping experiences
+
+### 5. Technical SEO & Growth Engineering (https://framestudio.in/seo-services)
+- Comprehensive technical SEO audits and code-level optimization
+- Core Web Vitals optimization (Largest Contentful Paint, Interaction to Next Paint, Cumulative Layout Shift)
+- Advanced Schema.org JSON-LD connected entity graphs
+- Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) for citation in ChatGPT, Claude, and Perplexity
+- Regional and local SEO for Rajkot, Gujarat, and pan-India dominance
+
+### 6. Website Maintenance & Support (https://framestudio.in/website-maintenance)
+- 24/7 uptime monitoring and incident response
+- Scheduled cloud backups and disaster recovery protocols
+- Software updates, PHP runtime security patches, and database optimization
+- Ongoing feature enhancements and performance upkeep
+
+## Selected Portfolio Case Studies (https://framestudio.in/project)
+- VRTAJ Metaplast (https://framestudio.in/project-detail/vrtaj): High-end industrial and manufacturing eCommerce portal.
+- FLIEO (https://framestudio.in/project-detail/flieo): Modern consumer brand lifestyle storefront with fluid animations.
+- AVINTO (https://framestudio.in/project-detail/avinto): Scalable digital shopping experience engineered for maximum conversion.
+
+## Frequently Asked Questions (FAQ)
+
+### Where is Frame Studio located?
+Frame Studio is headquartered at 307, Sardar Arcade, Rolex Road, Kothariya, Rajkot, Gujarat 360002, India. We serve clients locally in Gujarat, across India, and globally.
+
+### How do I hire Frame Studio?
+You can book a free strategy call or request a quotation by emailing Framestudiomail@gmail.com, calling +91-9510680017, or visiting https://framestudio.in/contact-us.
+
+### What is Frame Studio's typical project timeline?
+Standard custom web projects typically launch in 3 to 6 weeks depending on scope, design fidelity, and integrations.

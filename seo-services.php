@@ -1,36 +1,20 @@
 <?php
-$page_title = "Technical SEO Agency India | Organic Growth | Frame Studio";
-$page_description = "Frame Studio is a results-driven technical SEO agency in India. We offer technical SEO audits, on-page optimization, Core Web Vitals, local SEO, & link building.";
-$page_keywords = "technical SEO agency India, SEO services India, SEO company Rajkot, on-page SEO optimization, Core Web Vitals service, local SEO India";
-$canonical_url = "https://framestudio.in/seo-services";
+$seo = [
+  'type'         => 'service',
+  'service_name' => 'Technical SEO Services',
+  'title'        => 'Technical SEO Agency India | Organic Growth | Frame Studio',
+  'description'  => 'Frame Studio is a results-driven technical SEO agency in India. We offer technical SEO audits, on-page optimization, Core Web Vitals, local SEO, & link building.',
+  'keywords'     => 'technical SEO agency India, SEO services India, SEO company Rajkot, on-page SEO optimization, Core Web Vitals service, local SEO India, Generative Engine Optimization',
+  'path'         => '/seo-services',
+  'breadcrumb'   => [['Home', '/'], ['Services', '/services'], ['SEO Services', '/seo-services']],
+  'answer'       => 'Frame Studio is a technical SEO agency in India specializing in Core Web Vitals engineering, connected Schema.org architecture, on-page optimization, and AI Generative Engine Optimization (GEO).',
+  'faqs'         => [
+    ['What is Generative Engine Optimization (GEO)?', 'GEO optimizes your brand entity and content architecture so modern AI search engines like ChatGPT, Perplexity, and Claude cite your business in AI-generated answers.'],
+    ['How fast can I see SEO results?', 'Technical fixes (schema, Core Web Vitals, indexation) typically show crawling and ranking improvements within 2 to 6 weeks, with compound organic traffic growth following over 3 to 6 months.'],
+  ],
+];
 include 'header.php';
 ?>
-
-<!-- JSON-LD Service Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "SEO Services",
-  "name": "Technical SEO Agency India",
-  "provider": {
-    "@type": "Organization",
-    "name": "Frame Studio",
-    "url": "https://framestudio.in"
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "India" },
-    { "@type": "Country", "name": "Worldwide" }
-  ],
-  "description": "Full-funnel technical SEO services, page-speed engineering, keyword research, JSON-LD schema implementation, on-page optimization, and authority link acquisition.",
-  "offers": {
-    "@type": "Offer",
-    "priceCurrency": "USD",
-    "price": "499.00",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
 
 <div class="page-wrapper" data-barba="container" data-barba-namespace="seo">
 
